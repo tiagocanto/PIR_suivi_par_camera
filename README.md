@@ -2,7 +2,7 @@
 Git of the students from INSA Toulouse for the project PIR_suivi_par_camera
 
 
-###DZLL:
+###DZLL: **\
 **Doing:**
   * Selection of the useful videos
   * Rename as V(i) to be able to frame them easily
