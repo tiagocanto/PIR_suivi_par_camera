@@ -129,17 +129,80 @@ To improve this project, we plan on using another YOLO model\cite{b9} to see the
 \item Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
 \end{itemize}
 
-\subsection{Video Transmission teams part}
-Number equations consecutively. To make your 
+\subsection{Video Acquisition and Transmission Architecture}
+Real-time automated tracking of rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
+\subsection{Capture Device Choice}
+Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability—which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
 
-\begin{equation}
-a+b=\gamma\label{eq}
-\end{equation}
+Ultimately, smartphones were selected as the capture units. These devices offer an optimal compromise:
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Image Quality :} High-resolution sensors capable of providing stable streams.
+    \item \textbf{Cost :} Utilization of existing hardware, drastically reducing the initial investment.
+    \item \textbf{Wireless Capability :} 
+\end{itemize}
 
-Be sure that the 
-symbols in your equation have been defined before or immediately following 
-the equation. Use ``\eqref{eq}'', not ``Eq.~\eqref{eq}'' or ``equation \eqref{eq}'', except at 
-the beginning of a sentence: ``Equation \eqref{eq} is . . .''
+\section{3.2 \quad Evaluation of Streaming Protocols}
+ 
+To route the video streams from the smartphones to the processing computer, three main
+protocols were compared:
+ 
+
+\vspace{0.5em}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{1.6cm}|p{1.5cm}|p{1.1cm}|p{2.6cm}|}
+    \hline
+    \textbf{Protocol} & \textbf{Infra-structure} & \textbf{Latency} & \textbf{Stability / Cost} \\
+    \hline
+    SRT & 4G / 5G & Low & Excellent; high subscription costs \\
+    \hline
+    RTMP & 4G/5G + remote server & Medium & Industry standard (Youtube, Twitch); requires a server \\
+    \hline
+    HTTP (Local) & Wi-Fi (router) & \textbf{Optimal} & Excellent stability; no recurring cost \\
+    \hline
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+ 
+
+
+The \textbf{HTTP protocol over a local network} was selected. Unlike cellular solutions
+(SRT/RTMP) that depend on public network load and incur data costs, the local network
+allows full control, high stability, and minimizes latency.
+ 
+%-----------------------------------------------------------
+\section{3.3 \quad Local Network Implementation and Topology}
+ 
+The network architecture put in place relies on the creation of a \textbf{high-performance
+private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
+possible to avoid potential interference with the public networks of stadiums.
+ 
+The system is structured as follows:
+ 
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Wireless transmission:} The four smartphones transmit their respective
+          streams to the central access point via the HTTP protocol. Tests in real conditions
+          validated an effective range of \textbf{80 metres}, covering a significant portion
+          of the playing surface.
+ 
+    \item \textbf{Downstream link:} The router is connected to the processing computer
+          (YOLOv8 computing unit) via a gigabit Ethernet connection. This wired link
+          ensures that the bottleneck does not occur at the final data reception stage.
+ 
+    \item \textbf{Centralised processing:} The computer simultaneously receives the four
+          streams to perform player detection and tracking, enabling a precise spatial
+          reconstruction of the game action.
+\end{enumerate}
+ 
+% Placeholder for real test photo
+\begin{figure}[h]
+   \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
+    \caption{Network topology: four smartphones transmit wirelessly via HTTP (80\,m range)
+             to a private Wi-Fi router, which forwards data via gigabit Ethernet to the
+             YOLOv8 processing computer.}
+    \label{fig 4}
+\end{figure}
+ 
 
 \subsection{Camera score algorithim}
 
