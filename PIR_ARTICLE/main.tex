@@ -83,15 +83,15 @@ To track the focus of a rugby match, we agreed that the most important thing we 
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
-The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe [??? Citation 1???], which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  [!!! Citation 2 !!!]  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
+The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{b8}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
 
-After testing the model from the project (RDCVM) [!!! Citation 2 !!!] in some images from the captured match, positive results were achieved, but it had some problems confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
+After testing the model from the project \cite{b8} in some images from the captured match, positive results were achieved, but it had some problems confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
 POSITiVE results will be here
 
-Unfortunately, the model [!!! Citation 2 !!!] isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
+Unfortunately, the model \cite{b8} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
 
-To solve the presented problem, the project’s dataset [!!! Citation 2 !!!] was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
+To solve the presented problem, the project’s dataset \cite{b8} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
 
 These models aren’t as good as the previous one, but they are functional for video analyses and can be used for real-time applications.  
 
@@ -101,7 +101,7 @@ To validate our models, we tested it in a video of an INSA AS match, but the pow
 
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
 
-To improve this project, we plan on using another YOLO model to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained[!!! Citation!!!] (extract color information from the player’s shirt), associated with an UMAP[!!! Citation !!!] (compact the previous information) and a Kmeans [!!! Citation !!!] (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
+To improve this project, we plan on using another YOLO model\cite{b9} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{b9} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{b9} (extract color information from the player’s shirt), associated with an UMAP\cite{b9} (compact the previous information) and a Kmeans \cite{b9} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
 \subsection{Video Positioning teams part}
 \begin{itemize}
@@ -235,6 +235,8 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
 \bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
 \bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+\bibitem{b8} Roboflow Universe public project made by Rugby Ruck. ''Rugby Detection Computer Vision Model''. https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs . Accessed: 17 April 2026.
+\bibitem{b9} Roboflow.''Football AI Tutorial: From Basics to Advanced Stats with Python''. 22 August 2024. Accessed: April 2026. Available: https://www.youtube.com/watch?v=aBVGKoNZQUw
 \end{thebibliography}
 \vspace{12pt}
 \color{red}
