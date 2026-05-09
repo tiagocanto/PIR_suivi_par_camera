@@ -85,9 +85,30 @@ In rugby, the teams usually place themselves in lines of attack and defense, so,
 
 The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{b8}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
 
-After testing the model from the project \cite{b8} in some images from the captured match, positive results were achieved, but it had some problems confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
+After testing the model from the project \cite{b8} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
-POSITiVE results will be here
+\begin{figure}[htbp]
+    \centering
+    
+    \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
+    \caption{Test image 1, used model from Roboflow\cite{b8}.}
+    \label{fig 1}
+    
+    \vspace{0.5cm} 
+    
+    \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
+    \caption{Test image 2, used model from Roboflow\cite{b8}.}
+    \label{fig 2}
+    
+    \vspace{0.5cm}
+    
+    \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
+    \caption{Test image 3, used model from Roboflow\cite{b8}.}
+    \label{fig 3}
+    
+\end{figure}
+
+
 
 Unfortunately, the model \cite{b8} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
 
@@ -184,7 +205,7 @@ copy& More table copy$^{\mathrm{a}}$& &  \\
 \end{table}
 
 \begin{figure}[htbp]
-\centerline{\includegraphics{fig1.png}}
+\centerline{\includegraphics{Conference-LaTeX-template_10-17-19/fig1.png}}
 \caption{Example of a figure caption.}
 \label{fig}
 \end{figure}
