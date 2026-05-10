@@ -87,20 +87,25 @@ The world of computer vision developers is growing and one of the biggest commun
 
 After testing the model from the project \cite{b8} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
     \caption{Test image 1, used model from Roboflow\cite{b8}.}
     \label{fig 1}
-    
-    \vspace{0.5cm} 
+
+\end{figure}
+\begin{figure}[htbp]
+    \centering 
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
     \caption{Test image 2, used model from Roboflow\cite{b8}.}
     \label{fig 2}
+
+\end{figure}
     
-    \vspace{0.5cm}
+\begin{figure}[htbp]
+    \centering
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
     \caption{Test image 3, used model from Roboflow\cite{b8}.}
@@ -112,15 +117,24 @@ After testing the model from the project \cite{b8} in some images from the captu
 
 Unfortunately, the model \cite{b8} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
 
-To solve the presented problem, the project’s dataset \cite{b8} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
+To solve the presented problem, the project’s dataset \cite{b8} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset.
+
+\begin{figure}[h]
+    \centering
+    
+    \includegraphics[width=\columnwidth]{Images/img_test_1_yolov8n.jpg}
+    \caption{Test image 1, used trained yolov8n model.}
+    \label{fig yolov8n}
+
+\end{figure}
+
+I DONT KNOW IF I SHOULD PUT MORE PICTURES
 
 These models aren’t as good as the previous one, but they are functional for video analyses and can be used for real-time applications.  
 
-IMAGES COMPARISON 
-
 To validate our models, we tested it in a video of an INSA AS match, but the power of the available GPU wasn’t enough to analyze a nineteen second video (with 1141 frames). So, we couldn’t validate our models in a hole video but, analyzing in a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time solution. 
 
-Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
+Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach, the best identification models may compromise the real-time response.  
 
 To improve this project, we plan on using another YOLO model\cite{b9} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{b9} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{b9} (extract color information from the player’s shirt), associated with an UMAP\cite{b9} (compact the previous information) and a Kmeans \cite{b9} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
