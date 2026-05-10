@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.28)  10 MAY 2026 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main
-(c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
+**c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
+(c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
-(c:/texlive/2026/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count277
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -106,25 +106,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box54
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(c:/texlive/2026/texmf-dist/tex/latex/cite/cite.sty
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen174
-)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen175
-) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count290
@@ -174,20 +174,20 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2026/texmf-dist/tex/latex/algorithms/algorithmic.sty
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
@@ -197,30 +197,30 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count305
 \ALC@tlm=\skip55
 \algorithmicindent=\skip56
-) (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-) (c:/texlive/2026/texmf-dist/tex/latex/base/textcomp.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -230,161 +230,184 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks24
+\float@box=\box57
+\@float@everytoks=\toks25
+\@floatcapt=\box58
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-) (./main.aux)
+\l__color_backend_stack_int=\count307
+) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 -- Lines per column: 56 (exact).
-(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
+\scratchcounter=\count308
 \scratchdimen=\dimen185
-\scratchbox=\box57
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count310
+\scratchbox=\box59
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count311
 \MPscratchDim=\dimen186
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks25
-) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks27
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
-<Images/img_rugby_1.png, id=1, 1028.34187pt x 578.16pt>
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 58.
+<Images/MetricasYOLOSTODOS.png, id=1, 3854.4pt x 1686.3pt>
+File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
+<use Images/MetricasYOLOSTODOS.png>
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 94.
+(pdftex.def)             Requested size: 252.0pt x 110.23088pt.
+<Images/YOLOv8Comp.png, id=2, 1139.25626pt x 444.66125pt>
+File: Images/YOLOv8Comp.png Graphic file (type png)
+<use Images/YOLOv8Comp.png>
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 102.
+(pdftex.def)             Requested size: 252.0pt x 98.355pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+ <./Images/MetricasYOLOSTODOS.png>]
+<Images/img_rugby_1.png, id=13, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 93.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 142.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_2.png, id=3, 1028.34187pt x 578.16pt>
+<Images/img_rugby_2.png, id=14, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 99.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 148.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_3.png, id=4, 1028.34187pt x 578.16pt>
+<Images/img_rugby_3.png, id=15, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 105.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 154.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
- [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 138.
- (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ [2 <./Images/YOLOv8Comp.png> <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 187.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (3.1415pt too wide) in paragraph at lines 155--155
+Overfull \hbox (3.1415pt too wide) in paragraph at lines 204--204
 []\OT1/ptm/b/n/10 Latency| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 159--159
+Underfull \hbox (badness 7486) in paragraph at lines 208--208
 []\OT1/ptm/m/n/10 4G/5G +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Overfull \hbox (2.59142pt too wide) in paragraph at lines 159--159
+Overfull \hbox (2.59142pt too wide) in paragraph at lines 208--208
 []\OT1/ptm/m/n/10 Medium| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 159--160
+Underfull \hbox (badness 2932) in paragraph at lines 208--209
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Overfull \hbox (4.26132pt too wide) in paragraph at lines 161--161
+Overfull \hbox (4.26132pt too wide) in paragraph at lines 210--210
 []\OT1/ptm/b/n/10 Optimal| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
-[2 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
-<Images/transmission1.png, id=21, 1017.8025pt x 371.58826pt>
+<Images/transmission1.png, id=23, 1017.8025pt x 371.58826pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 198.
+Package pdftex.def Info: Images/transmission1.png  used on input line 247.
 (pdftex.def)             Requested size: 252.0pt x 92.00098pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 208.
- (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 257.
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<Conference-LaTeX-template_10-17-19/fig1.png, id=22, 82.1469pt x 71.5473pt>
+) [3]
+<Conference-LaTeX-template_10-17-19/fig1.png, id=28, 82.1469pt x 71.5473pt>
 File: Conference-LaTeX-template_10-17-19/fig1.png Graphic file (type png)
 <use Conference-LaTeX-template_10-17-19/fig1.png>
-Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 270.
+Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 319.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 281.
- (c:/texlive/2026/texmf-dist/tex/latex/psnfss/omsptm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 330.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
- [3 <./Images/transmission1.png> <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
-Underfull \hbox (badness 2150) in paragraph at lines 322--323
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 330.
+ [4 <./Images/transmission1.png> <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
+Underfull \hbox (badness 2150) in paragraph at lines 371--372
 []\OT1/ptm/m/n/8 Roboflow.''Football AI Tu-to-rial: From Ba-sics to Ad-vanced Stats
  []
 
@@ -399,27 +422,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[5
 
-] (./main.aux)
+] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4348 strings out of 467349
- 67821 string characters out of 5419863
- 492547 words of memory out of 5000000
- 33382 multiletter control sequences out of 15000+600000
+ 4455 strings out of 467691
+ 71256 string characters out of 5414987
+ 494514 words of memory out of 5000000
+ 33458 multiletter control sequences out of 15000+600000
  674833 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,821b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 4038706 bytes).
+ 57i,11n,65p,808b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 4333001 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{float}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -79,6 +80,54 @@ The IEEEtran class file is used to format your paper and style the text. All mar
 We can change the order of the project aswell
 
 \subsection{YOLO Model}\label{AA}
+%%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
+A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithyme treats the image only one time (You Only Look Once).  
+
+Models like YOLO have faster responses to the video’s processing, so they are usually used for real time processing, autonomus cars, monitoring, etc.  
+The detection of plany of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and with high speed.
+
+To be able to use YOLO in python, we used the library Ultralytics[citaaaar] which makes simpler the utilisation of pre-trained models, image detection and others uses of computer vision. 
+As so, the Figure~\ref{fig:ultralytics_models_comparison}~\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
+Therefore, considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8 version.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/MetricasYOLOSTODOS}
+    \caption{Comparaison des modèles YOLO supportés par Ultralytics. Source : Ultralytics~\cite{ultralytics_models}}
+    \label{fig:ultralytics_models_comparison}
+\end{figure}
+Nevertheless, the Ultralytics website also presents the performance metrics of differents models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}~\cite{ultralytics_models}. 
+To the image processing, tests were made to choose the one with good balance between accuracy and processing time.%% !t ? to no leave space in the text and continue the text?
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/YOLOv8Comp}
+    \caption{Courbe de performance des différentes variantes du modèle YOLOv8. Source : Ultralytics~\cite{ultralytics_models}}
+    \label{fig:yolov8_performance}
+\end{figure}
+The version of the chosen model was decided by made using one frame taken from a video recorded in the real situation of a amateur match, the goal of this article, in each of the models offered by Ultralytics.
+The Table~\ref{tab:yolov8_models_results}, shows the results obtained in terms of processing time and quality of detection.
+\begin{table}[H]
+\centering
+\caption{Comparison of YOLOv8 model variants in the same frame.}
+\label{tab:yolov8_models_results}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Model} & \textbf{Detected Objects} & \textbf{Inference} & \textbf{Total Time} & \textbf{FPS} \\
+\hline
+YOLOv8n & 15 persons & 61.8 ms  & 66.0 ms  & 15.15 \\
+YOLOv8s & 18 persons & 137.5 ms & 140.8 ms & 7.10  \\
+YOLOv8m & 21 persons & 206.2 ms & 208.8 ms & 4.79  \\
+YOLOv8l & 22 persons & 616.8 ms & 621.5 ms & 1.61  \\
+YOLOv8x & 22 persons & 653.5 ms & 657.2 ms & 1.52  \\
+\hline
+\end{tabular}
+\end{table}
+
+Based on these results and aiming for fast processing, we chose YOLOv8n because, even though it does not recognize as many players as the more robust models, it is more than ten times faster.
+
+Another important conclusion is that increasing the size of the YOLOv8 model does not necessarily lead to a proportional improvement in detection performance like YOLOv8x which does not perform more efficiently on the image than YOLOv8l, even though it requires more processing time.
+
+Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis.
+%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%%%%%%%%%%
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the class player; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
@@ -320,6 +369,8 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
 \bibitem{b8} Roboflow Universe public project made by Rugby Ruck. ''Rugby Detection Computer Vision Model''. https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs . Accessed: 17 April 2026.
 \bibitem{b9} Roboflow.''Football AI Tutorial: From Basics to Advanced Stats with Python''. 22 August 2024. Accessed: April 2026. Available: https://www.youtube.com/watch?v=aBVGKoNZQUw
+\bibitem{ultralytics_models}Ultralytics, ``-Models Supported by Ultralytics,'' Ultralytics Documentation, 2026. [Online]. Available: https://docs.ultralytics.com/models/. Accessed: 10 January 2026.
+\bibitem{ultralytics_yolov8}ULTRALYTICS, ``YOLOv8,'' Ultralytics Documentation, 2026. [Online]. Available: https://docs.ultralytics.com/models/yolov8/. Accessed: 10 January 2026.
 \end{thebibliography}
 \vspace{12pt}
 \color{red}
