@@ -130,7 +130,7 @@ To improve this project, we plan on using another YOLO model\cite{b9} to see the
 \end{itemize}
 
 \subsection{Video Acquisition and Transmission Architecture}
-Real-time automated tracking of rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
+Real-time automated tracking of amateur rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
 \subsection{Capture Device Choice}
 Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability—which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
 
@@ -141,7 +141,7 @@ Ultimately, smartphones were selected as the capture units. These devices offer 
     \item \textbf{Wireless Capability :} 
 \end{itemize}
 
-\section{3.2 \quad Evaluation of Streaming Protocols}
+\subsection{Evaluation of Streaming Protocols}
  
 To route the video streams from the smartphones to the processing computer, three main
 protocols were compared:
@@ -171,7 +171,7 @@ The \textbf{HTTP protocol over a local network} was selected. Unlike cellular so
 allows full control, high stability, and minimizes latency.
  
 %-----------------------------------------------------------
-\section{3.3 \quad Local Network Implementation and Topology}
+\subsection{Local Network Implementation and Topology}
  
 The network architecture put in place relies on the creation of a \textbf{high-performance
 private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
@@ -179,7 +179,7 @@ possible to avoid potential interference with the public networks of stadiums.
  
 The system is structured as follows:
  
-\begin{enumerate}[leftmargin=2em]
+\begin{enumerate}
     \item \textbf{Wireless transmission:} The four smartphones transmit their respective
           streams to the central access point via the HTTP protocol. Tests in real conditions
           validated an effective range of \textbf{80 metres}, covering a significant portion
@@ -190,13 +190,12 @@ The system is structured as follows:
           ensures that the bottleneck does not occur at the final data reception stage.
  
     \item \textbf{Centralised processing:} The computer simultaneously receives the four
-          streams to perform player detection and tracking, enabling a precise spatial
-          reconstruction of the game action.
+          streams to perform player detection and tracking.
 \end{enumerate}
  
 % Placeholder for real test photo
 \begin{figure}[h]
-   \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
+   \includegraphics[width=\columnwidth]{Images/transmission1.png}
     \caption{Network topology: four smartphones transmit wirelessly via HTTP (80\,m range)
              to a private Wi-Fi router, which forwards data via gigabit Ethernet to the
              YOLOv8 processing computer.}
