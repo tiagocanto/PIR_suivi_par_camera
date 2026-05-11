@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 19:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,21 +22,17 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 50
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
--- Using 8.5in x 11in (letter) paper.
+-- Using 210mm x 297mm (a4) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen153
--- This is a 10 point document.
+-- This is a 12 point document.
 LaTeX Encoding Info:    Redeclaring text command \textunderscore (encoding ?) on input line 937.
 \CLASSINFOnormalsizebaselineskip=\dimen154
 \CLASSINFOnormalsizeunitybaselineskip=\dimen155
 \IEEEnormaljot=\dimen156
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
@@ -50,21 +46,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
@@ -514,7 +510,7 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
--- Lines per column: 56 (exact).
+-- Lines per column: 50 (exact).
 (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count437
@@ -620,253 +616,433 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 62.
-
-Underfull \hbox (badness 4673) in paragraph at lines 86--87
-\OT1/ptm/m/n/10 the com-pu-ta-tional bot-tle-necks of tra-di-tional 3D-CNNs,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
+** WARNING: \and is valid only when in conference or peerreviewca
+modes (line 60).
 [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 115.
-
-<Images/MetricasYOLOSTODOS.png, id=10, 3854.4pt x 1686.3pt>
-File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
-<use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 119.
-(pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 120.
-
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 120.
-
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 123.
-
-<Images/YOLOv8Comp.png, id=11, 1139.25626pt x 444.66125pt>
-File: Images/YOLOv8Comp.png Graphic file (type png)
-<use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 127.
-(pdftex.def)             Requested size: 252.0pt x 98.355pt.
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 128.
-
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 128.
-
-
-LaTeX Warning: Citation 'b8' on page 2 undefined on input line 160.
-
-[2 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 162.
-
-<Images/img_rugby_1.png, id=18, 1028.34187pt x 578.16pt>
-File: Images/img_rugby_1.png Graphic file (type png)
-<use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 167.
-(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 168.
-
-<Images/img_rugby_2.png, id=19, 1028.34187pt x 578.16pt>
-File: Images/img_rugby_2.png Graphic file (type png)
-<use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 173.
-(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 174.
-
-<Images/img_rugby_3.png, id=20, 1028.34187pt x 578.16pt>
-File: Images/img_rugby_3.png Graphic file (type png)
-<use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 179.
-(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 180.
-
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 187.
-
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 189.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 199.
-
-[3 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
-[]\OT1/ptm/b/n/10 Infra-
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\OT1/ptm/m/n/12 Net-work (3D-CNN) ar-chi-tec-tures. In-flated
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 229--229
-\OT1/ptm/b/n/10 structure| 
+Underfull \hbox (badness 4686) in paragraph at lines 88--89
+\OT1/ptm/m/n/12 3D Net-works (I3D) [6] is used to pro-cess
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\OT1/ptm/m/n/12 over-come the com-pu-ta-tional bot-tle-necks of
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 88--89
+\OT1/ptm/m/n/12 tra-di-tional 3D-CNNs, op-ti-miz-ing the bal-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\OT1/ptm/m/n/12 Semantic Seg-men-ta-tion as-signs pixel-level
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 91--92
+\OT1/ptm/m/n/12 IOU scores. Op-ti-cal Flow quan-ti-fies mo-tion
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 91--92
+\OT1/ptm/m/n/12 dy-nam-ics, evolv-ing from sparse Lu-cas{Kanade
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 91--92
+\OT1/ptm/m/n/12 fea-tures with LSTM-based tem-po-ral mod-el-ing
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 91--92
+\OT1/ptm/m/n/12 em-ploys a two-stage PTZ cal-i-bra-tion ap-proach
+ []
+
+[2]
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 117.
+
+<Images/MetricasYOLOSTODOS.png, id=13, 3854.4pt x 1686.3pt>
+File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
+<use Images/MetricasYOLOSTODOS.png>
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 121.
+(pdftex.def)             Requested size: 252.0pt x 110.23088pt.
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 125.
+
+<Images/YOLOv8Comp.png, id=14, 1139.25626pt x 444.66125pt>
+File: Images/YOLOv8Comp.png Graphic file (type png)
+<use Images/YOLOv8Comp.png>
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 129.
+(pdftex.def)             Requested size: 252.0pt x 98.355pt.
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 130.
+
+
+LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 130.
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 125--132
+\OT1/ptm/m/n/12 the per-for-mance met-rics of dif-fer-ents mod-els
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 125--132
+\OT1/ptm/m/n/12 of the cho-sen ver-sion as shown at the Fig-
+ []
+
+
+Overfull \hbox (14.53024pt too wide) in paragraph at lines 139--150
+ [][] 
+ []
+
+[3 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 162.
+
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 164.
+
+<Images/img_rugby_1.png, id=21, 1028.34187pt x 578.16pt>
+File: Images/img_rugby_1.png Graphic file (type png)
+<use Images/img_rugby_1.png>
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 169.
+(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 170.
+
+<Images/img_rugby_2.png, id=22, 1028.34187pt x 578.16pt>
+File: Images/img_rugby_2.png Graphic file (type png)
+<use Images/img_rugby_2.png>
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 175.
+(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 176.
+
+<Images/img_rugby_3.png, id=23, 1028.34187pt x 578.16pt>
+File: Images/img_rugby_3.png Graphic file (type png)
+<use Images/img_rugby_3.png>
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 181.
+(pdftex.def)             Requested size: 252.0pt x 141.6813pt.
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 182.
+
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 189.
+
+[4 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
+
+LaTeX Warning: Citation 'b8' on page 5 undefined on input line 191.
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 191--192
+\OT1/ptm/m/n/12 dataset [] was cloned and a new AI model
+ []
+
+
+LaTeX Warning: Citation 'b9' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'b9' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'b9' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'b9' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Citation 'b9' on page 5 undefined on input line 201.
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 211--212
+\OT1/ptm/m/n/12 the re-quire-ments of the multi-camera track-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]\OT1/ptm/b/n/12 Infra-
+ []
+
+
+Overfull \hbox (12.95619pt too wide) in paragraph at lines 231--231
+\OT1/ptm/b/n/12 structure| 
+ []
+
+
+Overfull \hbox (4.33897pt too wide) in paragraph at lines 231--231
+[]\OT1/ptm/b/n/12 Latency| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
-[]\OT1/ptm/m/n/10 Excellent; high
+[]\OT1/ptm/b/n/12 Stability /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]\OT1/ptm/m/n/10 4G/5G
+[]\OT1/ptm/m/n/12 4G /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 233--233
-\OT1/ptm/m/n/10 +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
-\OT1/ptm/m/n/10 re-mote
+\OT1/ptm/m/n/12 { 500
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 233--234
-\OT1/ptm/m/n/10 (Youtube,
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 233--234
-\OT1/ptm/m/n/10 Twitch); re-quires
+\OT1/ptm/m/n/12 sub-scrip-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]\OT1/ptm/m/n/10 Wi-Fi
+[]\OT1/ptm/m/n/12 4G/5G
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\OT1/ptm/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+\OT1/ptm/m/n/12 re-mote
+ []
+
+
+Overfull \hbox (3.77504pt too wide) in paragraph at lines 235--235
+[] \OT1/ptm/m/n/12 2000ms| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
-[]\OT1/ptm/m/n/10 Excellent
+[]\OT1/ptm/m/n/12 Industry
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
-\OT1/ptm/m/n/10 sta-bil-ity; no
+\OT1/ptm/m/n/12 stan-dard
  []
 
-<Images/transmission1.png, id=28, 1058.45438pt x 421.575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+\OT1/ptm/m/n/12 (Youtube,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+\OT1/ptm/m/n/12 Twitch);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+\OT1/ptm/m/n/12 re-quires a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[]\OT1/ptm/m/n/12 HTTP
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[]\OT1/ptm/m/n/12 Wi-Fi
+ []
+
+
+Overfull \hbox (2.50441pt too wide) in paragraph at lines 237--237
+\OT1/ptm/m/n/12 (router)| 
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 237--237
+[]\OT1/ptm/b/n/12 50 ms
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 237--237
+\OT1/ptm/b/n/12 { 150
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 237--238
+[]\OT1/ptm/m/n/12 Excellent sta-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 237--238
+\OT1/ptm/m/n/12 bil-ity; no re-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 1983) in paragraph at lines 259--263
+[]\OT1/ptm/b/n/12 Wireless trans-mis-sion: \OT1/ptm/m/n/12 Two smart-phones
+ []
+
+<Images/transmission1.png, id=34, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 271.
+Package pdftex.def Info: Images/transmission1.png  used on input line 273.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 283.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 285.
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
-LaTeX Warning: Citation 'b7' on page 4 undefined on input line 289.
+LaTeX Warning: Citation 'b7' on page 6 undefined on input line 291.
 
-[4 <./Images/transmission1.png>]
-<Conference-LaTeX-template_10-17-19/fig1.png, id=34, 82.1469pt x 71.5473pt>
+[6 <./Images/transmission1.png>]
+<Conference-LaTeX-template_10-17-19/fig1.png, id=40, 82.1469pt x 71.5473pt>
 File: Conference-LaTeX-template_10-17-19/fig1.png Graphic file (type png)
 <use Conference-LaTeX-template_10-17-19/fig1.png>
-Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 345.
+Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 347.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 356.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 358.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 356.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 358.
 
 
-LaTeX Warning: Citation 'b1' on page 5 undefined on input line 369.
+LaTeX Warning: Citation 'b1' on page 7 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'b2' on page 5 undefined on input line 370.
+LaTeX Warning: Citation 'b2' on page 7 undefined on input line 372.
 
 
-LaTeX Warning: Citation 'b3' on page 5 undefined on input line 371.
+LaTeX Warning: Citation 'b3' on page 7 undefined on input line 373.
 
 
-LaTeX Warning: Citation 'b3' on page 5 undefined on input line 371.
+LaTeX Warning: Citation 'b3' on page 7 undefined on input line 373.
 
 
-LaTeX Warning: Citation 'b3' on page 5 undefined on input line 371.
+LaTeX Warning: Citation 'b3' on page 7 undefined on input line 373.
 
 
-LaTeX Warning: Citation 'b3' on page 5 undefined on input line 372.
+LaTeX Warning: Citation 'b3' on page 7 undefined on input line 374.
 
 
-LaTeX Warning: Citation 'b4' on page 5 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'b5' on page 5 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'b6' on page 5 undefined on input line 386.
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 390--390
-[]\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
- []
-
-[5 <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-\OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
+Underfull \hbox (badness 1845) in paragraph at lines 371--375
+[]\OT1/ptm/m/n/12 Please num-ber ci-ta-tions con-sec-u-tively within
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-\OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
+Underfull \hbox (badness 2443) in paragraph at lines 376--379
+[]\OT1/ptm/m/n/12 Number foot-notes sep-a-rately in su-per-scripts.
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 390--390
-\OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
+LaTeX Warning: Citation 'b4' on page 7 undefined on input line 382.
+
+
+LaTeX Warning: Citation 'b5' on page 7 undefined on input line 383.
+
+
+LaTeX Warning: Citation 'b6' on page 7 undefined on input line 388.
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 387--389
+[]\OT1/ptm/m/n/12 For pa-pers pub-lished in trans-la-tion jour-nals,
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 390--390
-\OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
+Underfull \hbox (badness 5741) in paragraph at lines 392--392
+[]\OT1/ptm/m/n/12 J. M. Taxbol, H. B. TEISB^^]K, and
  []
 
 
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 K. REINICKE, ``Computer-implemented
+ []
 
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
 
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 method for au-to-mated de-tec-tion of a
+ []
 
-[6] (./main.aux)
+[7 <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
+Underfull \hbox (badness 6575) in paragraph at lines 392--392
+[]\OT1/ptm/m/n/12 W. Wu, M. Xu, Q. Liang, L. Mei,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 and Y. Peng, ``Multi-camera 3d ball
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 track-ing frame-work for sports video,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/it/12 IET Im-age Pro-cess-ing\OT1/ptm/m/n/12 , vol. 14,
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 no. 15, pp. 3751{3761, 2020, []eprint:
+ []
+
+
+Overfull \hbox (81.56036pt too wide) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 ipr.2020.0757, \OT1/ptm/m/sc/12 issn\OT1/ptm/m/n/12 : 1751-9667. \OT1/ptm/m/sc/12 doi\OT1/ptm/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 Chen, and M. Xu, ``Multi-camera multi-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 trol of ptz cam-eras in au-to-mated video
+ []
+
+[8] [9
+
+] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -876,18 +1052,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12721 strings out of 467349
- 235611 string characters out of 5419863
- 1088312 words of memory out of 5000000
- 41664 multiletter control sequences out of 15000+600000
- 674519 words of font info for 132 fonts, out of 8000000 for 9000
+ 12718 strings out of 467349
+ 235430 string characters out of 5419863
+ 1088226 words of memory out of 5000000
+ 41654 multiletter control sequences out of 15000+600000
+ 675065 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,72p,1849b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 4698019 bytes).
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 4700289 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
