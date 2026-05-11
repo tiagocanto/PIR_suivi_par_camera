@@ -1,13 +1,17 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
-\usepackage{cite}
+%\usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage[style=ieee]{biblatex}
+
+\addbibresource{bib.bib}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -24,9 +28,9 @@ should not be used}
 Toulouse, France \\
 tcanto-da-si@insa-toulouse.fr}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
+\IEEEauthorblockN{2\textsuperscript{nd} Tassin, Nicolas}
+\IEEEauthorblockA{\textit{Electrical and informatics department} \\
+\textit{INSA Toulouse}\\
 City, Country \\
 email address or ORCID}
 \and
@@ -67,9 +71,30 @@ computer vision, rugby, cost-effective, camera tracking, YOLO
 
 \section{Introduction}
 This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+Please observe the conference page limits.
 
-\section{Technical choises (explaning how we approched the problem)}
+\section{Related Work} 
+
+Sports analysis has evolved through AI and computer vision, yet high costs exclude amateur clubs. This work establishes the theoretical foundation for a project aimed at democratizing access to automated video tracking in amateur rugby.
+
+To automate capture, the market uses panoramic stitching \cite{taxbol_computer-implemented_2022} or robotic mounts \cite{linderoth_system_2020}. Real-time detection relies on YOLO-NAS for optimized latency \cite{biro_predictive_2023}. Because fast-moving balls cause blur, systems integrate temporal context from adjacent frames rather than relying on single images \cite{xu_yolo-based_2025, biro_predictive_2023}.
+
+
+To track these detections, the Kalman Filter method predicts trajectories, maintaining continuity during occlusions. Fuzzy logic optimizations often refine these predictions to handle abrupt athletic changes, ensuring algorithms correctly link new data to existing tracks without identity switches \cite{yousefi_tracking_2023}.
+
+
+To enable real-time camera following, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.\\
+
+
+Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions\cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods\cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}. Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{AlHadrusi2012PTZ}. By utilizing deep descriptors (SuperPoint, SuperGlue) and the PTZ-IBA algorithm to minimize reprojection errors\cite{Labbe2010NonlinearObserver, Xavier2001VisualServoing}, the system achieves high precision with efficient online processing\cite{Pix4Team}.
+
+Robust visual tracking relies on the integration of detection, temporal prediction, and dynamic state estimation rather than on perfect frame-by-frame detection. Al-Hadrusi and Sarhan~\cite{AlHadrusi2012PTZ} propose a decision-based framework combining tracking, prediction, and quality evaluation (confidence, visibility, occlusions, resolution), enabling tracking continuity during short-term observation losses. These principles are directly applicable to rugby ball tracking with a fixed camera, where the ball is small, fast-moving, and frequently occluded.
+
+In monocular settings, Xavier \textit{et al.}~\cite{Xavier2001VisualServoing} show that effective tracking can be formulated directly in the image plane using dynamic estimation corrected by visual feedback, without explicit 3D reconstruction. Complementarily, Labbé \textit{et al.}~\cite{Labbe2010NonlinearObserver} ground tracking in nonlinear observer theory, combining noisy visual measurements with dynamic models to maintain coherent state estimates (position and velocity) during occlusions or degraded observations.
+
+To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes computational efficiency. We conclude that a faster tracking method like YOLO-NAS is the optimal detection model due to its speed, while Kalman Filtering provides essential trajectory prediction during fast motion or occlusions. We reject complex 3D reconstruction in favor of robust 2D tracking directly on the image plane. This combination of lightweight detection and mathematical prediction ensures the system maintains real-time performance despite the hardware's strict processing limits.
+
+\section{Technical choices (explaning how we approched the problem)}
 
 \subsection{Maintaining the Integrity of the Specifications}
 
@@ -184,10 +209,10 @@ Real-time automated tracking of amateur rugby players imposes strict constraints
 Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability—which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
 
 Ultimately, smartphones were selected as the capture units. These devices offer an optimal compromise:
-\begin{itemize}[label=\textbullet]
-    \item \textbf{Image Quality :} High-resolution sensors capable of providing stable streams.
+\begin{itemize}
+    \item \textbf{Image Quality :} High-resolution sensors capable of providing images that can be processed by the YOLO model
     \item \textbf{Cost :} Utilization of existing hardware, drastically reducing the initial investment.
-    \item \textbf{Wireless Capability :} 
+    \item \textbf{Wireless Capability :} 4G/5G cellular and Wi-Fi connection are embedded.
 \end{itemize}
 
 \subsection{Evaluation of Streaming Protocols}
@@ -199,15 +224,15 @@ protocols were compared:
 \vspace{0.5em}
 \begin{center}
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|p{1.6cm}|p{1.5cm}|p{1.1cm}|p{2.6cm}|}
+\begin{tabular}{|p{1.6cm}|p{1.2cm}|p{1.3cm}|p{2.6cm}|}
     \hline
     \textbf{Protocol} & \textbf{Infra-structure} & \textbf{Latency} & \textbf{Stability / Cost} \\
     \hline
-    SRT & 4G / 5G & Low & Excellent; high subscription costs \\
+    SRT & 4G / 5G & 200 ms – 500 ms & Excellent; high subscription costs \\
     \hline
-    RTMP & 4G/5G + remote server & Medium & Industry standard (Youtube, Twitch); requires a server \\
+    RTMP & 4G/5G + remote server & ~2000ms & Industry standard (Youtube, Twitch); requires a server \\
     \hline
-    HTTP (Local) & Wi-Fi (router) & \textbf{Optimal} & Excellent stability; no recurring cost \\
+    HTTP (Local) & Wi-Fi (router) & \textbf{50 ms – 150 ms} & Excellent stability; no recurring cost \\
     \hline
 \end{tabular}
 \end{center}
@@ -229,7 +254,7 @@ possible to avoid potential interference with the public networks of stadiums.
 The system is structured as follows:
  
 \begin{enumerate}
-    \item \textbf{Wireless transmission:} The four smartphones transmit their respective
+    \item \textbf{Wireless transmission:} Two smartphones transmit their respective
           streams to the central access point via the HTTP protocol. Tests in real conditions
           validated an effective range of \textbf{80 metres}, covering a significant portion
           of the playing surface.
@@ -242,14 +267,15 @@ The system is structured as follows:
           streams to perform player detection and tracking.
 \end{enumerate}
  
-% Placeholder for real test photo
 \begin{figure}[h]
    \includegraphics[width=\columnwidth]{Images/transmission1.png}
-    \caption{Network topology: four smartphones transmit wirelessly via HTTP (80\,m range)
+    \caption{Network topology: two smartphones transmit wirelessly via HTTP 
              to a private Wi-Fi router, which forwards data via gigabit Ethernet to the
-             YOLOv8 processing computer.}
+             processing computer.}
     \label{fig 4}
 \end{figure}
+
+This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
  
 
 \subsection{Camera score algorithim}
@@ -359,21 +385,7 @@ element symbols.
 For papers published in translation journals, please give the English 
 citation first, followed by the original foreign-language citation \cite{b6}.
 
-\begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
-\bibitem{b8} Roboflow Universe public project made by Rugby Ruck. ''Rugby Detection Computer Vision Model''. https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs . Accessed: 17 April 2026.
-\bibitem{b9} Roboflow.''Football AI Tutorial: From Basics to Advanced Stats with Python''. 22 August 2024. Accessed: April 2026. Available: https://www.youtube.com/watch?v=aBVGKoNZQUw
-\bibitem{ultralytics_models}Ultralytics, ``-Models Supported by Ultralytics,'' Ultralytics Documentation, 2026. [Online]. Available: https://docs.ultralytics.com/models/. Accessed: 10 January 2026.
-\bibitem{ultralytics_yolov8}ULTRALYTICS, ``YOLOv8,'' Ultralytics Documentation, 2026. [Online]. Available: https://docs.ultralytics.com/models/yolov8/. Accessed: 10 January 2026.
-\end{thebibliography}
-\vspace{12pt}
-\color{red}
-IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+\printbibliography  
 
 \end{document}
