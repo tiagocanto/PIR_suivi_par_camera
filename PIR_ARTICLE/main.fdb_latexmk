@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1778538153.31289 "main.bcf" "main.bbl" "main" 1778538520.85087 0
+["biber main"] 1778539147.44082 "main.bcf" "main.bbl" "main" 1778539257.58753 0
   "bib.bib" 1778536224 40855 79740937bcb371875b5a4c60c0efdb39 ""
-  "main.bcf" 1778538520 111096 ae3b017d7a92a77dbfb1d45c9928d7f2 "pdflatex"
+  "main.bcf" 1778539257 111096 ae3b017d7a92a77dbfb1d45c9928d7f2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778538516.79537 "c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778538520.85172 0
+["pdflatex"] 1778539253.48209 "c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778539257.58881 0
   "C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1778532818 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gabri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1777367939 13350272 0abb3c14a9895d76e6f4b95ebe2e312b ""
   "C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -109,11 +109,11 @@
   "Images/img_test_2_yolov8n.jpg" 1778532788 170200 269e06015af671bb939b766192d1d4bc ""
   "Images/img_test_3_yolov8n.jpg" 1778532788 156938 9821336bfe796a5796fcf180429bd8d3 ""
   "Images/transmission1.png" 1778532788 586156 52a47284c6f62920cfd63cff5364fa0c ""
-  "c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778538513 33413 085c9db1f40867bf88906fe152085744 ""
-  "main.aux" 1778538520 11460 941ab2495bafaf9da87ef591cf41f7d0 "pdflatex"
-  "main.bbl" 1778538156 52344 e481e6494e5791feb19a100c2b3b3e05 "biber main"
-  "main.run.xml" 1778538520 2395 395fc36eaa6d19cafd68c61df92ebbe4 "pdflatex"
-  "main.tex" 1778538513 33413 085c9db1f40867bf88906fe152085744 ""
+  "c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778539252 33338 a41c98407c564b47de2ae7c3dbc0148d ""
+  "main.aux" 1778539257 11183 aef2da288cfa78ef63b0d8f03904b9b2 "pdflatex"
+  "main.bbl" 1778539150 52344 e481e6494e5791feb19a100c2b3b3e05 "biber main"
+  "main.run.xml" 1778539257 2395 395fc36eaa6d19cafd68c61df92ebbe4 "pdflatex"
+  "main.tex" 1778539252 33338 a41c98407c564b47de2ae7c3dbc0148d ""
   (generated)
   "main.aux"
   "main.bcf"

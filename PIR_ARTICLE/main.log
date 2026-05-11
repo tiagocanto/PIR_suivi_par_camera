@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.28)  12 MAY 2026 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.28)  12 MAY 2026 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,164 +549,167 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 60.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ] [2]
-Underfull \hbox (badness 1454) in paragraph at lines 141--142
+Underfull \hbox (badness 1454) in paragraph at lines 139--140
 []\OT1/ptm/m/n/10 Considering the avail-able com-pu-ta-tional re-sources and
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 141--142
+Underfull \hbox (badness 1810) in paragraph at lines 139--140
 \OT1/ptm/m/n/10 the spe-cific con-text of non-professional matches|where
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 141--142
+Underfull \hbox (badness 1412) in paragraph at lines 139--140
 \OT1/ptm/m/n/10 spec-ta-tors of-ten stand in close prox-im-ity to the touch-
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 171--171
+Overfull \hbox (5.1063pt too wide) in paragraph at lines 169--169
 \OT1/ptm/b/n/10 structure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []\OT1/ptm/m/n/10 4G/5G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 \OT1/ptm/m/n/10 +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 175--176
+Underfull \hbox (badness 2932) in paragraph at lines 173--174
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
-<Images/transmission1.png, id=15, 1058.45438pt x 421.575pt>
+<Images/transmission1.png, id=16, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 213.
+Package pdftex.def Info: Images/transmission1.png  used on input line 211.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/MetricasYOLOSTODOS.png, id=17, 3854.4pt x 1686.3pt>
+<Images/MetricasYOLOSTODOS.png, id=18, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 253.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 251.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-<Images/YOLOv8Comp.png, id=18, 1139.25626pt x 444.66125pt>
+<Images/YOLOv8Comp.png, id=19, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 261.
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 259.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
-[4 <./Images/transmission1.png> <./Images/MetricasYOLOSTODOS.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Images/transmission1.png> <./Images/MetricasYOLOSTODOS.png>]
 <Images/img_rugby_1.png, id=25, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 308.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 306.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_rugby_2.png, id=26, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 316.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 314.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_rugby_3.png, id=27, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 325.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 323.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
  [5 <./Images/YOLOv8Comp.png> <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
 <Images/img_test_1_yolov8n.jpg, id=35, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 338.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 336.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
 <Images/img_test_2_yolov8n.jpg, id=36, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 346.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 344.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
 <Images/img_test_3_yolov8n.jpg, id=37, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 356.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 354.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
  [6 <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
-Underfull \hbox (badness 1400) in paragraph at lines 402--402
+Underfull \hbox (badness 1400) in paragraph at lines 400--400
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 402--402
+Underfull \hbox (badness 3557) in paragraph at lines 400--400
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 402--402
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 400--400
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 402--402
+Underfull \hbox (badness 4954) in paragraph at lines 400--400
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -733,13 +736,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  12684 strings out of 467691
  238173 string characters out of 5414987
- 1087892 words of memory out of 5000000
+ 1088893 words of memory out of 5000000
  41611 multiletter control sequences out of 15000+600000
  670245 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,72p,1836b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 5408703 bytes).
+Output written on main.pdf (8 pages, 5408459 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
