@@ -251,9 +251,7 @@ Regarding the YOLO model we can conclude that this solution works for identifica
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
 \subsection{Video Positioning teams part}
-\begin{itemize}
-\item Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
-\end{itemize}
+
 
 \subsection{Video Acquisition and Transmission Architecture}
 Real-time automated tracking of amateur rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
@@ -370,19 +368,6 @@ Following the validation of this logic on static images, the system was implemen
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources—such as dedicated GPUs or specialized edge-AI hardware—capable of handling multiple high-definition video streams with minimal latency.
-
-
-\subsection{IHM}\label{SCM}
-\begin{itemize}
-\item The word ``data'' is plural, not singular.
-\end{itemize}
-
-\section*{Acknowledgment}
-
-The preferred spelling of the word ``acknowledgment'' in America is without 
-an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B. 
-G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
-acknowledgments in the unnumbered footnote on the first page.
 
 
 \printbibliography  

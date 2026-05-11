@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[171] biber-MSWIN64:342> INFO - === 
-[227] Biber.pm:421> INFO - Reading 'main.bcf'
-[371] Biber.pm:1002> INFO - Found 20 citekeys in bib section 0
-[384] Biber.pm:4487> INFO - Processing section 0
-[396] Biber.pm:4678> INFO - Looking for bibtex file 'bib.bib' for section 0
-[486] bibtex.pm:1713> INFO - LaTeX decoding ...
-[573] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
-[716] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[716] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[716] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[716] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[733] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[750] bbl.pm:779> INFO - Output to main.bbl
-[750] Biber.pm:132> WARN - Duplicate entry key: 'MapstedUWB' in file 'bib.bib', skipping ...
-[750] Biber.pm:134> INFO - WARNINGS: 1
+[140] biber-MSWIN64:342> INFO - === 
+[224] Biber.pm:421> INFO - Reading 'main.bcf'
+[403] Biber.pm:1002> INFO - Found 20 citekeys in bib section 0
+[427] Biber.pm:4487> INFO - Processing section 0
+[451] Biber.pm:4678> INFO - Looking for bibtex file 'bib.bib' for section 0
+[620] bibtex.pm:1713> INFO - LaTeX decoding ...
+[751] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
+[950] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[950] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[950] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[950] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[979] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[995] bbl.pm:779> INFO - Output to main.bbl
+[995] Biber.pm:132> WARN - Duplicate entry key: 'MapstedUWB' in file 'bib.bib', skipping ...
+[995] Biber.pm:134> INFO - WARNINGS: 1
