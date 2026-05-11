@@ -99,6 +99,8 @@ In monocular settings, Xavier \textit{et al.}~\cite{Xavier2001VisualServoing} sh
 
 \subsection{Design Synthesis for Embedded Systems}
 To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes computational efficiency. We conclude that a faster tracking method like YOLO-NAS is the optimal detection model due to its speed, while Kalman Filtering provides essential trajectory prediction during fast motion or occlusions. We reject complex 3D reconstruction in favor of robust 2D tracking directly on the image plane. This combination of lightweight detection and mathematical prediction ensures the system maintains real-time performance despite the hardware's strict processing limits.
+
+\newpage
 \section{Technical choices (explaning how we approched the problem)}
 
 \subsection{Maintaining the Integrity of the Specifications}
@@ -116,7 +118,7 @@ A model of Artificial Inteligence is a trained code to learn paterns based on a 
 Models like YOLO have faster responses to the video’s processing, so they are usually used for real time processing, autonomus cars, monitoring, etc.  
 The detection of plany of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and with high speed.
 
-To be able to use YOLO in python, we used the library Ultralytics[citaaaar] which makes simpler the utilisation of pre-trained models, image detection and others uses of computer vision. 
+To be able to use YOLO in python, we used the library Ultralytics which makes simpler the utilisation of pre-trained models, image detection and others uses of computer vision. 
 As so, the Figure\ref{fig:ultralytics_models_comparison}\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
 Therefore, considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8 version.
 \begin{figure}[H]

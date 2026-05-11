@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
+**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main
 (c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -568,143 +568,148 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-<Images/MetricasYOLOSTODOS.png, id=10, 3854.4pt x 1686.3pt>
+] [2]
+<Images/MetricasYOLOSTODOS.png, id=13, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 124.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 126.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
- [2]
 <Images/YOLOv8Comp.png, id=14, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 132.
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 134.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 165.
 
 
 LaTeX Warning: Citation 'b8' on page 3 undefined on input line 167.
 
-<Images/img_rugby_1.png, id=16, 1028.34187pt x 578.16pt>
+
+LaTeX Warning: Citation 'b8' on page 3 undefined on input line 169.
+
+[3 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
+<Images/img_rugby_1.png, id=21, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 172.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 174.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_2.png, id=17, 1028.34187pt x 578.16pt>
+<Images/img_rugby_2.png, id=22, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 178.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 180.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_3.png, id=18, 1028.34187pt x 578.16pt>
+<Images/img_rugby_3.png, id=23, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 184.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 186.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-[3 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+ [4 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 234--234
+Overfull \hbox (5.1063pt too wide) in paragraph at lines 236--236
 \OT1/ptm/b/n/10 structure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []\OT1/ptm/m/n/10 4G/5G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \OT1/ptm/m/n/10 +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 238--239
+Underfull \hbox (badness 2932) in paragraph at lines 240--241
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
-[4 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
 <Images/transmission1.png, id=31, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 276.
+Package pdftex.def Info: Images/transmission1.png  used on input line 278.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 288.
- (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 290.
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<Conference-LaTeX-template_10-17-19/fig1.png, id=32, 82.1469pt x 71.5473pt>
+) [5 <./Images/transmission1.png>]
+<Conference-LaTeX-template_10-17-19/fig1.png, id=37, 82.1469pt x 71.5473pt>
 File: Conference-LaTeX-template_10-17-19/fig1.png Graphic file (type png)
 <use Conference-LaTeX-template_10-17-19/fig1.png>
-Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 349.
+Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 351.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 360.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 362.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 360.
- [5 <./Images/transmission1.png> <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
-Underfull \hbox (badness 1400) in paragraph at lines 373--373
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 362.
+
+Underfull \hbox (badness 1400) in paragraph at lines 375--375
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[6 <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 373--373
+Underfull \hbox (badness 3557) in paragraph at lines 375--375
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 373--373
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 375--375
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
-[6]
-Underfull \hbox (badness 4954) in paragraph at lines 373--373
+
+Underfull \hbox (badness 4954) in paragraph at lines 375--375
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -733,13 +738,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  12728 strings out of 467349
  236101 string characters out of 5419863
- 1093457 words of memory out of 5000000
+ 1090457 words of memory out of 5000000
  41673 multiletter control sequences out of 15000+600000
  671856 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,72p,1853b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,72p,1849b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 4697624 bytes).
+Output written on main.pdf (7 pages, 4697947 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
