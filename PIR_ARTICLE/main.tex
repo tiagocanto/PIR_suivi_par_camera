@@ -75,27 +75,30 @@ Two gaps remain unaddressed. First, no affordable, fully integrated tracking and
 This project aimed to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
 
 \newpage
-\section{Related Work} 
+\section{Related Work}
 
 Sports analysis has evolved through AI and computer vision, yet high costs exclude amateur clubs. This work establishes the theoretical foundation for a project aimed at democratizing access to automated video tracking in amateur rugby.
 
+\subsection{Object Detection and Capture Systems}
 To automate capture, the market uses panoramic stitching \cite{taxbol_computer-implemented_2022} or robotic mounts \cite{linderoth_system_2020}. Real-time detection relies on YOLO-NAS for optimized latency \cite{biro_predictive_2023}. Because fast-moving balls cause blur, systems integrate temporal context from adjacent frames rather than relying on single images \cite{xu_yolo-based_2025, biro_predictive_2023}.
 
-
+\subsection{Trajectory Prediction and Tracking Logic}
 To track these detections, the Kalman Filter method predicts trajectories, maintaining continuity during occlusions. Fuzzy logic optimizations often refine these predictions to handle abrupt athletic changes, ensuring algorithms correctly link new data to existing tracks without identity switches \cite{yousefi_tracking_2023}.
-
-
-To enable real-time camera following, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.\\
-
-
-Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions\cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods\cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}. Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{AlHadrusi2012PTZ}. By utilizing deep descriptors (SuperPoint, SuperGlue) and the PTZ-IBA algorithm to minimize reprojection errors\cite{Labbe2010NonlinearObserver, Xavier2001VisualServoing}, the system achieves high precision with efficient online processing\cite{Pix4Team}.
 
 Robust visual tracking relies on the integration of detection, temporal prediction, and dynamic state estimation rather than on perfect frame-by-frame detection. Al-Hadrusi and Sarhan~\cite{AlHadrusi2012PTZ} propose a decision-based framework combining tracking, prediction, and quality evaluation (confidence, visibility, occlusions, resolution), enabling tracking continuity during short-term observation losses. These principles are directly applicable to rugby ball tracking with a fixed camera, where the ball is small, fast-moving, and frequently occluded.
 
+\subsection{Spatiotemporal Feature Extraction}
+To enable real-time camera following, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.
+
+Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions\cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods\cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}.
+
+\subsection{Camera Localization and State Estimation}
+Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{AlHadrusi2012PTZ}. By utilizing deep descriptors (SuperPoint, SuperGlue) and the PTZ-IBA algorithm to minimize reprojection errors\cite{Labbe2010NonlinearObserver, Xavier2001VisualServoing}, the system achieves high precision with efficient online processing\cite{Pix4Team}.
+
 In monocular settings, Xavier \textit{et al.}~\cite{Xavier2001VisualServoing} show that effective tracking can be formulated directly in the image plane using dynamic estimation corrected by visual feedback, without explicit 3D reconstruction. Complementarily, Labbé \textit{et al.}~\cite{Labbe2010NonlinearObserver} ground tracking in nonlinear observer theory, combining noisy visual measurements with dynamic models to maintain coherent state estimates (position and velocity) during occlusions or degraded observations.
 
+\subsection{Design Synthesis for Embedded Systems}
 To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes computational efficiency. We conclude that a faster tracking method like YOLO-NAS is the optimal detection model due to its speed, while Kalman Filtering provides essential trajectory prediction during fast motion or occlusions. We reject complex 3D reconstruction in favor of robust 2D tracking directly on the image plane. This combination of lightweight detection and mathematical prediction ensures the system maintains real-time performance despite the hardware's strict processing limits.
-
 \section{Technical choices (explaning how we approched the problem)}
 
 \subsection{Maintaining the Integrity of the Specifications}
@@ -288,7 +291,6 @@ Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
 \begin{itemize}
 \item The word ``data'' is plural, not singular.
 \end{itemize}
-An excellent style manual for science writers is \cite{b7}.
 
 \subsection{Authors and Affiliations}
 \textbf{The class file is designed for, but not limited to, six authors.} A 
@@ -365,27 +367,6 @@ The preferred spelling of the word ``acknowledgment'' in America is without
 an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B. 
 G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
 acknowledgments in the unnumbered footnote on the first page.
-
-\section*{References}
-
-Please number citations consecutively within brackets \cite{b1}. The 
-sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
-
-Number footnotes separately in superscripts. Place the actual footnote at 
-the bottom of the column in which it was cited. Do not put footnotes in the 
-abstract or reference list. Use letters for table footnotes.
-
-Unless there are six authors or more give all authors' names; do not use 
-``et al.''. Papers that have not been published, even if they have been 
-submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-Capitalize only the first word in a paper title, except for proper nouns and 
-element symbols.
-
-For papers published in translation journals, please give the English 
-citation first, followed by the original foreign-language citation \cite{b6}.
 
 
 \printbibliography  

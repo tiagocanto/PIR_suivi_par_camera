@@ -2380,21 +2380,21 @@
     <bcf:citekey order="4" intorder="1">xu_yolo-based_2025</bcf:citekey>
     <bcf:citekey order="4" intorder="2">biro_predictive_2023</bcf:citekey>
     <bcf:citekey order="5" intorder="1">yousefi_tracking_2023</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">xie_rethinking_2018</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">li_research_2024</bcf:citekey>
-    <bcf:citekey order="7" intorder="2">xie_rethinking_2018</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">opencv_optical_flow_tutorial</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">scaler_motion_estimation_optical_flow_2025</bcf:citekey>
-    <bcf:citekey order="8" intorder="3">viso_optical_flow_2024</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">poms_scanner_2018</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">xu_yolo-based_2025</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">wu_multi-camera_2020</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">zhang_multi-camera_2020</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">Xavier2001VisualServoing</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Pix4Team</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">xie_rethinking_2018</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">li_research_2024</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">xie_rethinking_2018</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">opencv_optical_flow_tutorial</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">scaler_motion_estimation_optical_flow_2025</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">viso_optical_flow_2024</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">poms_scanner_2018</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">xu_yolo-based_2025</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">wu_multi-camera_2020</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">zhang_multi-camera_2020</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">Xavier2001VisualServoing</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Pix4Team</bcf:citekey>
     <bcf:citekey order="15" intorder="1">Xavier2001VisualServoing</bcf:citekey>
     <bcf:citekey order="16" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
     <bcf:citekey order="17" intorder="1">ultralytics_models</bcf:citekey>
@@ -2415,16 +2415,6 @@
     <bcf:citekey order="32" intorder="1">b9</bcf:citekey>
     <bcf:citekey order="33" intorder="1">b9</bcf:citekey>
     <bcf:citekey order="34" intorder="1">b9</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">b7</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">b1</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">b2</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">b3</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">b3</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">b3</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">b3</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">b4</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">b5</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">b6</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
