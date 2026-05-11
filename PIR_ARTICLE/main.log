@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  11 MAY 2026 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  11 MAY 2026 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,139 +278,143 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
  (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 58.
 <Images/MetricasYOLOSTODOS.png, id=1, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 94.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 100.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-<Images/YOLOv8Comp.png, id=2, 1139.25626pt x 444.66125pt>
-File: Images/YOLOv8Comp.png Graphic file (type png)
-<use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 102.
-(pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/tiago/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./Images/MetricasYOLOSTODOS.png>]
-<Images/img_rugby_1.png, id=13, 1028.34187pt x 578.16pt>
+]
+<Images/YOLOv8Comp.png, id=10, 1139.25626pt x 444.66125pt>
+File: Images/YOLOv8Comp.png Graphic file (type png)
+<use Images/YOLOv8Comp.png>
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 108.
+(pdftex.def)             Requested size: 252.0pt x 98.355pt.
+<Images/img_rugby_1.png, id=12, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 142.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 152.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_2.png, id=14, 1028.34187pt x 578.16pt>
+<Images/img_rugby_2.png, id=13, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 150.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 160.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_3.png, id=15, 1028.34187pt x 578.16pt>
+<Images/img_rugby_3.png, id=14, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 159.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 169.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
- [2 <./Images/YOLOv8Comp.png> <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
-<Images/img_test_1_yolov8n.jpg, id=23, 1264.725pt x 710.655pt>
+ [2 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png> <./Images/img_rugby_1.png> <./Images/img_rugby_2.png>]
+<Images/img_test_1_yolov8n.jpg, id=22, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 174.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 184.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 201.
+<Images/img_test_2_yolov8n.jpg, id=23, 1307.88625pt x 735.74875pt>
+File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
+<use Images/img_test_2_yolov8n.jpg>
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 193.
+(pdftex.def)             Requested size: 252.0pt x 141.75836pt.
+<Images/img_test_3_yolov8n.jpg, id=24, 1255.69125pt x 702.625pt>
+File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
+<use Images/img_test_3_yolov8n.jpg>
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 202.
+(pdftex.def)             Requested size: 252.0pt x 141.00496pt.
+ [3 <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 227.
  (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (3.1415pt too wide) in paragraph at lines 218--218
+Overfull \hbox (3.1415pt too wide) in paragraph at lines 244--244
 []\OT1/ptm/b/n/10 Latency| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 222--222
+Underfull \hbox (badness 7486) in paragraph at lines 248--248
 []\OT1/ptm/m/n/10 4G/5G +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Overfull \hbox (2.59142pt too wide) in paragraph at lines 222--222
+Overfull \hbox (2.59142pt too wide) in paragraph at lines 248--248
 []\OT1/ptm/m/n/10 Medium| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 222--223
+Underfull \hbox (badness 2932) in paragraph at lines 248--249
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Overfull \hbox (4.26132pt too wide) in paragraph at lines 224--224
+Overfull \hbox (4.26132pt too wide) in paragraph at lines 250--250
 []\OT1/ptm/b/n/10 Optimal| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
-[3 <./Images/img_test_1_yolov8n.jpg>]
-<Images/transmission1.png, id=28, 1017.8025pt x 371.58826pt>
+<Images/transmission1.png, id=29, 1017.8025pt x 371.58826pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 261.
+Package pdftex.def Info: Images/transmission1.png  used on input line 287.
 (pdftex.def)             Requested size: 252.0pt x 92.00098pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 271.
- (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 297.
+(C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Conference-LaTeX-template_10-17-19/fig1.png, id=29, 82.1469pt x 71.5473pt>
-File: Conference-LaTeX-template_10-17-19/fig1.png Graphic file (type png)
-<use Conference-LaTeX-template_10-17-19/fig1.png>
-Package pdftex.def Info: Conference-LaTeX-template_10-17-19/fig1.png  used on input line 333.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 344.
- (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 344.
- [4 <./Images/transmission1.png> <./Conference-LaTeX-template_10-17-19/fig1.png (PNG copy)>]
-Underfull \hbox (badness 2150) in paragraph at lines 385--386
+
+LaTeX Warning: Citation `b7' on page 4 undefined on input line 303.
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 316--317
 []\OT1/ptm/m/n/8 Roboflow.''Football AI Tu-to-rial: From Ba-sics to Ad-vanced Stats
  []
 
@@ -425,26 +429,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
-
-] (main.aux)
+[4 <./Images/transmission1.png>] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 4464 strings out of 467871
- 71544 string characters out of 5418377
- 490128 words of memory out of 5000000
- 33286 multiletter control sequences out of 15000+600000
- 674833 words of font info for 133 fonts, out of 8000000 for 9000
+ 4419 strings out of 467871
+ 70925 string characters out of 5418377
+ 490105 words of memory out of 5000000
+ 33246 multiletter control sequences out of 15000+600000
+ 669317 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,808b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 4742153 bytes).
+ 57i,9n,65p,808b,298s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 5043741 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
