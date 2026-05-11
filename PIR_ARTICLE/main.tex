@@ -29,14 +29,14 @@ tcanto-da-si@insa-toulouse.fr}
 \IEEEauthorblockN{2\textsuperscript{nd} Tassin, Nicolas}
 \IEEEauthorblockA{\textit{Electrical and informatics department} \\
 \textit{INSA Toulouse}\\
-City, Country \\
+Toulouse, France \\
 email address or ORCID}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{3\textsuperscript{rd} Visbal Pinzon, Kevin Felipe}
+\IEEEauthorblockA{\textit{Electrical and informatics department} \\
+\textit{INSA Toulouse}\\
+Toulouse, France \\
+kvisbal-pinz@insa-toulouse.fr}
 \and
 \IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
@@ -160,49 +160,81 @@ Another important conclusion is that increasing the size of the YOLOv8 model doe
 
 Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis.
 %%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%%%%%%%%%%
+\subsubsection{Methods}
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the class player; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
 The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{b8}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
 
+\subsubsection{Results}
 After testing the model from the project \cite{b8} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
+    \caption{Test image 1, used model from Roboflow\cite{b8}.}
+    \label{fig 1}
+
+\end{figure}
+\begin{figure}[htbp]
+    \centering 
+
+    \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
+    \caption{Test image 2, used model from Roboflow\cite{b8}.}
+    \label{fig 2}
+
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+
+    \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
+    \caption{Test image 3, used model from Roboflow\cite{b8}.}
+    \label{fig 3}
+
+\end{figure}
+
+Unfortunately, the model \cite{rugby_ruck_detection} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
+
+To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset.  
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=\columnwidth]{Images/img_test_1_yolov8n.jpg}
+    \caption{Test image 1, used trained yolov8n model.}
+    \label{fig 1 yolov8n}
+\end{figure}
 
 \begin{figure}[htbp]
     \centering
     
-    \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
-    \caption{Test image 1, used model from Roboflow\cite{rugby_ruck_detection}.}
-    \label{fig 1}
-    
-    \vspace{0.5cm} 
-    
-    \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
-    \caption{Test image 2, used model from Roboflow\cite{rugby_ruck_detection}.}
-    \label{fig 2}
-    
-    \vspace{0.5cm}
-    
-    \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
-    \caption{Test image 3, used model from Roboflow\cite{rugby_ruck_detection}.}
-    \label{fig 3}
-    
+    \includegraphics[width=\columnwidth]{Images/img_test_2_yolov8n.jpg}
+    \caption{Test image 2, used trained yolov8n model.}
+    \label{fig 2 yolov8n}
+
+
 \end{figure}
 
+\begin{figure}[htbp]
+    \centering
+    
+    \includegraphics[width=\columnwidth]{Images/img_test_3_yolov8n.jpg}
+    \caption{Test image 3, used trained yolov8n model.}
+    \label{fig 3 yolov8n}
 
+\end{figure}
 
-Unfortunately, the model \cite{rugby_ruck_detection} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
-
-To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
-
-These models aren’t as good as the previous one, but they are functional for video analyses and can be used for real-time applications.  
-
-IMAGES COMPARISON 
+These models aren’t as good as the previous one because they don't have the same accuracy and have a greater difficulty of identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analyses and can be used for real-time applications.  
 
 To validate our models, we tested it in a video of an INSA AS match, but the power of the available GPU wasn’t enough to analyze a nineteen second video (with 1141 frames). So, we couldn’t validate our models in a hole video but, analyzing in a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time solution. 
 
+\subsubsection{Conclusion}
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
 
+\subsubsection{Improvements}
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
 \subsection{Video Positioning teams part}
@@ -285,83 +317,53 @@ The system is structured as follows:
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
  
 
-\subsection{Camera score algorithim}
+\section*{Camera score algorithm}
+\subsubsection{Experimental Setup}\
 
-Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
+
+The strategic positioning of cameras is a critical factor as it directly impacts both hardware requirements and software performance. Increasing the number of cameras allows for closer views of the action, which significantly enhances the detection of key points of interest. However, this architectural choice creates a trade-off: a higher camera count increases the volume of video streams to be processed, thereby raising the complexity of the hardware infrastructure. Furthermore, the choice of the detection model, such as YOLO (You Only Look Once), plays a pivotal role; since YOLO is available in multiple versions with varying computational costs, a configuration with fewer cameras may allow for the deployment of lighter, less resource-intensive models. To find the optimal balance between detection accuracy and computational efficiency, we conducted field tests on a rugby pitch, evaluating various configurations.
+
+To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
+\subsubsection{Results and Analysis}\
+
+The evaluation of the three configurations revealed significant disparities in terms of resource efficiency and practical feasibility. The first setup, requiring seven cameras to achieve full pitch coverage, provided the highest spatial precision. However, this high density of devices leads to a prohibitive computational load, necessitating a heavy YOLO model architecture to process multiple simultaneous streams. Furthermore, from a broadcast perspective, the frequent camera switching required to follow the action results in a fragmented and suboptimal viewing experience for streaming audiences.
+
+The second configuration proved to be the most balanced alternative, requiring only four cameras. While it offers slightly lower precision than the first setup, it successfully covers the entire playing area at a significantly lower hardware cost. Crucially, this layout allows for smoother tracking of player movements, providing a more fluid and continuous visual experience for live broadcasting.
+
+Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
+
+To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
+\subsubsection{Discussion}\
+
+Considering the available computational resources and the specific context of non-professional matches—where spectators often stand in close proximity to the touchline—Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
+
+\section*{Camera score algorithm}
+\subsubsection{Experimental Setup}\
+
+Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
+Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection—such as bounding box confidence and spatial distribution—before transitioning to the more demanding requirements of continuous video analysis.
+
+In the initial image-based testing phase, our primary objective was to detect the ball and assign a higher priority score to cameras where it appeared closest to the center of the frame. However, empirical observations showed that the ball is frequently occluded by players or difficult to detect due to its small size and high velocity. To address this, we implemented a secondary criterion based on the proximity of players to the camera. By calculating the average distance and spatial density of the detected bounding boxes, the system can infer the center of the action even when the ball is not visible, ensuring that the broadcast remains focused on the most relevant area of the pitch.
+
+\subsubsection{Results and Analysis}\
+
+While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion—individual player proximity to the camera—proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
+
+To rectify this, we replaced the proximity metric with a player density concentration analysis. This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
+
+Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
+
+\subsubsection{Discussion}\
+
+The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources—such as dedicated GPUs or specialized edge-AI hardware—capable of handling multiple high-definition video streams with minimal latency.
+
 
 \subsection{IHM}\label{SCM}
 \begin{itemize}
 \item The word ``data'' is plural, not singular.
 \end{itemize}
-
-\subsection{Authors and Affiliations}
-\textbf{The class file is designed for, but not limited to, six authors.} A 
-minimum of one author is required for all conference articles. Author names 
-should be listed starting from left to right and then moving down to the 
-next line. This is the author sequence that will be used in future citations 
-and by indexing services. Names should not be listed in columns nor group by 
-affiliation. Please keep your affiliations as succinct as possible (for 
-example, do not differentiate among departments of the same organization).
-
-\subsection{Identify the Headings}
-Headings, or heads, are organizational devices that guide the reader through 
-your paper. There are two types: component heads and text heads.
-
-Component heads identify the different components of your paper and are not 
-topically subordinate to each other. Examples include Acknowledgments and 
-References and, for these, the correct style to use is ``Heading 5''. Use 
-``figure caption'' for your Figure captions, and ``table head'' for your 
-table title. Run-in heads, such as ``Abstract'', will require you to apply a 
-style (in this case, italic) in addition to the style provided by the drop 
-down menu to differentiate the head from the text.
-
-Text heads organize the topics on a relational, hierarchical basis. For 
-example, the paper title is the primary text head because all subsequent 
-material relates and elaborates on this one topic. If there are two or more 
-sub-topics, the next level head (uppercase Roman numerals) should be used 
-and, conversely, if there are not at least two sub-topics, then no subheads 
-should be introduced.
-
-\subsection{Figures and Tables}
-\paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
-bottom of columns. Avoid placing them in the middle of columns. Large 
-figures and tables may span across both columns. Figure captions should be 
-below the figures; table heads should appear above the tables. Insert 
-figures and tables after they are cited in the text. Use the abbreviation 
-``Fig.~\ref{fig}'', even at the beginning of a sentence.
-
-\begin{table}[htbp]
-\caption{Table Type Styles}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
-\cline{2-4} 
-\textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
-\hline
-copy& More table copy$^{\mathrm{a}}$& &  \\
-\hline
-\multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-\end{tabular}
-\label{tab1}
-\end{center}
-\end{table}
-
-\begin{figure}[htbp]
-\centerline{\includegraphics{Conference-LaTeX-template_10-17-19/fig1.png}}
-\caption{Example of a figure caption.}
-\label{fig}
-\end{figure}
-
-Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
-rather than symbols or abbreviations when writing Figure axis labels to 
-avoid confusing the reader. As an example, write the quantity 
-``Magnetization'', or ``Magnetization, M'', not just ``M''. If including 
-units in the label, present them within parentheses. Do not label axes only 
-with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization 
-\{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of 
-quantities and units. For example, write ``Temperature (K)'', not 
-``Temperature/K''.
 
 \section*{Acknowledgment}
 
