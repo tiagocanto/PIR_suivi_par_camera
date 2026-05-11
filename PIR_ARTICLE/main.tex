@@ -39,10 +39,10 @@ Toulouse, France \\
 kvisbal-pinz@insa-toulouse.fr}
 \and
 \IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockA{\textit{Electrical and informatics department} \\
+\textit{INSA Toulouse}\\
+Toulouse, France \\
+herrati@insa-toulouse.fr}
 \and
 \IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
@@ -50,7 +50,7 @@ email address or ORCID}
 City, Country \\
 email address or ORCID}
 \and
-\IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
+\IEEEauthorblockN{6\textsuperscript{th} Herrati, Noam}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 \textit{name of organization (of Aff.)}\\
 City, Country \\
@@ -97,8 +97,13 @@ Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{
 
 In monocular settings, Xavier \textit{et al.}~\cite{Xavier2001VisualServoing} show that effective tracking can be formulated directly in the image plane using dynamic estimation corrected by visual feedback, without explicit 3D reconstruction. Complementarily, Labbé \textit{et al.}~\cite{Labbe2010NonlinearObserver} ground tracking in nonlinear observer theory, combining noisy visual measurements with dynamic models to maintain coherent state estimates (position and velocity) during occlusions or degraded observations.
 
+\subsection{Environmental impact}
+The environmental impact of artificial intelligence is a growing concern, as the energy consumption and carbon footprint of large-scale data centers have become significant bottlenecks for sustainable cloud computing. \textit{et al.}~\cite{Labbe2010NonlinearObserver} To address these ecological and performance challenges, recent studies have focused on accelerating inference directly on edge devices using optimization tools like NVIDIA TensorRT \textit{et al.}~\cite{Labbe2010NonlinearObserver} , which streamlines model execution to achieve high frame rates on local hardware.
+
 \subsection{Design Synthesis for Embedded Systems}
 To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes computational efficiency. We conclude that a faster tracking method like YOLO-NAS is the optimal detection model due to its speed, while Kalman Filtering provides essential trajectory prediction during fast motion or occlusions. We reject complex 3D reconstruction in favor of robust 2D tracking directly on the image plane. This combination of lightweight detection and mathematical prediction ensures the system maintains real-time performance despite the hardware's strict processing limits.
+
+
 
 \newpage
 \section{Technical choices (explaning how we approched the problem)}
