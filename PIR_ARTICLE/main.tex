@@ -315,9 +315,48 @@ The system is structured as follows:
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
  
 
-\subsection{Camera score algorithim}
+\section*{Camera score algorithm}
+\subsubsection{Experimental Setup}\
 
-Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
+
+The strategic positioning of cameras is a critical factor as it directly impacts both hardware requirements and software performance. Increasing the number of cameras allows for closer views of the action, which significantly enhances the detection of key points of interest. However, this architectural choice creates a trade-off: a higher camera count increases the volume of video streams to be processed, thereby raising the complexity of the hardware infrastructure. Furthermore, the choice of the detection model, such as YOLO (You Only Look Once), plays a pivotal role; since YOLO is available in multiple versions with varying computational costs, a configuration with fewer cameras may allow for the deployment of lighter, less resource-intensive models. To find the optimal balance between detection accuracy and computational efficiency, we conducted field tests on a rugby pitch, evaluating various configurations.
+
+To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
+\subsubsection{Results and Analysis}\
+
+The evaluation of the three configurations revealed significant disparities in terms of resource efficiency and practical feasibility. The first setup, requiring seven cameras to achieve full pitch coverage, provided the highest spatial precision. However, this high density of devices leads to a prohibitive computational load, necessitating a heavy YOLO model architecture to process multiple simultaneous streams. Furthermore, from a broadcast perspective, the frequent camera switching required to follow the action results in a fragmented and suboptimal viewing experience for streaming audiences.
+
+The second configuration proved to be the most balanced alternative, requiring only four cameras. While it offers slightly lower precision than the first setup, it successfully covers the entire playing area at a significantly lower hardware cost. Crucially, this layout allows for smoother tracking of player movements, providing a more fluid and continuous visual experience for live broadcasting.
+
+Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
+
+To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
+\subsubsection{Discussion}\
+
+Considering the available computational resources and the specific context of non-professional matches—where spectators often stand in close proximity to the touchline—Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
+
+\section*{Camera score algorithm}
+\subsubsection{Experimental Setup}\
+
+Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
+Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection—such as bounding box confidence and spatial distribution—before transitioning to the more demanding requirements of continuous video analysis.
+
+In the initial image-based testing phase, our primary objective was to detect the ball and assign a higher priority score to cameras where it appeared closest to the center of the frame. However, empirical observations showed that the ball is frequently occluded by players or difficult to detect due to its small size and high velocity. To address this, we implemented a secondary criterion based on the proximity of players to the camera. By calculating the average distance and spatial density of the detected bounding boxes, the system can infer the center of the action even when the ball is not visible, ensuring that the broadcast remains focused on the most relevant area of the pitch.
+
+\subsubsection{Results and Analysis}\
+
+While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion—individual player proximity to the camera—proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
+
+To rectify this, we replaced the proximity metric with a player density concentration analysis. This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
+
+Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
+
+\subsubsection{Discussion}\
+
+The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources—such as dedicated GPUs or specialized edge-AI hardware—capable of handling multiple high-definition video streams with minimal latency.
+
 
 \subsection{IHM}\label{SCM}
 \begin{itemize}
