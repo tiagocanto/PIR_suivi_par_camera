@@ -244,8 +244,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./Images/img_rugby_1.png
 INPUT ./Images/img_rugby_1.png
 INPUT ./Images/img_rugby_1.png
@@ -286,6 +284,8 @@ INPUT ./Images/transmission1.png
 INPUT ./Images/transmission1.png
 INPUT ./Images/transmission1.png
 INPUT ./Images/transmission1.png
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml

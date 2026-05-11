@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1778526277.12674 "main.bcf" "main.bbl" "main" 1778526290.85188 0
+["biber main"] 1778526449.07318 "main.bcf" "main.bbl" "main" 1778526458.41764 0
   "bib.bib" 1778522009 39683 be82427298b75c2ae793af6c9ae3cfce ""
-  "main.bcf" 1778526290 110842 9d8e5f5f2e49878f1daabdf4b5f4991b "pdflatex"
+  "main.bcf" 1778526458 110932 1b7d363fbe6b3e231997296492229d69 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778526287.20522 "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778526290.85351 0
+["pdflatex"] 1778526455.00119 "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778526458.4189 0
   "Images/MetricasYOLOSTODOS.png" 1778515709 249803 004fa78e41a6f549ea2d85c1b8c03c19 ""
   "Images/YOLOv8Comp.png" 1778515709 50470 ae3df5925c6d95f68491a7a621228569 ""
   "Images/img_rugby_1.png" 1778335257 2433700 dd0b173b8200054fb6cfb24541343248 ""
@@ -16,7 +16,7 @@
   "Images/img_test_2_yolov8n.jpg" 1778520462 170200 269e06015af671bb939b766192d1d4bc ""
   "Images/img_test_3_yolov8n.jpg" 1778520462 156938 9821336bfe796a5796fcf180429bd8d3 ""
   "Images/transmission1.png" 1778516477 586156 52a47284c6f62920cfd63cff5364fa0c ""
-  "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778526183 32944 5262693d4e3b20ad7e3e6a480415d187 ""
+  "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778526444 33034 d50269e58b0497e30e0cde98373b3fcf ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1778337150 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1778337702 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1778341775 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -114,10 +114,10 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778342560 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778342726 3648455 ab8c0d597ea58c5bbf9801fc9b3a1ce3 ""
   "c:/texlive/2026/texmf.cnf" 1778342532 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1778526290 11091 18c844519b31c1d7212fb1e47957da63 "pdflatex"
-  "main.bbl" 1778526279 52360 c2ba7c0cba96131e9d9079bbbe7e961b "biber main"
-  "main.run.xml" 1778526290 2395 395fc36eaa6d19cafd68c61df92ebbe4 "pdflatex"
-  "main.tex" 1778526183 32944 5262693d4e3b20ad7e3e6a480415d187 ""
+  "main.aux" 1778526458 11325 ac85c689a54338254ab456fa7bb22ec8 "pdflatex"
+  "main.bbl" 1778526451 52344 e481e6494e5791feb19a100c2b3b3e05 "biber main"
+  "main.run.xml" 1778526458 2395 395fc36eaa6d19cafd68c61df92ebbe4 "pdflatex"
+  "main.tex" 1778526444 33034 d50269e58b0497e30e0cde98373b3fcf ""
   (generated)
   "main.aux"
   "main.bcf"
