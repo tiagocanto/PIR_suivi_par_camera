@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  11 MAY 2026 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main
+**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 (c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -550,70 +550,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                b1
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b2
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b3
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b4
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b5
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b6
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b7
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                b8
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                b9
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ultralytics_models
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -632,34 +569,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 120.
-
 <Images/MetricasYOLOSTODOS.png, id=10, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
 Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 124.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 125.
-
-
-LaTeX Warning: Citation 'ultralytics_models' on page 2 undefined on input line 125.
-
-[2]
-
-LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 128.
-
+ [2]
 <Images/YOLOv8Comp.png, id=14, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
 Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 132.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
-
-LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'ultralytics_models' on page 3 undefined on input line 133.
 
 
 LaTeX Warning: Citation 'b8' on page 3 undefined on input line 165.
@@ -672,46 +592,16 @@ File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
 Package pdftex.def Info: Images/img_rugby_1.png  used on input line 172.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 173.
-
 <Images/img_rugby_2.png, id=17, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
 Package pdftex.def Info: Images/img_rugby_2.png  used on input line 178.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 179.
-
 <Images/img_rugby_3.png, id=18, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
 Package pdftex.def Info: Images/img_rugby_3.png  used on input line 184.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 185.
-
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'b8' on page 3 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 204.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 204.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 204.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 204.
-
-
-LaTeX Warning: Citation 'b9' on page 3 undefined on input line 204.
-
 [3 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []\OT1/ptm/b/n/10 Infra-
@@ -814,6 +704,10 @@ Overfull \hbox (25.96684pt too wide) in paragraph at lines 373--373
  []
 
 [6]
+Underfull \hbox (badness 4954) in paragraph at lines 373--373
+[]\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -832,29 +726,20 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12717 strings out of 467349
- 235568 string characters out of 5419863
- 1093270 words of memory out of 5000000
- 41662 multiletter control sequences out of 15000+600000
+ 12728 strings out of 467349
+ 236101 string characters out of 5419863
+ 1093457 words of memory out of 5000000
+ 41673 multiletter control sequences out of 15000+600000
  671856 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,72p,1849b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,72p,1853b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 4697447 bytes).
+Output written on main.pdf (7 pages, 4697624 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

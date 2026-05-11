@@ -301,6 +301,47 @@
       \verb https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-023-01078-z
       \endverb
     \endentry
+    \entry{AlHadrusi2012PTZ}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=81e55f138278e8157e4c0892e915102e}{%
+           family={Al-Hadrusi},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Yaqoub},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1107ca4a872bffbe772ec18484f77727}{%
+           family={Sarhan},
+           familyi={S\bibinitperiod},
+           given={Saad},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{fullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{fullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{bibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorbibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authornamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorfullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorfullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Video \& Image Processing and Network Security}
+      \field{note}{Accessed: 2025}
+      \field{number}{2}
+      \field{title}{Efficient Control of PTZ Cameras in Automated Video Surveillance Systems}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
+      \endverb
+      \verb{url}
+      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
+      \endverb
+      \keyw{PTZ cameras,video surveillance,target tracking,prediction,occlusion handling}
+    \endentry
     \entry{xie_rethinking_2018}{misc}{}{}
       \name{author}{5}{}{%
         {{hash=843b6293b24d49cdfdcda48e1ccd7eb3}{%
@@ -340,8 +381,8 @@
       \strng{authornamehash}{b3dacadf235d95d37496872959ddcf95}
       \strng{authorfullhash}{0a94b23b0c188ad3b60c4110566b105d}
       \strng{authorfullhashraw}{0a94b23b0c188ad3b60c4110566b105d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Despite the steady progress in video analysis led by the adoption of convolutional neural networks ({CNNs}), the relative improvement has been less drastic as that in 2D static image classification. Three main challenges exist including spatial (image) feature representation, temporal information representation, and model/computation complexity. It was recently shown by Carreira and Zisserman that 3D {CNNs}, inflated from 2D networks and pretrained on {ImageNet}, could be a promising way for spatial and temporal representation learning. However, as for model/computation complexity, 3D {CNNs} are much more expensive than 2D {CNNs} and prone to overfit. We seek a balance between speed and accuracy by building an effective and efficient video classification system through systematic exploration of critical network design choices. In particular, we show that it is possible to replace many of the 3D convolutions by low-cost 2D convolutions. Rather surprisingly, best result (in both speed and accuracy) is achieved when replacing the 3D convolutions at the bottom of the network, suggesting that temporal representation learning on high-level semantic features is more useful. Our conclusion generalizes to datasets with very different properties. When combined with several other cost-effective designs including separable spatial/temporal convolution and feature gating, our system results in an effective video classification system that that produces very competitive results on several action classification benchmarks (Kinetics, Something-something, {UCF}101 and {HMDB}), as well as two action detection (localization) benchmarks ({JHMDB} and {UCF}101-24).}
@@ -406,8 +447,8 @@
       \strng{authornamehash}{edb9e8feac3aedf4b4f6002c3d32735a}
       \strng{authorfullhash}{0d53d49e94624e7717cfa227d1527ca9}
       \strng{authorfullhashraw}{0d53d49e94624e7717cfa227d1527ca9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As computer image processing and digital technologies advance, creating an efficient method for classifying sports images is crucial for the rapid retrieval and management of large image datasets. Traditional manual methods for classifying sports images are impractical for large-scale data and often inaccurate when distinguishing similar images. This paper introduces an {SE} module that adaptively adjusts the weights of input feature mapping channels, and a Res module that excels in deep feature extraction, preventing gradient vanishing, multi-scale processing, and enhancing generalization in image recognition. Through extensive experimentation on network structure adjustments, the {SE}-{RES}-{CNN} neural network model is applied to sports image classification. The model is trained on a sports image classification dataset from Kaggle, alongside {VGG}-16 and {ResNet}50 models. Training results show that the proposed {SE}-{RES}-{CNN} model improves classification accuracy by approximately 5\% compared to {VGG}-16 and {ResNet}50 models. Testing revealed that the {SE}-{RES}-{CNN} model classifies 100 out of 500 sports images in 6 s, achieving an accuracy rate of up to 98\% and a single prediction time of 0.012 s. This validates the model's accuracy and effectiveness, significantly enhancing sports image retrieval and classification efficiency. This validates the model's accuracy and effectiveness, significantly enhancing sports image retrieval and classification efficiency.}
@@ -452,8 +493,8 @@
       \strng{authornamehash}{43b55a0849301cb3d8b2a4f34fbec76d}
       \strng{authorfullhash}{43b55a0849301cb3d8b2a4f34fbec76d}
       \strng{authorfullhashraw}{43b55a0849301cb3d8b2a4f34fbec76d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html}}
@@ -475,8 +516,8 @@
       \strng{authornamehash}{e63c7a1c625b8ecb0c8833282c5bf97a}
       \strng{authorfullhash}{e63c7a1c625b8ecb0c8833282c5bf97a}
       \strng{authorfullhashraw}{e63c7a1c625b8ecb0c8833282c5bf97a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.scaler.com/topics/motion-estimation-using-optical-flow/}}
@@ -499,8 +540,8 @@
       \strng{authornamehash}{d7a61189aba7601ad7054e6fc374bb4b}
       \strng{authorfullhash}{d7a61189aba7601ad7054e6fc374bb4b}
       \strng{authorfullhashraw}{d7a61189aba7601ad7054e6fc374bb4b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://viso.ai/deep-learning/optical-flow/}}
@@ -540,8 +581,8 @@
       \strng{authornamehash}{802f527b2f1ba904e547a0524117285d}
       \strng{authorfullhash}{e7b7bffad89bea44db4f2161ee648273}
       \strng{authorfullhashraw}{e7b7bffad89bea44db4f2161ee648273}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A growing number of visual computing applications depend on the analysis of large video collections. The challenge is that scaling applications to operate on these datasets requires efficient systems for pixel data access and parallel processing across large numbers of machines. Few programmers have the capability to operate efficiently at these scales, limiting the field's ability to explore new applications that leverage big video data. In response, we have created Scanner, a system for productive and efficient video analysis at scale. Scanner organizes video collections as tables in a data store optimized for sampling frames from compressed video, and executes pixel processing computations, expressed as dataflow graphs, on these frames. Scanner schedules video analysis applications expressed using these abstractions onto heterogeneous throughput computing hardware, such as multi-core {CPUs}, {GPUs}, and media processing {ASICs}, for high-throughput pixel processing. We demonstrate the productivity of Scanner by authoring a variety of video processing applications including the synthesis of stereo {VR} video streams from multi-camera rigs, markerless 3D human pose reconstruction from video, and data-mining big video datasets such as hundreds of feature-length films or over 70,000 hours of {TV} news. These applications achieve near-expert performance on a single machine and scale efficiently to hundreds of machines, enabling formerly long-running big video data analysis tasks to be carried out in minutes to hours.}
@@ -717,47 +758,6 @@
       \endverb
       \keyw{{CNN},Identity switch,Multi-target multi-camera tracking,Object detection,Player identification}
     \endentry
-    \entry{AlHadrusi2012PTZ}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=81e55f138278e8157e4c0892e915102e}{%
-           family={Al-Hadrusi},
-           familyi={A\bibinithyphendelim H\bibinitperiod},
-           given={Yaqoub},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=1107ca4a872bffbe772ec18484f77727}{%
-           family={Sarhan},
-           familyi={S\bibinitperiod},
-           given={Saad},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{fullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{fullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{bibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{authorbibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{authornamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{authorfullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \strng{authorfullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Video \& Image Processing and Network Security}
-      \field{note}{Accessed: 2025}
-      \field{number}{2}
-      \field{title}{Efficient Control of PTZ Cameras in Automated Video Surveillance Systems}
-      \field{volume}{12}
-      \field{year}{2012}
-      \field{pages}{1\bibrangedash 11}
-      \range{pages}{11}
-      \verb{urlraw}
-      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
-      \endverb
-      \verb{url}
-      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
-      \endverb
-      \keyw{PTZ cameras,video surveillance,target tracking,prediction,occlusion handling}
-    \endentry
     \entry{Labbe2010NonlinearObserver}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=6d3fe4f95bde1dc604ca05e8984f4894}{%
@@ -868,17 +868,108 @@
       \field{year}{2024}
       \keyw{sports tracking,automatic camera,monocular vision,real-time tracking}
     \endentry
+    \entry{ultralytics_models}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=88f069848482a556e416f713d2819905}{%
+           family={{Ultralytics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88f069848482a556e416f713d2819905}
+      \strng{fullhash}{88f069848482a556e416f713d2819905}
+      \strng{fullhashraw}{88f069848482a556e416f713d2819905}
+      \strng{bibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorbibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authornamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhashraw}{88f069848482a556e416f713d2819905}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ultralytics Documentation}
+      \field{title}{Models Supported by {Ultralytics}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/models/
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/models/
+      \endverb
+    \endentry
+    \entry{rugby_ruck_detection}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=acdb775f338d34aae97b500347afd021}{%
+           family={{Rugby Ruck}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Roboflow Universe}%
+      }
+      \strng{namehash}{acdb775f338d34aae97b500347afd021}
+      \strng{fullhash}{acdb775f338d34aae97b500347afd021}
+      \strng{fullhashraw}{acdb775f338d34aae97b500347afd021}
+      \strng{bibnamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorbibnamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authornamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorfullhash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorfullhashraw}{acdb775f338d34aae97b500347afd021}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 17 April 2026}
+      \field{title}{Rugby Detection Computer Vision Model}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs
+      \endverb
+      \verb{url}
+      \verb https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs
+      \endverb
+    \endentry
+    \entry{roboflow_tutorial_2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=023735f08b8c9372ede36f5e7801f966}{%
+           family={{Roboflow}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{fullhash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{fullhashraw}{023735f08b8c9372ede36f5e7801f966}
+      \strng{bibnamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorbibnamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authornamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorfullhash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorfullhashraw}{023735f08b8c9372ede36f5e7801f966}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Accessed: April 2026}
+      \field{title}{Football {AI} Tutorial: From Basics to Advanced Stats with {P}ython}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=aBVGKoNZQUw
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=aBVGKoNZQUw
+      \endverb
+    \endentry
   \enddatalist
-  \missing{b1}
-  \missing{b2}
-  \missing{b3}
-  \missing{b4}
-  \missing{b5}
-  \missing{b6}
-  \missing{b7}
   \missing{b8}
-  \missing{b9}
-  \missing{ultralytics_models}
 \endrefsection
 \endinput
 

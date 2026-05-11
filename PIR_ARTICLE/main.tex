@@ -117,20 +117,20 @@ Models like YOLO have faster responses to the video’s processing, so they are 
 The detection of plany of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and with high speed.
 
 To be able to use YOLO in python, we used the library Ultralytics[citaaaar] which makes simpler the utilisation of pre-trained models, image detection and others uses of computer vision. 
-As so, the Figure~\ref{fig:ultralytics_models_comparison}~\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
+As so, the Figure\ref{fig:ultralytics_models_comparison}\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
 Therefore, considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8 version.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/MetricasYOLOSTODOS}
-    \caption{Comparaison des modèles YOLO supportés par Ultralytics. Source : Ultralytics~\cite{ultralytics_models}}
+    \caption{Comparaison des modèles YOLO supportés par Ultralytics. Source : Ultralytics\cite{ultralytics_models}}
     \label{fig:ultralytics_models_comparison}
 \end{figure}
-Nevertheless, the Ultralytics website also presents the performance metrics of differents models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}~\cite{ultralytics_models}. 
+Nevertheless, the Ultralytics website also presents the performance metrics of differents models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}\cite{ultralytics_models}. 
 To the image processing, tests were made to choose the one with good balance between accuracy and processing time.%% !t ? to no leave space in the text and continue the text?
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/YOLOv8Comp}
-    \caption{Courbe de performance des différentes variantes du modèle YOLOv8. Source : Ultralytics~\cite{ultralytics_models}}
+    \caption{Courbe de performance des différentes variantes du modèle YOLOv8. Source : Ultralytics\cite{ultralytics_models}}
     \label{fig:yolov8_performance}
 \end{figure}
 The version of the chosen model was decided by made using one frame taken from a video recorded in the real situation of a amateur match, the goal of this article, in each of the models offered by Ultralytics.
@@ -170,28 +170,28 @@ After testing the model from the project \cite{b8} in some images from the captu
     \centering
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
-    \caption{Test image 1, used model from Roboflow\cite{b8}.}
+    \caption{Test image 1, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 1}
     
     \vspace{0.5cm} 
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
-    \caption{Test image 2, used model from Roboflow\cite{b8}.}
+    \caption{Test image 2, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 2}
     
     \vspace{0.5cm}
     
     \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
-    \caption{Test image 3, used model from Roboflow\cite{b8}.}
+    \caption{Test image 3, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 3}
     
 \end{figure}
 
 
 
-Unfortunately, the model \cite{b8} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
+Unfortunately, the model \cite{rugby_ruck_detection} isn’t accessible to download, so it wouldn’t  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing. 
 
-To solve the presented problem, the project’s dataset \cite{b8} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
+To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset [??? Show images of the test??? ].  
 
 These models aren’t as good as the previous one, but they are functional for video analyses and can be used for real-time applications.  
 
@@ -201,7 +201,7 @@ To validate our models, we tested it in a video of an INSA AS match, but the pow
 
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
 
-To improve this project, we plan on using another YOLO model\cite{b9} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{b9} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{b9} (extract color information from the player’s shirt), associated with an UMAP\cite{b9} (compact the previous information) and a Kmeans \cite{b9} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
+To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
 \subsection{Video Positioning teams part}
 \begin{itemize}

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1778519923.98529 "main.bcf" "main.bbl" "main" 1778519933.72794 0
-  "bib.bib" 1778518271 38469 76d9af31021b119c3015fda5ac1d4c41 ""
-  "main.bcf" 1778519933 111285 246e35974db9ea384c50eaf17858fafe "pdflatex"
+["biber main"] 1778522339.96644 "main.bcf" "main.bbl" "main" 1778522352.73419 0
+  "bib.bib" 1778522009 39683 be82427298b75c2ae793af6c9ae3cfce ""
+  "main.bcf" 1778522352 110896 20bd9a2a08bae8a44363045c2c0e57f4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778519930.53407 "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778519933.72905 2
+["pdflatex"] 1778522349.16037 "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" "main.pdf" "main" 1778522352.73518 0
   "Conference-LaTeX-template_10-17-19/fig1.png" 1778335257 4535 0e284ca354e1b5c77378d3dfdb543874 ""
   "Images/MetricasYOLOSTODOS.png" 1778515709 249803 004fa78e41a6f549ea2d85c1b8c03c19 ""
   "Images/YOLOv8Comp.png" 1778515709 50470 ae3df5925c6d95f68491a7a621228569 ""
@@ -14,7 +14,7 @@
   "Images/img_rugby_2.png" 1778335257 548322 c08f824e01cc7c2c500775452c9b71da ""
   "Images/img_rugby_3.png" 1778335257 562269 f0c662967a970a449de839f8e237aa14 ""
   "Images/transmission1.png" 1778516477 586156 52a47284c6f62920cfd63cff5364fa0c ""
-  "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778519898 26963 b8248a00f7a42a56c5cb05d0aa8d31b8 ""
+  "c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex" 1778522103 26204 6cfaeab8196247e6f0c28b829382b01c ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1778337150 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1778337702 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1778336806 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -120,10 +120,10 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778342560 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778342726 3648455 ab8c0d597ea58c5bbf9801fc9b3a1ce3 ""
   "c:/texlive/2026/texmf.cnf" 1778342532 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1778519933 9364 a1679bf1e64477d954ddfc4f0acfc7bc "pdflatex"
-  "main.bbl" 1778519926 48407 695ff10d7af8fe5bf6f96d73e2152853 "biber main"
-  "main.run.xml" 1778519933 2395 76f210371f9645b5363f4df17ad77bfe "pdflatex"
-  "main.tex" 1778519898 26963 b8248a00f7a42a56c5cb05d0aa8d31b8 ""
+  "main.aux" 1778522352 10311 acdb523e8a266cb849a833ade5bf98f3 "pdflatex"
+  "main.bbl" 1778522342 52360 c2ba7c0cba96131e9d9079bbbe7e961b "biber main"
+  "main.run.xml" 1778522352 2395 395fc36eaa6d19cafd68c61df92ebbe4 "pdflatex"
+  "main.tex" 1778522103 26204 6cfaeab8196247e6f0c28b829382b01c ""
   (generated)
   "main.aux"
   "main.bcf"
