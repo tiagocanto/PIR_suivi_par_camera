@@ -160,14 +160,18 @@ Another important conclusion is that increasing the size of the YOLOv8 model doe
 
 Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis.
 %%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%%%%%%%%%%
-\subsubsection{Methods}
+\subsubsection{Methods}\
+
+
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the class player; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
 The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{b8}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
 
-\subsubsection{Results}
+\subsubsection{Results}\
+
+
 After testing the model from the project \cite{b8} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
 \begin{figure}[h]
@@ -231,10 +235,14 @@ These models aren’t as good as the previous one because they don't have the sa
 
 To validate our models, we tested it in a video of an INSA AS match, but the power of the available GPU wasn’t enough to analyze a nineteen second video (with 1141 frames). So, we couldn’t validate our models in a hole video but, analyzing in a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time solution. 
 
-\subsubsection{Conclusion}
+\subsubsection{Conclusion}\
+
+
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
 
-\subsubsection{Improvements}
+\subsubsection{Improvements}\
+
+
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
 
 \subsection{Video Positioning teams part}
@@ -317,7 +325,7 @@ The system is structured as follows:
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
  
 
-\section*{Camera score algorithm}
+\subsection{Camera score algorithm}
 \subsubsection{Experimental Setup}\
 
 
@@ -339,7 +347,6 @@ To determine the most efficient layout for player tracking, we evaluated three d
 
 Considering the available computational resources and the specific context of non-professional matches—where spectators often stand in close proximity to the touchline—Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
 
-\section*{Camera score algorithm}
 \subsubsection{Experimental Setup}\
 
 Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
