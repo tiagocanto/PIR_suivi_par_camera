@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  14 MAY 2026 01:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  14 MAY 2026 01:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -557,192 +557,196 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
  (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/Users/tiago/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+)
+
+LaTeX Warning: Citation 'ultralytics_yolov8' on page 1 undefined on input line 81.
+
+[1{C:/Users/tiago/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
 
-LaTeX Warning: Citation 'taxbol_computer-implemented_2022' on page 2 undefined on input line 89.
+LaTeX Warning: Citation 'taxbol_computer-implemented_2022' on page 2 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'linderoth_system_2020' on page 2 undefined on input line 89.
+LaTeX Warning: Citation 'linderoth_system_2020' on page 2 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'biro_predictive_2023' on page 2 undefined on input line 89.
+LaTeX Warning: Citation 'biro_predictive_2023' on page 2 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'xu_yolo-based_2025' on page 2 undefined on input line 89.
+LaTeX Warning: Citation 'xu_yolo-based_2025' on page 2 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'biro_predictive_2023' on page 2 undefined on input line 89.
+LaTeX Warning: Citation 'biro_predictive_2023' on page 2 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'yousefi_tracking_2023' on page 2 undefined on input line 92.
+LaTeX Warning: Citation 'yousefi_tracking_2023' on page 2 undefined on input line 94.
 
 
-LaTeX Warning: Citation 'AlHadrusi2012PTZ' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Citation 'xie_rethinking_2018' on page 2 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'li_research_2024' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'AlHadrusi2012PTZ' on page 2 undefined on input line 96.
 
 
 LaTeX Warning: Citation 'xie_rethinking_2018' on page 2 undefined on input line 99.
 
 
-LaTeX Warning: Citation 'opencv_optical_flow_tutorial' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'li_research_2024' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'scaler_motion_estimation_optical_flow_2025' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'xie_rethinking_2018' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'viso_optical_flow_2024' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'opencv_optical_flow_tutorial' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'poms_scanner_2018' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'scaler_motion_estimation_optical_flow_2025' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'xu_yolo-based_2025' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'viso_optical_flow_2024' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'wu_multi-camera_2020' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'poms_scanner_2018' on page 2 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'zhang_multi-camera_2020' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'xu_yolo-based_2025' on page 2 undefined on input line 101.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+LaTeX Warning: Citation 'wu_multi-camera_2020' on page 2 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'zhang_multi-camera_2020' on page 2 undefined on input line 101.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/ptm/m/n/10 convolutions[], []. This
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 [] \OT1/ptm/m/n/10 to deep ar-chi-tec-tures (FlowNet,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/ptm/m/n/10 PWC-Net) that main-tain ac-cu-racy un-der oc-clu-sions.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/ptm/m/n/10 Ac-tion and Event Recog-ni-tion com-bines CNN-based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/ptm/m/n/10 spa-tial fea-tures with LSTM-based tem-po-ral mod-el-ing
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 99--100
+Underfull \hbox (badness 2951) in paragraph at lines 101--102
 \OT1/ptm/m/n/10 to de-tect events in near real-time [],
  []
 
 
-LaTeX Warning: Citation 'AlHadrusi2012PTZ' on page 2 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'Xavier2001VisualServoing' on page 2 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'Pix4Team' on page 2 undefined on input line 102.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-[]\OT1/ptm/m/n/10 Finally, Cam-era Lo-cal-iza-tion em-ploys a two-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-\OT1/ptm/m/n/10 stage PTZ cal-i-bra-tion ap-proach [].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-\OT1/ptm/m/n/10 By uti-liz-ing deep de-scrip-tors (Su-per-Point, Su-per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-\OT1/ptm/m/n/10 Glue) and the PTZ-IBA al-go-rithm to min-i-mize
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-\OT1/ptm/m/n/10 re-pro-jec-tion errors[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-[]\OT1/ptm/m/n/10 , the sys-tem achieves high
- []
-
-
-LaTeX Warning: Citation 'Xavier2001VisualServoing' on page 2 undefined on input line 104.
+LaTeX Warning: Citation 'AlHadrusi2012PTZ' on page 2 undefined on input line 104.
 
 
 LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 104.
 
 
+LaTeX Warning: Citation 'Xavier2001VisualServoing' on page 2 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'Pix4Team' on page 2 undefined on input line 104.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[]\OT1/ptm/m/n/10 Finally, Cam-era Lo-cal-iza-tion em-ploys a two-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 stage PTZ cal-i-bra-tion ap-proach [].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 By uti-liz-ing deep de-scrip-tors (Su-per-Point, Su-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 Glue) and the PTZ-IBA al-go-rithm to min-i-mize
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 re-pro-jec-tion errors[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[]\OT1/ptm/m/n/10 , the sys-tem achieves high
+ []
+
+
+LaTeX Warning: Citation 'Xavier2001VisualServoing' on page 2 undefined on input line 106.
+
+
+LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 106.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 []\OT1/ptm/m/n/10 In monoc-u-lar set-tings, Xavier \OT1/ptm/m/it/10 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 \OT1/ptm/m/it/10 al. [] \OT1/ptm/m/n/10 show that ef-fec-tive
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 104--105
+Underfull \hbox (badness 1783) in paragraph at lines 106--107
 \OT1/ptm/m/n/10 us-ing dy-namic es-ti-ma-tion cor-rected by vi-sual feed-back,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 \OT1/ptm/m/it/10 et al. [] \OT1/ptm/m/n/10 ground track-ing
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 104--105
+Underfull \hbox (badness 6094) in paragraph at lines 106--107
 \OT1/ptm/m/n/10 in non-lin-ear ob-server the-ory, com-bin-ing noisy vi-sual
  []
 
 
-LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 107.
+LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 107.
+LaTeX Warning: Citation 'Labbe2010NonlinearObserver' on page 2 undefined on input line 109.
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 107--108
+Underfull \hbox (badness 2368) in paragraph at lines 109--110
 []\OT1/ptm/m/n/10 The en-vi-ron-men-tal im-pact of ar-ti-fi-cial in-tel-li-gence is
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 107--108
+Underfull \hbox (badness 2042) in paragraph at lines 109--110
 \OT1/ptm/m/n/10 nif-i-cant bot-tle-necks for sus-tain-able cloud com-put-ing. \OT1/ptm/m/it/10 et
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 107--108
+Underfull \hbox (badness 1742) in paragraph at lines 109--110
 \OT1/ptm/m/n/10 log-i-cal and per-for-mance chal-lenges, re-cent stud-ies have
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 107--108
+Underfull \hbox (badness 2035) in paragraph at lines 109--110
 \OT1/ptm/m/n/10 fo-cused on ac-cel-er-at-ing in-fer-ence di-rectly on edge de-
  []
 
@@ -750,125 +754,125 @@ Underfull \hbox (badness 2035) in paragraph at lines 107--108
 <Images/Cameras_en_ligne.png, id=12, 483.0045pt x 170.43675pt>
 File: Images/Cameras_en_ligne.png Graphic file (type png)
 <use Images/Cameras_en_ligne.png>
-Package pdftex.def Info: Images/Cameras_en_ligne.png  used on input line 129.
+Package pdftex.def Info: Images/Cameras_en_ligne.png  used on input line 131.
 (pdftex.def)             Requested size: 252.0pt x 88.92148pt.
 <Images/Cameras_alternant.png, id=14, 489.027pt x 206.57175pt>
 File: Images/Cameras_alternant.png Graphic file (type png)
 <use Images/Cameras_alternant.png>
-Package pdftex.def Info: Images/Cameras_alternant.png  used on input line 141.
+Package pdftex.def Info: Images/Cameras_alternant.png  used on input line 143.
 (pdftex.def)             Requested size: 252.0pt x 106.45024pt.
 <Images/Camera_final.png, id=15, 328.8285pt x 216.81pt>
 File: Images/Camera_final.png Graphic file (type png)
 <use Images/Camera_final.png>
-Package pdftex.def Info: Images/Camera_final.png  used on input line 151.
+Package pdftex.def Info: Images/Camera_final.png  used on input line 153.
 (pdftex.def)             Requested size: 252.0pt x 166.16016pt.
  [3 <./Images/Cameras_en_ligne.png> <./Images/Cameras_alternant.png> <./Images/Camera_final.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 201--201
+Overfull \hbox (5.1063pt too wide) in paragraph at lines 205--205
 \OT1/ptm/b/n/10 structure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []\OT1/ptm/m/n/10 4G/5G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 \OT1/ptm/m/n/10 +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 205--206
+Underfull \hbox (badness 2932) in paragraph at lines 209--210
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
 <Images/transmission1.png, id=22, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 244.
+Package pdftex.def Info: Images/transmission1.png  used on input line 248.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
 [4 <./Images/transmission1.png>]
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 264.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 268.
 
 <Images/MetricasYOLOSTODOS.png, id=28, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 268.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 272.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 269.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 273.
 
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 269.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 273.
 
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 272.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 276.
 
 <Images/YOLOv8Comp.png, id=29, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 276.
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 280.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 277.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 281.
 
 
-LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 277.
-
-
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 313.
+LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 281.
 
 
 LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 318.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 324.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 []\OT1/ptm/m/n/10 After test-ing the model from the project
  []
 
 <Images/img_rugby_1.png, id=30, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 323.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 329.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 324.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 330.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -876,27 +880,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images/img_rugby_2.png, id=31, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 331.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 337.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 332.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 338.
 
 <Images/img_rugby_3.png, id=32, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 340.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 346.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 341.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 347.
 
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 346.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 352.
 
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 348.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 354.
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 348--349
+Underfull \hbox (badness 1418) in paragraph at lines 354--355
 []\OT1/ptm/m/n/10 To solve the pre-sented prob-lem, the project's dataset
  []
 
@@ -904,7 +908,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 348--349
 <Images/img_test_1_yolov8n.jpg, id=38, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 353.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 359.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
 
 
@@ -913,109 +917,103 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images/img_test_2_yolov8n.jpg, id=39, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 361.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 367.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
 <Images/img_test_3_yolov8n.jpg, id=40, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 371.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 377.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
+Underfull \hbox (badness 10000) in paragraph at lines 385--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
 
 [6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'xu_yolo-based_2025' on page 7 undefined on input line 396.
+LaTeX Warning: Citation 'xu_yolo-based_2025' on page 7 undefined on input line 404.
 
 <Images/FPSperformance.png, id=47, 749.04843pt x 447.92343pt>
 File: Images/FPSperformance.png Graphic file (type png)
 <use Images/FPSperformance.png>
-Package pdftex.def Info: Images/FPSperformance.png  used on input line 406.
+Package pdftex.def Info: Images/FPSperformance.png  used on input line 414.
 (pdftex.def)             Requested size: 252.0pt x 150.69261pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 421.
 
-
-
-LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 413.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 413.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 421.
 (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <Images/FPSperformance2.png, id=48, 626.34pt x 386.19281pt>
 File: Images/FPSperformance2.png Graphic file (type png)
 <use Images/FPSperformance2.png>
-Package pdftex.def Info: Images/FPSperformance2.png  used on input line 417.
+Package pdftex.def Info: Images/FPSperformance2.png  used on input line 425.
 (pdftex.def)             Requested size: 252.0pt x 155.38187pt.
- [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>] [8
-
-]
-<Images/algosetup.png, id=61, 281.25075pt x 102.3825pt>
+ [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>]
+<Images/algosetup.png, id=58, 281.25075pt x 102.3825pt>
 File: Images/algosetup.png Graphic file (type png)
 <use Images/algosetup.png>
-Package pdftex.def Info: Images/algosetup.png  used on input line 440.
+Package pdftex.def Info: Images/algosetup.png  used on input line 448.
 (pdftex.def)             Requested size: 252.0pt x 91.73409pt.
-<Images/algo2.png, id=62, 278.2395pt x 133.6995pt>
+<Images/algo2.png, id=59, 278.2395pt x 133.6995pt>
 File: Images/algo2.png Graphic file (type png)
 <use Images/algo2.png>
-Package pdftex.def Info: Images/algo2.png  used on input line 450.
+Package pdftex.def Info: Images/algo2.png  used on input line 458.
 (pdftex.def)             Requested size: 252.0pt x 121.09142pt.
-<Images/algo3.png, id=63, 283.0575pt x 111.41624pt>
+<Images/algo3.png, id=60, 283.0575pt x 111.41624pt>
 File: Images/algo3.png Graphic file (type png)
 <use Images/algo3.png>
-Package pdftex.def Info: Images/algo3.png  used on input line 467.
+Package pdftex.def Info: Images/algo3.png  used on input line 475.
 (pdftex.def)             Requested size: 252.0pt x 99.19414pt.
- [9
+ [8
 
  <./Images/algosetup.png> <./Images/algo2.png> <./Images/algo3.png>]
-<Images/algo4.png, id=70, 281.25075pt x 326.4195pt>
+<Images/algo4.png, id=67, 281.25075pt x 326.4195pt>
 File: Images/algo4.png Graphic file (type png)
 <use Images/algo4.png>
-Package pdftex.def Info: Images/algo4.png  used on input line 478.
+Package pdftex.def Info: Images/algo4.png  used on input line 486.
 (pdftex.def)             Requested size: 252.0pt x 292.46986pt.
-<Images/algo5.png, id=71, 280.04625pt x 84.315pt>
+<Images/algo5.png, id=68, 280.04625pt x 84.315pt>
 File: Images/algo5.png Graphic file (type png)
 <use Images/algo5.png>
-Package pdftex.def Info: Images/algo5.png  used on input line 483.
+Package pdftex.def Info: Images/algo5.png  used on input line 491.
 (pdftex.def)             Requested size: 252.0pt x 75.87376pt.
-<Images/camera_switch.jpeg, id=72, 1284.8pt x 745.78625pt>
+<Images/camera_switch.jpeg, id=69, 1284.8pt x 745.78625pt>
 File: Images/camera_switch.jpeg Graphic file (type jpg)
 <use Images/camera_switch.jpeg>
-Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 495.
+Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 503.
 (pdftex.def)             Requested size: 252.0pt x 146.27553pt.
- [10 <./Images/algo4.png> <./Images/algo5.png> <./Images/camera_switch.jpeg>]
-Underfull \hbox (badness 3029) in paragraph at lines 507--508
+ [9 <./Images/algo4.png> <./Images/algo5.png> <./Images/camera_switch.jpeg>]
+Underfull \hbox (badness 3029) in paragraph at lines 515--516
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
 
-[11
+[10
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 519.
+LaTeX Warning: Empty bibliography on input line 527.
 
 
 ** Conference Paper **
@@ -1047,17 +1045,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12639 strings out of 467871
- 235054 string characters out of 5418377
- 1080032 words of memory out of 5000000
- 41379 multiletter control sequences out of 15000+600000
+ 12641 strings out of 467871
+ 235114 string characters out of 5418377
+ 1080068 words of memory out of 5000000
+ 41381 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,66p,1293b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,66p,1274b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5919987 bytes).
+Output written on main.pdf (10 pages, 5920825 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

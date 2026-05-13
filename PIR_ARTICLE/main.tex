@@ -65,8 +65,10 @@ guarni@insa-toulouse.fr}
 
 \maketitle
 
-\section*{Abstract}
+\begin{abstract}
+    
 Amateur sports clubs lack access to professional multi-camera video analysis systems due to the high cost and technical complexity of commercially availabe solutions. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed for each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
+\end{abstract}
 
 
 \begin{IEEEkeywords}
@@ -76,9 +78,9 @@ computer vision, rugby, cost-effective, camera tracking, YOLO
 \section*{Introduction} % /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ ATTTENTION VERSION TEMPORAIRE /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 The growing availability of computer vision and deep learning technologies has transformed sports broadcasting and performance analysis. Camera-based tracking systems are now widely used in professional contexts, combining multi-camera setups with real-time image processing to follow players and the ball throughout a match. However, such systems remain complex and expensive, making them largely inaccessible to amateur clubs operating with limited resources.
-Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts, and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment. Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
+Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts \cite{ultralytics_yolov8}, and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment. Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
 Two gaps remain unaddressed. First, no affordable, fully integrated tracking and broadcasting system has been proposed for amateur clubs. Second, ball detection in rugby presents a particularly underexplored challenge: frequent occlusions by players and an irregular ball trajectory make reliable real-time detection significantly harder than in sports such as football or basketball. To date, no study has investigated these two problems jointly.
-This project aimed to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
+This project seeks to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
 
 \newpage
 \section{Related Work}
@@ -94,7 +96,7 @@ To track these detections, the Kalman Filter method predicts trajectories, maint
 Robust visual tracking relies on the integration of detection, temporal prediction, and dynamic state estimation rather than on perfect frame-by-frame detection. Al-Hadrusi and Sarhan~\cite{AlHadrusi2012PTZ} propose a decision-based framework combining tracking, prediction, and quality evaluation (confidence, visibility, occlusions, resolution), enabling tracking continuity during short-term observation losses. These principles are directly applicable to rugby ball tracking with a fixed camera, where the ball is small, fast-moving, and frequently occluded.
 
 \subsection{Spatiotemporal Feature Extraction}
-To enable real-time camera following, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.
+To enable real-time camera trcking, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.
 
 Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions\cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods\cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}.
 
@@ -155,6 +157,8 @@ Finally, we tested a staggered configuration, alternating the camera positions o
 
 
 \subsubsection{Results and Analysis}\
+
+
 The evaluation of the three configurations revealed significant disparities in terms of resource efficiency and practical feasibility. The first setup, requiring seven cameras to achieve full pitch coverage, provided the highest spatial precision. However, this high density of devices leads to a prohibitive computational load, necessitating a heavy YOLO model architecture to process multiple simultaneous streams. Furthermore, from a broadcast perspective, the frequent camera switching required to follow the action results in a fragmented and suboptimal viewing experience for streaming audiences.
 
 The second configuration proved to be the most balanced alternative, requiring only four cameras. While it offers slightly lower precision than the first setup, it successfully covers the entire playing area at a significantly lower hardware cost. Crucially, this layout allows for smoother tracking of player movements, providing a more fluid and continuous visual experience for live broadcasting.
@@ -306,6 +310,7 @@ Although the larger models detect more players, their processing time increases 
 \
 \subsubsection{Methods}\
 
+
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the player identification; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
@@ -314,6 +319,7 @@ The world of computer vision developers is growing and one of the biggest commun
 
 \
 \subsubsection{Results}\
+
 
 After testing the model from the project \cite{rugby_ruck_detection} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
@@ -380,8 +386,10 @@ To validate our models, we tested it on a video of an INSA AS match, but the pow
 \\
 \subsubsection{Conclusion}\
 
+
 Regarding the YOLO model we can conclude that this solution works for the identification of our needs to choose the best camera but trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.
 \\
+
 \subsubsection{Improvements}
 
 
@@ -390,7 +398,7 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%YOLO_END%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
-\
+
 \subsection{Phase test - Optimization of the performance}\
 
 During the test phase of the Yolov8 based solution, the performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
