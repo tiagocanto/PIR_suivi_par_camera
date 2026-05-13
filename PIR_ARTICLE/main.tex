@@ -76,7 +76,7 @@ computer vision, rugby, cost-effective, camera tracking, YOLO
 \section*{Introduction} % /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ ATTTENTION VERSION TEMPORAIRE /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 The growing availability of computer vision and deep learning technologies has transformed sports broadcasting and performance analysis. Camera-based tracking systems are now widely used in professional contexts, combining multi-camera setups with real-time image processing to follow players and the ball throughout a match. However, such systems remain complex and expensive, making them largely inaccessible to amateur clubs operating with limited resources.
-Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts(), and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment (). Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
+Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts, and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment. Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
 Two gaps remain unaddressed. First, no affordable, fully integrated tracking and broadcasting system has been proposed for amateur clubs. Second, ball detection in rugby presents a particularly underexplored challenge: frequent occlusions by players and an irregular ball trajectory make reliable real-time detection significantly harder than in sports such as football or basketball. To date, no study has investigated these two problems jointly.
 This project aimed to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
 
@@ -159,9 +159,8 @@ The evaluation of the three configurations revealed significant disparities in t
 
 The second configuration proved to be the most balanced alternative, requiring only four cameras. While it offers slightly lower precision than the first setup, it successfully covers the entire playing area at a significantly lower hardware cost. Crucially, this layout allows for smoother tracking of player movements, providing a more fluid and continuous visual experience for live broadcasting.
 
-Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
+Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the camera's line of sight and degrade the reliability of the detection model.
 
-To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
 \
 \subsubsection{Discussion}\
 
@@ -182,9 +181,9 @@ Several capture solutions were evaluated to meet the requirements of the multi-c
 
 Ultimately, smartphones were selected as the capture units. These devices offer an optimal compromise:
 \begin{itemize}
-    \item \textbf{Image Quality :} High-resolution sensors capable of providing images that can be processed by the YOLO model
-    \item \textbf{Cost :} Utilization of existing hardware, drastically reducing the initial investment.
-    \item \textbf{Wireless Capability :} 4G/5G cellular and Wi-Fi connection are embedded.
+    \item Image Quality : High-resolution sensors capable of providing images that can be processed by the YOLO model
+    \item Cost : Utilization of existing hardware, drastically reducing the initial investment.
+    \item Wireless Capability : 4G/5G cellular and Wi-Fi connection are embedded.
 \end{itemize}
 
 
@@ -213,30 +212,30 @@ To route the video streams from the smartphones to the processing computer, thre
  
 
 
-The \textbf{HTTP protocol over a local network} was selected. Unlike cellular solutions
+The HTTP protocol over a local network was selected. Unlike cellular solutions
 (SRT/RTMP) that depend on public network load and incur data costs, the local network
 allows full control, high stability, and minimizes latency.
  
 %-----------------------------------------------------------
 \subsubsection{Local Network Implementation and Topology}\
  
-The network architecture put in place relies on the creation of a \textbf{high-performance
-private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
+The network architecture put in place relies on the creation of a high-performance
+private Wi-Fi network (using a HUAWEI WiFi AX3-type router). This configuration makes it
 possible to avoid potential interference with the public networks of stadiums.
  
 The system is structured as follows:
  
 \begin{enumerate}
-    \item \textbf{Wireless transmission:} Two smartphones transmit their respective
+    \item Wireless transmission: Two smartphones transmit their respective
           streams to the central access point via the HTTP protocol. Tests in real conditions
-          validated an effective range of \textbf{80 metres}, covering a significant portion
+          validated an effective range of 80 metres, covering a significant portion
           of the playing surface.
  
-    \item \textbf{Downstream link:} The router is connected to the processing computer
+    \item Downstream link: The router is connected to the processing computer
           (YOLOv8 computing unit) via a gigabit Ethernet connection. This wired link
           ensures that the bottleneck does not occur at the final data reception stage.
  
-    \item \textbf{Centralised processing:} The computer simultaneously receives the four
+    \item Centralised processing: The computer simultaneously receives the four
           streams to perform player detection and tracking.
 \end{enumerate}
  
