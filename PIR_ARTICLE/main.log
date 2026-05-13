@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,62 +561,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [2]
-
-LaTeX Warning: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 012427.png' not found on input line 129.
-
-
-c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:129: Package pdftex.def Error: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 012427.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129 ...s/Capture d'Ã©cran 2026-05-12 012427.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 129.
-(C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Missing character: There is no Ã in font pcrr7t!
-Missing character: There is no © in font pcrr7t!
-
-LaTeX Warning: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 013508.png' not found on input line 142.
-
-
-c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:142: Package pdftex.def Error: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 013508.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 ...s/Capture d'Ã©cran 2026-05-12 013508.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no Ã in font pcrr7t!
-Missing character: There is no © in font pcrr7t!
-
-LaTeX Warning: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 012808.png' not found on input line 152.
-
-
-c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:152: Package pdftex.def Error: File `PIR_ARTICLE/Images/Capture d'Ã©cran 2026-05-12 012808.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 ...s/Capture d'Ã©cran 2026-05-12 012808.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no Ã in font pcrr7t!
-Missing character: There is no © in font pcrr7t!
-[3]
+<Images/Cameras_en_ligne.png, id=12, 483.0045pt x 170.43675pt>
+File: Images/Cameras_en_ligne.png Graphic file (type png)
+<use Images/Cameras_en_ligne.png>
+Package pdftex.def Info: Images/Cameras_en_ligne.png  used on input line 129.
+(pdftex.def)             Requested size: 252.0pt x 88.92148pt.
+<Images/Cameras_alternant.png, id=14, 489.027pt x 206.57175pt>
+File: Images/Cameras_alternant.png Graphic file (type png)
+<use Images/Cameras_alternant.png>
+Package pdftex.def Info: Images/Cameras_alternant.png  used on input line 142.
+(pdftex.def)             Requested size: 252.0pt x 106.45024pt.
+<Images/Camera_final.png, id=15, 328.8285pt x 216.81pt>
+File: Images/Camera_final.png Graphic file (type png)
+<use Images/Camera_final.png>
+Package pdftex.def Info: Images/Camera_final.png  used on input line 152.
+(pdftex.def)             Requested size: 252.0pt x 166.16016pt.
+ [3 <./Images/Cameras_en_ligne.png> <./Images/Cameras_alternant.png> <./Images/Camera_final.png>]
 Underfull \hbox (badness 2205) in paragraph at lines 165--167
 \OT1/ptm/m/n/10 were po-si-tioned par-al-lel to the pitch's width, mounted
  []
@@ -630,10 +590,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--167
 Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:193: LaTeX Error: There's no line here to end.
@@ -716,69 +672,73 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]
-<Images/transmission1.png, id=20, 1058.45438pt x 421.575pt>
+<Images/transmission1.png, id=22, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
 Package pdftex.def Info: Images/transmission1.png  used on input line 248.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
-<Images/MetricasYOLOSTODOS.png, id=22, 3854.4pt x 1686.3pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [4]
+<Images/MetricasYOLOSTODOS.png, id=27, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
 Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 270.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-
-Underfull \vbox (badness 4608) has occurred while \output is active []
-
-<Images/YOLOv8Comp.png, id=23, 1139.25626pt x 444.66125pt>
+<Images/YOLOv8Comp.png, id=28, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
 Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 278.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
+Underfull \vbox (badness 4217) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 305--308
 
  []
 
-[5 <./Images/transmission1.png> <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
-<Images/img_rugby_1.png, id=30, 1028.34187pt x 578.16pt>
+[5 <./Images/transmission1.png> <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
+<Images/img_rugby_1.png, id=35, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
 Package pdftex.def Info: Images/img_rugby_1.png  used on input line 321.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_2.png, id=31, 1028.34187pt x 578.16pt>
+<Images/img_rugby_2.png, id=36, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
 Package pdftex.def Info: Images/img_rugby_2.png  used on input line 329.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_3.png, id=32, 1028.34187pt x 578.16pt>
+<Images/img_rugby_3.png, id=37, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
 Package pdftex.def Info: Images/img_rugby_3.png  used on input line 338.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_test_1_yolov8n.jpg, id=33, 1264.725pt x 710.655pt>
+<Images/img_test_1_yolov8n.jpg, id=38, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
 Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 351.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Images/img_test_2_yolov8n.jpg, id=34, 1307.88625pt x 735.74875pt>
+<Images/img_test_2_yolov8n.jpg, id=39, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
 Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 359.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
-<Images/img_test_3_yolov8n.jpg, id=35, 1255.69125pt x 702.625pt>
+<Images/img_test_3_yolov8n.jpg, id=40, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
 Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 369.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
-
+ [6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 377--379
 
  []
@@ -793,7 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
-[6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
+
 Underfull \hbox (badness 1540) in paragraph at lines 397--399
 []\OT1/ptm/m/n/10 In the ini-tial image-based test-ing phase, our pri-mary
  []
@@ -813,7 +773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
-[7 <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>] [8]
+[7] [8]
 Underfull \hbox (badness 3029) in paragraph at lines 419--420
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
@@ -871,17 +831,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12814 strings out of 467871
- 244825 string characters out of 5418377
- 1089558 words of memory out of 5000000
- 41555 multiletter control sequences out of 15000+600000
- 670760 words of font info for 128 fonts, out of 8000000 for 9000
+ 12707 strings out of 467871
+ 238892 string characters out of 5418377
+ 1090558 words of memory out of 5000000
+ 41453 multiletter control sequences out of 15000+600000
+ 670245 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,71p,1836b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5424506 bytes).
+<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (11 pages, 5752033 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
