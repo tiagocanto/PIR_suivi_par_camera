@@ -65,8 +65,9 @@ guarni@insa-toulouse.fr}
 \maketitle
 
 \begin{abstract}
-Camera-based tracking systems are increasingly used in sports to enhance performance analysis and broadcast production. However, existing solutions are typically expensive and complex, making them inaccessible for amateur clubs with limited resources. This project aims to develop a cost-effective and functional camera tracking solution to, in real time, broadcast and capture the statistics of an amateur rugby match. Our proposition relies on a multi-camera setup which is controlled by a trained computer vision model, YOLO (You Only Look Once). The conducted tests show an accuracy of 80% in following the match while providing useful statistics through an interactive interface. 
+Amateur sports clubs lack access to professional multi-camera video analysis systems due to the high cost and technical complexity of commercially available solutions. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed for each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
 \end{abstract}
+
 
 \begin{IEEEkeywords}
 computer vision, rugby, cost-effective, camera tracking, YOLO
@@ -77,7 +78,7 @@ computer vision, rugby, cost-effective, camera tracking, YOLO
 The growing availability of computer vision and deep learning technologies has transformed sports broadcasting and performance analysis. Camera-based tracking systems are now widely used in professional contexts, combining multi-camera setups with real-time image processing to follow players and the ball throughout a match. However, such systems remain complex and expensive, making them largely inaccessible to amateur clubs operating with limited resources.
 Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts(), and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment (). Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
 Two gaps remain unaddressed. First, no affordable, fully integrated tracking and broadcasting system has been proposed for amateur clubs. Second, ball detection in rugby presents a particularly underexplored challenge: frequent occlusions by players and an irregular ball trajectory make reliable real-time detection significantly harder than in sports such as football or basketball. To date, no study has investigated these two problems jointly.
-This project aimed to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
+This project seeks to develop a cost-effective, autonomous system capable of capturing, processing, and broadcasting amateur rugby matches in real time, combining multi-camera recording, YOLO-based player and ball detection, and a dynamic camera selection module. 
 
 \newpage
 \section{Related Work}
@@ -215,7 +216,7 @@ The system is structured as follows:
     \label{fig 4}
 \end{figure}
 
-This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
+This communication layer serves as the foundation for the Camera Score Algorithm, which must process the video streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRANSMISSION_END%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 
@@ -238,7 +239,7 @@ This communication layer serves as the foundation for the Camera Score Algorithm
 
 \subsection{YOLO Model}\label{AA}
 %%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
-A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithyme treats the image only one time (You Only Look Once).  
+A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithm treats the image only one time (You Only Look Once).  
 
 Models like YOLO have faster responses to the video’s processing, so they are usually used for real time processing, autonomus cars, monitoring, etc.  
 The detection of plany of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and with high speed.

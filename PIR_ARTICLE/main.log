@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.28)  12 MAY 2026 00:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  13 MAY 2026 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
-(c:/Users/gabri/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
+**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main
+(c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+(c:/texlive/2026/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count277
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -106,21 +106,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box54
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen174
-)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen175
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count290
@@ -170,20 +170,20 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
@@ -193,30 +193,30 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count305
 \ALC@tlm=\skip55
 \algorithmicindent=\skip56
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -226,40 +226,40 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count306
 \float@exts=\toks24
 \float@box=\box57
 \@float@everytoks=\toks25
 \@floatcapt=\box58
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count307
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count308
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -316,13 +316,13 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip64
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
+\blx@langwohyphens=\language91
 \c@mincomprange=\count352
 \c@maxcomprange=\count353
 \c@mincompwidth=\count354
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -413,12 +413,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip78
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \c@textcitecount=\count423
 \c@textcitetotal=\count424
@@ -436,30 +436,30 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count432
 \c@bbx:relatedtotal=\count433
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-verb'...
 Package biblatex Info: ... file 'numeric-verb.cbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.cbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric-verb.cbx
 File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -474,14 +474,14 @@ Package biblatex Info: Redefining '\textcites'.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count434
 ))
@@ -489,14 +489,14 @@ Package biblatex Info: ... and expl3
 (biblatex)             2026-03-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count435
 \@quotereset=\count436
- (main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -515,7 +515,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 56 (exact).
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count437
 \scratchdimen=\dimen185
@@ -528,15 +528,15 @@ LaTeX Font Info:    ... okay on input line 17.
 \MPnumerator=\count441
 \makeMPintoPDFobject=\count442
 \everyMPtoPDFconversion=\toks27
-) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -546,170 +546,170 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 65.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
- (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+) [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ] [2]
-Underfull \hbox (badness 1454) in paragraph at lines 139--140
+Underfull \hbox (badness 1454) in paragraph at lines 140--141
 []\OT1/ptm/m/n/10 Considering the avail-able com-pu-ta-tional re-sources and
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 139--140
+Underfull \hbox (badness 1810) in paragraph at lines 140--141
 \OT1/ptm/m/n/10 the spe-cific con-text of non-professional matches|where
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 139--140
+Underfull \hbox (badness 1412) in paragraph at lines 140--141
 \OT1/ptm/m/n/10 spec-ta-tors of-ten stand in close prox-im-ity to the touch-
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 169--169
+Overfull \hbox (5.1063pt too wide) in paragraph at lines 170--170
 \OT1/ptm/b/n/10 structure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []\OT1/ptm/m/n/10 4G/5G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \OT1/ptm/m/n/10 +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 173--174
+Underfull \hbox (badness 2932) in paragraph at lines 174--175
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
-<Images/transmission1.png, id=16, 1058.45438pt x 421.575pt>
+<Images/transmission1.png, id=17, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 211.
+Package pdftex.def Info: Images/transmission1.png  used on input line 212.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/MetricasYOLOSTODOS.png, id=18, 3854.4pt x 1686.3pt>
+<Images/MetricasYOLOSTODOS.png, id=19, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 251.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 252.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
-<Images/YOLOv8Comp.png, id=19, 1139.25626pt x 444.66125pt>
+<Images/YOLOv8Comp.png, id=20, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 259.
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 260.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./Images/transmission1.png> <./Images/MetricasYOLOSTODOS.png>]
-<Images/img_rugby_1.png, id=25, 1028.34187pt x 578.16pt>
+<Images/img_rugby_1.png, id=26, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 306.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 307.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_2.png, id=26, 1028.34187pt x 578.16pt>
+<Images/img_rugby_2.png, id=27, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 314.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 315.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-<Images/img_rugby_3.png, id=27, 1028.34187pt x 578.16pt>
+<Images/img_rugby_3.png, id=28, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 323.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 324.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
  [5 <./Images/YOLOv8Comp.png> <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png>]
-<Images/img_test_1_yolov8n.jpg, id=35, 1264.725pt x 710.655pt>
+<Images/img_test_1_yolov8n.jpg, id=36, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 336.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 337.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
-<Images/img_test_2_yolov8n.jpg, id=36, 1307.88625pt x 735.74875pt>
+<Images/img_test_2_yolov8n.jpg, id=37, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 344.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 345.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
-<Images/img_test_3_yolov8n.jpg, id=37, 1255.69125pt x 702.625pt>
+<Images/img_test_3_yolov8n.jpg, id=38, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 354.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 355.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
  [6 <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
-Underfull \hbox (badness 1400) in paragraph at lines 400--400
+Underfull \hbox (badness 1400) in paragraph at lines 401--401
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 400--400
+Underfull \hbox (badness 3557) in paragraph at lines 401--401
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 400--400
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 401--401
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 400--400
+Underfull \hbox (badness 4954) in paragraph at lines 401--401
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -724,7 +724,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8] (main.aux)
+[8] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -734,17 +734,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12684 strings out of 467691
- 238173 string characters out of 5414987
- 1088893 words of memory out of 5000000
- 41611 multiletter control sequences out of 15000+600000
+ 12681 strings out of 467349
+ 235613 string characters out of 5419863
+ 1089440 words of memory out of 5000000
+ 41635 multiletter control sequences out of 15000+600000
  670245 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,72p,1836b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 5408459 bytes).
+ 63i,11n,72p,1849b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 5402764 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
