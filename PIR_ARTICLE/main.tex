@@ -162,7 +162,7 @@ The second configuration proved to be the most balanced alternative, requiring o
 Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
 
 To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
-\\
+\
 \subsubsection{Discussion}\
 
 
@@ -253,7 +253,7 @@ This communication layer serves as the foundation for the Camera Score Algorithm
 \newpage
 
 
-\subsection{YOLO Model}\label{AA}
+\subsection{YOLO Model}
 %%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
 A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithyme treats the image only one time (You Only Look Once).  
 
@@ -300,17 +300,21 @@ Based on these results and aiming for fast processing, we chose YOLOv8n because,
 
 Another important conclusion is that increasing the size of the YOLOv8 model does not necessarily lead to a proportional improvement in detection performance like YOLOv8x which does not perform more efficiently on the image than YOLOv8l, even though it requires more processing time.
 
-Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis.
+Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis
+
 %%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%%%%%%%%%%
-\\
+\
 \subsubsection{Methods}\
+
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the class player; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
 The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{rugby_ruck_detection}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
-\\
-\subsubsection{Results}
+
+\
+\subsubsection{Results}\
+
 After testing the model from the project \cite{rugby_ruck_detection} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
 \begin{figure}[h]
@@ -386,7 +390,7 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%YOLO_END%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
-
+\
 \subsection{Phase test - Optimization of the performance}\
 
 During the test phase of the Yolov8 based solution, the performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
@@ -425,8 +429,9 @@ Even though the RTX pro 6000 in a remote server cloud offers amazing performance
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Camera score algorithm}
+\
+\subsection{Camera score algorithm}\
+\
 \subsubsection{Experimental Setup}\
 Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
 Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection such as bounding box confidence and spatial distribution before transitioning to the more demanding requirements of continuous video analysis.
