@@ -9,7 +9,7 @@
 \usepackage{xcolor}
 \usepackage{float}
 \usepackage[style=ieee]{biblatex}
-
+\usepackage{float}
 \addbibresource{bib.bib}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -428,47 +428,34 @@ Even though the RTX pro 6000 in a remote server cloud offers amazing performance
 
 \subsection{Camera score algorithm}
 \subsubsection{Experimental Setup}\
-Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
+Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera.
+\clearpage
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algosetup.png}
+    \caption{System initialization :model loading, thread setup and score history.}
+    \label{fig:setup}
+\end{figure}
+
+
+This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo2.png}
+    \caption{get\_detections function :YOLO-based player and ball detection.}
+    \label{fig:get_detections}
+\end{figure}
+ By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
 Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection such as bounding box confidence and spatial distribution before transitioning to the more demanding requirements of continuous video analysis.
 
 In the initial image-based testing phase, our primary objective was to detect the ball and assign a higher priority score to cameras where it appeared closest to the center of the frame. However, empirical observations showed that the ball is frequently occluded by players or difficult to detect due to its small size and high velocity. To address this, we implemented a secondary criterion based on the proximity of players to the camera. By calculating the average distance and spatial density of the detected bounding boxes, the system can infer the center of the action even when the ball is not visible, ensuring that the broadcast remains focused on the most relevant area of the pitch.
 \newpage
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algosetup.png}
-\end{figure}
 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algo2.png}
-\end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algo3.png}
-\end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algo4.png}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algo5.png}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/algo6.png}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
-\end{figure}
 
 
 
@@ -483,13 +470,43 @@ In the initial image-based testing phase, our primary objective was to detect th
 
 While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
 
-To rectify this, we replaced the proximity metric with a player density concentration analysis. This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
+To rectify this, we replaced the proximity metric with a player density concentration analysis.\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo3.png}
+    \caption{Density-based camera scoring function.}
+    \label{fig:score}
+\end{figure}
+This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
 
-Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
+Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo5.png}
+    \caption{Main processing loop with frame skipping.}
+    \label{fig:loop}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo6.png}
+    \caption{Camera switch decision with anti-jitter threshold.}
+    \label{fig:switch}
+\end{figure}
+
+
+
+
+This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
 \\
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
+    \caption{Camera switching result :best camera selected based on scoring.}
+    \label{fig:camera_switch}
+\end{figure}
 \newpage
 \null
 \thispagestyle{empty}
