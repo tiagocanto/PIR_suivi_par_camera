@@ -373,12 +373,12 @@ To solve the presented problem, the project’s dataset \cite{rugby_ruck_detecti
 These models aren’t as good as the previous one because they don't have the same accuracy and have a greater difficulty of identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analyses and can be used for real-time applications.  
 
 To validate our models, we tested it in a video of an INSA AS match, but the power of the available GPU wasn’t enough to analyze a nineteen second video (with 1141 frames). So, we couldn’t validate our models in a hole video but, analyzing in a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time solution. 
-\\
-\subsubsection{Conclusion}
+\
+\subsubsection{Conclusion}\
 
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
-\\
-\subsubsection{Improvements}
+\
+\subsubsection{Improvements}\
 
 
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
@@ -387,7 +387,7 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Phase test - Optimization of the performance}
+\subsection{Phase test - Optimization of the performance}\
 
 During the test phase of the Yolov8 based solution, the performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
 
@@ -490,9 +490,7 @@ Following the validation of this logic on static images, the system was implemen
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
-\newpage
-\null
-\thispagestyle{empty}
+
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Conclusion}
@@ -505,10 +503,9 @@ Despite these constraints, the results obtained on static images confirm that th
 
 These outcomes suggest that the gap between the current prototype and a production-ready implementation is primarily a matter of resources rather than algorithmic design. With access to adequate hardware, real-time transmission and live video validation become achievable. Similarly, access to a domain-specific detection model would significantly improve detection accuracy on rugby-specific objects. With moderate investment in both equipment and model development, the system presented here provides a credible and low-cost foundation for automated sports broadcast in amateur rugby.
 
+
 \newpage
-\null
-\thispagestyle{empty}
-\newpage
+\clearpage
 \printbibliography  
 
 \end{document}
