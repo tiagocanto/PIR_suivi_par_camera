@@ -65,9 +65,10 @@ guarni@insa-toulouse.fr}
 
 \maketitle
 
-\section*{Abstract}
-Amateur sports clubs lack access to professional multi-camera video analysis systems due to their high cost and technical complexity. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed at each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
+\begin{abstract}
 
+Amateur sports clubs lack access to professional multi-camera video analysis systems due to their high cost and technical complexity. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed at each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
+\end{abstract}
 
 \begin{IEEEkeywords}
 computer vision, rugby, cost-effective, camera tracking, YOLO
@@ -461,9 +462,10 @@ Despite these constraints, the results obtained on static images confirm that th
 
 These outcomes suggest that the gap between the current prototype and a production-ready implementation is primarily a matter of resources rather than algorithmic design. With access to adequate hardware, real-time transmission and live video validation become achievable. Similarly, access to a domain-specific detection model would significantly improve detection accuracy on rugby-specific objects. With moderate investment in both equipment and model development, the system presented here provides a credible and low-cost foundation for automated sports broadcast in amateur rugby.
 
-\newpage
-\null
-\thispagestyle{empty}
+\section*{Acknowledgment}
+
+The authors gratefully acknowledge the guidance and support of their tutors, Capgemini engineers Baptiste Sole and Yannis Lavigne, and Dr. Elodie Chanthery. Without their technical expertise, this work would not have been possible. Special thanks are also extended to Professor James Fabry for his essential assistance in the development of this article and the accompanying presentation.
+
 \newpage
 \printbibliography  
 

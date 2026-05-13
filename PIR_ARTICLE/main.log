@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,109 +564,109 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Images/Cameras_en_ligne.png, id=12, 483.0045pt x 170.43675pt>
 File: Images/Cameras_en_ligne.png Graphic file (type png)
 <use Images/Cameras_en_ligne.png>
-Package pdftex.def Info: Images/Cameras_en_ligne.png  used on input line 129.
+Package pdftex.def Info: Images/Cameras_en_ligne.png  used on input line 130.
 (pdftex.def)             Requested size: 252.0pt x 88.92148pt.
 <Images/Cameras_alternant.png, id=14, 489.027pt x 206.57175pt>
 File: Images/Cameras_alternant.png Graphic file (type png)
 <use Images/Cameras_alternant.png>
-Package pdftex.def Info: Images/Cameras_alternant.png  used on input line 142.
+Package pdftex.def Info: Images/Cameras_alternant.png  used on input line 143.
 (pdftex.def)             Requested size: 252.0pt x 106.45024pt.
 <Images/Camera_final.png, id=15, 328.8285pt x 216.81pt>
 File: Images/Camera_final.png Graphic file (type png)
 <use Images/Camera_final.png>
-Package pdftex.def Info: Images/Camera_final.png  used on input line 152.
+Package pdftex.def Info: Images/Camera_final.png  used on input line 153.
 (pdftex.def)             Requested size: 252.0pt x 166.16016pt.
  [3 <./Images/Cameras_en_ligne.png> <./Images/Cameras_alternant.png> <./Images/Camera_final.png>]
-Underfull \hbox (badness 2205) in paragraph at lines 165--167
+Underfull \hbox (badness 2205) in paragraph at lines 166--168
 \OT1/ptm/m/n/10 were po-si-tioned par-al-lel to the pitch's width, mounted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:193: LaTeX Error: There's no line here to end.
+c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:194: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193 \subsubsection
+l.194 \subsubsection
                     {Evaluation of Streaming Protocols}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\OT1/ptm/b/n/10 Infra-
  []
 
 
-Overfull \hbox (5.1063pt too wide) in paragraph at lines 205--205
+Overfull \hbox (5.1063pt too wide) in paragraph at lines 206--206
 \OT1/ptm/b/n/10 structure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []\OT1/ptm/m/n/10 Excellent; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []\OT1/ptm/m/n/10 4G/5G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 \OT1/ptm/m/n/10 +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 \OT1/ptm/m/n/10 re-mote
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 \OT1/ptm/m/n/10 (Youtube,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 209--210
+Underfull \hbox (badness 2932) in paragraph at lines 210--211
 \OT1/ptm/m/n/10 Twitch); re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []\OT1/ptm/m/n/10 Wi-Fi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []\OT1/ptm/m/n/10 Excellent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 \OT1/ptm/m/n/10 sta-bil-ity; no
  []
 
 
-c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:225: LaTeX Error: There's no line here to end.
+c:/Users/tiago/PIR_suivi_par_camera/PIR_ARTICLE/main.tex:226: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \subsubsection
+l.226 \subsubsection
                     {Local Network Implementation and Topology}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -675,7 +675,7 @@ or  <return>  to continue without it.
 <Images/transmission1.png, id=22, 1058.45438pt x 421.575pt>
 File: Images/transmission1.png Graphic file (type png)
 <use Images/transmission1.png>
-Package pdftex.def Info: Images/transmission1.png  used on input line 248.
+Package pdftex.def Info: Images/transmission1.png  used on input line 249.
 (pdftex.def)             Requested size: 252.0pt x 100.36954pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -687,23 +687,23 @@ Underfull \vbox (badness 3668) has occurred while \output is active []
 <Images/MetricasYOLOSTODOS.png, id=27, 3854.4pt x 1686.3pt>
 File: Images/MetricasYOLOSTODOS.png Graphic file (type png)
 <use Images/MetricasYOLOSTODOS.png>
-Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 270.
+Package pdftex.def Info: Images/MetricasYOLOSTODOS.png  used on input line 271.
 (pdftex.def)             Requested size: 252.0pt x 110.23088pt.
 <Images/YOLOv8Comp.png, id=28, 1139.25626pt x 444.66125pt>
 File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
-Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 278.
+Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 279.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
 
 Underfull \vbox (badness 4217) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--308
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 
  []
 
@@ -711,117 +711,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--315
 <Images/img_rugby_1.png, id=35, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 321.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 322.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_rugby_2.png, id=36, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 329.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 330.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_rugby_3.png, id=37, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 338.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 339.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_test_1_yolov8n.jpg, id=38, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 351.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 352.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
 <Images/img_test_2_yolov8n.jpg, id=39, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 359.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 360.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
 <Images/img_test_3_yolov8n.jpg, id=40, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 369.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 370.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
  [6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
 
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 381--383
+Underfull \hbox (badness 2253) in paragraph at lines 382--384
  \OT1/ptm/m/it/10 3) Con-clu-sion: [][] \OT1/ptm/m/n/10 Re-gard-ing the YOLO model we can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
 
  []
 
 <Images/FPSperformance.png, id=47, 749.04843pt x 447.92343pt>
 File: Images/FPSperformance.png Graphic file (type png)
 <use Images/FPSperformance.png>
-Package pdftex.def Info: Images/FPSperformance.png  used on input line 404.
+Package pdftex.def Info: Images/FPSperformance.png  used on input line 405.
 (pdftex.def)             Requested size: 252.0pt x 150.69261pt.
 
-LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 411.
+LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 412.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 411.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 412.
 (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <Images/FPSperformance2.png, id=48, 626.34pt x 386.19281pt>
 File: Images/FPSperformance2.png Graphic file (type png)
 <use Images/FPSperformance2.png>
-Package pdftex.def Info: Images/FPSperformance2.png  used on input line 415.
+Package pdftex.def Info: Images/FPSperformance2.png  used on input line 416.
 (pdftex.def)             Requested size: 252.0pt x 155.38187pt.
  [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>]
-Underfull \hbox (badness 1540) in paragraph at lines 436--438
+Underfull \hbox (badness 1540) in paragraph at lines 437--439
 []\OT1/ptm/m/n/10 In the ini-tial image-based test-ing phase, our pri-mary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 444--446
+Underfull \hbox (badness 2529) in paragraph at lines 445--447
 \OT1/ptm/m/n/10 while the logic is func-tion-ally val-i-dated, the real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 [8]
-Underfull \hbox (badness 3029) in paragraph at lines 458--459
+Underfull \hbox (badness 3029) in paragraph at lines 459--460
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
 
 [9]
-Underfull \hbox (badness 1400) in paragraph at lines 469--469
+Underfull \hbox (badness 1400) in paragraph at lines 471--471
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 469--469
+Underfull \hbox (badness 3557) in paragraph at lines 471--471
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 469--469
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 471--471
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
-
-Underfull \hbox (badness 4954) in paragraph at lines 469--469
+[10]
+Underfull \hbox (badness 4954) in paragraph at lines 471--471
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -836,7 +836,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11] (main.aux)
+[11
+
+] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -855,15 +857,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12763 strings out of 467871
- 239982 string characters out of 5418377
- 1083644 words of memory out of 5000000
- 41503 multiletter control sequences out of 15000+600000
+ 12765 strings out of 467871
+ 240042 string characters out of 5418377
+ 1089644 words of memory out of 5000000
+ 41505 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,71p,1836b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,71p,1836b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5809316 bytes).
+Output written on main.pdf (11 pages, 5811545 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
