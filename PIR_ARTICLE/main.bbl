@@ -968,6 +968,51 @@
       \verb https://www.youtube.com/watch?v=aBVGKoNZQUw
       \endverb
     \endentry
+    \entry{tensorrt_edge_2024}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=fb5acc0324e3e6ac8d1a62b0bf195775}{%
+           family={B},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bc5db4dc6a56650c477f3cf8b4ba204e}{%
+           family={Lincy\bibnamedelima G},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={R.\bibnamedelimi Marion},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6facbfa9098420700b69b73100e70bf6}{%
+           family={Rishekeeshan},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebf67b4b8d122b72a9c5d7d3c6791b9f}{%
+           family={Deekshitha},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f8700b406c11748d1804be8d471973f8}
+      \strng{fullhash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{fullhashraw}{6219b226315580d6e87a34b7655e29e5}
+      \strng{bibnamehash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authorbibnamehash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authornamehash}{f8700b406c11748d1804be8d471973f8}
+      \strng{authorfullhash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authorfullhashraw}{6219b226315580d6e87a34b7655e29e5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE Recent Advances in Intelligent Computational Systems (RAICS)}
+      \field{title}{Accelerating Native Inference Model Performance in Edge Devices using TensorRT}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/RAICS61201.2024.10690032
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
