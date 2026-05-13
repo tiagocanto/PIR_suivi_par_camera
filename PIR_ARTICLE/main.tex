@@ -55,6 +55,7 @@ herrati@insa-toulouse.fr}
 \textit{INSA Toulouse}\\
 Toulouse, France \\
 goyheneix@insa-toulouse.fr}
+\and
 \IEEEauthorblockN{7\textsuperscript{th} Guarni, Wissal }
 \IEEEauthorblockA{\textit{Electrical and informatics department} \\
 \textit{INSA Toulouse}\\
@@ -64,15 +65,15 @@ guarni@insa-toulouse.fr}
 
 \maketitle
 
-\begin{abstract}
-Camera-based tracking systems are increasingly used in sports to enhance performance analysis and broadcast production. However, existing solutions are typically expensive and complex, making them inaccessible for amateur clubs with limited resources. This project aims to develop a cost-effective and functional camera tracking solution to, in real time, broadcast and capture the statistics of an amateur rugby match. Our proposition relies on a multi-camera setup which is controlled by a trained computer vision model, YOLO (You Only Look Once). The conducted tests show an accuracy of 80% in following the match while providing useful statistics through an interactive interface. 
-\end{abstract}
+\section*{Abstract}
+Amateur sports clubs lack access to professional multi-camera video analysis systems due to their high cost and technical complexity. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed at each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
+
 
 \begin{IEEEkeywords}
 computer vision, rugby, cost-effective, camera tracking, YOLO
 \end{IEEEkeywords}
-
-\section{Introduction} % /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ ATTTENTION VERSION TEMPORAIRE /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
+\newpage
+\section*{Introduction} % /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ ATTTENTION VERSION TEMPORAIRE /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 The growing availability of computer vision and deep learning technologies has transformed sports broadcasting and performance analysis. Camera-based tracking systems are now widely used in professional contexts, combining multi-camera setups with real-time image processing to follow players and the ball throughout a match. However, such systems remain complex and expensive, making them largely inaccessible to amateur clubs operating with limited resources.
 Several approaches have been proposed to automate sports tracking and broadcasting. YOLO-based architectures have demonstrated strong performance for real-time player and ball detection in various sports contexts(), and automated camera selection methods have been developed using spatial and temporal cues to identify the most relevant viewpoint at each moment (). Despite these advances, existing solutions have been designed primarily for professional environments and have not been adapted to the specific constraints of amateur sport.
@@ -112,20 +113,49 @@ To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes 
 
 \newpage
 
-\section{Methodology}
+\section{Experiments and Results}
 
 
 %%%%%%%%%%CAM POSITIONING %%%%%%%%%%%%%%
-\subsection{Camera position}
+\subsection{Camera Positioning}
 \subsubsection{Experimental Setup}\
-
-
 The strategic positioning of cameras is a critical factor as it directly impacts both hardware requirements and software performance. Increasing the number of cameras allows for closer views of the action, which significantly enhances the detection of key points of interest. However, this architectural choice creates a trade-off: a higher camera count increases the volume of video streams to be processed, thereby raising the complexity of the hardware infrastructure. Furthermore, the choice of the detection model, such as YOLO (You Only Look Once), plays a pivotal role; since YOLO is available in multiple versions with varying computational costs, a configuration with fewer cameras may allow for the deployment of lighter, less resource-intensive models. To find the optimal balance between detection accuracy and computational efficiency, we conducted field tests on a rugby pitch, evaluating various configurations.
 
-To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. 
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=\columnwidth]{PIR_ARTICLE/Images/Capture d'écran 2026-05-12 012427.png}
+    \caption{First camera setup}
+    \label{fig 1 First setup}
+\end{figure}
+
+
+The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. 
+
+\newpage
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=\columnwidth]{PIR_ARTICLE/Images/Capture d'écran 2026-05-12 013508.png}
+    \caption{Second camera setup}
+    \label{fig 2 Second setup}
+\end{figure}
+
+Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=\columnwidth]{PIR_ARTICLE/Images/Capture d'écran 2026-05-12 012808.png}
+    \caption{Third camera setup}
+    \label{fig 2 Third camera setup}
+\end{figure}\
+
 
 \subsubsection{Results and Analysis}\
-
 The evaluation of the three configurations revealed significant disparities in terms of resource efficiency and practical feasibility. The first setup, requiring seven cameras to achieve full pitch coverage, provided the highest spatial precision. However, this high density of devices leads to a prohibitive computational load, necessitating a heavy YOLO model architecture to process multiple simultaneous streams. Furthermore, from a broadcast perspective, the frequent camera switching required to follow the action results in a fragmented and suboptimal viewing experience for streaming audiences.
 
 The second configuration proved to be the most balanced alternative, requiring only four cameras. While it offers slightly lower precision than the first setup, it successfully covers the entire playing area at a significantly lower hardware cost. Crucially, this layout allows for smoother tracking of player movements, providing a more fluid and continuous visual experience for live broadcasting.
@@ -133,10 +163,11 @@ The second configuration proved to be the most balanced alternative, requiring o
 Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
 
 To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
-
+\\
 \subsubsection{Discussion}\
 
-Considering the available computational resources and the specific context of non-professional matches—where spectators often stand in close proximity to the touchline—Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
+
+Considering the available computational resources and the specific context of non-professional matches where spectators often stand in close proximity to the touchline.Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
 
 %%%%%%%%%CAM POSITIONING END%%%%%%%%%%%%%
 
@@ -145,8 +176,11 @@ Considering the available computational resources and the specific context of no
 
 \subsection{Video Acquisition and Transmission Architecture}
 Real-time automated tracking of amateur rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
-\subsection{Capture Device Choice}
-Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability—which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
+\\
+\subsubsection{Capture Device Choice}
+
+
+Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
 
 Ultimately, smartphones were selected as the capture units. These devices offer an optimal compromise:
 \begin{itemize}
@@ -155,8 +189,10 @@ Ultimately, smartphones were selected as the capture units. These devices offer 
     \item \textbf{Wireless Capability :} 4G/5G cellular and Wi-Fi connection are embedded.
 \end{itemize}
 
-\subsection{Evaluation of Streaming Protocols}
- 
+\\
+\subsubsection{Evaluation of Streaming Protocols}
+
+
 To route the video streams from the smartphones to the processing computer, three main
 protocols were compared:
  
@@ -185,7 +221,8 @@ The \textbf{HTTP protocol over a local network} was selected. Unlike cellular so
 allows full control, high stability, and minimizes latency.
  
 %-----------------------------------------------------------
-\subsection{Local Network Implementation and Topology}
+\\
+\subsubsection{Local Network Implementation and Topology}
  
 The network architecture put in place relies on the creation of a \textbf{high-performance
 private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
@@ -216,25 +253,7 @@ The system is structured as follows:
 \end{figure}
 
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRANSMISSION_END%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%%%%%%%%%%%%%%YOLO #######################
 
 \subsection{YOLO Model}\label{AA}
 %%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
@@ -285,19 +304,15 @@ Another important conclusion is that increasing the size of the YOLOv8 model doe
 
 Although the larger models detect more players, their processing time increases significantly, which makes them less suitable for real-time video analysis.
 %%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%%%%%%%%%%
-
+\\
 \subsubsection{Methods}\
-
-
 To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the class player; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
 The world of computer vision developers is growing and one of the biggest communities is the Roboflow Universe, which we can find a great number of models and datasets. The project Rugby Detection Computer Vision Model  \cite{rugby_ruck_detection}  was the closest to our project’s needs, and the pictures used in this dataset are similar to the images we captured in an INSA AS match. 
-
-\subsubsection{Results}\
-
-
+\\
+\subsubsection{Results}
 After testing the model from the project \cite{rugby_ruck_detection} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
 \begin{figure}[h]
@@ -360,13 +375,12 @@ To solve the presented problem, the project’s dataset \cite{rugby_ruck_detecti
 These models aren’t as good as the previous one because they don't have the same accuracy and have a greater difficulty of identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analyses and can be used for real-time applications.  
 
 To validate our models, we tested it in a video of an INSA AS match, but the power of the available GPU wasn’t enough to analyze a nineteen second video (with 1141 frames). So, we couldn’t validate our models in a hole video but, analyzing in a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time solution. 
-
-\subsubsection{Conclusion}\
-
+\\
+\subsubsection{Conclusion}
 
 Regarding the YOLO model we can conclude that this solution works for identification of our needs to choose the best camera but, trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.  
-
-\subsubsection{Improvements}\
+\\
+\subsubsection{Improvements}
 
 
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackle, penalty kick, throw-in, scrum, and other similar rugby situations that our other model can’t identify. Another aimed improvement is to create a system\cite{roboflow_tutorial_2024} so the model could be able to after identifying the players, separate them between team A and team B. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} (extract color information from the player’s shirt), associated with an UMAP\cite{roboflow_tutorial_2024} (compact the previous information) and a Kmeans \cite{roboflow_tutorial_2024} (sort both teams). These improvements would highly increase the quality of the performance analysis of the teams. 
@@ -378,24 +392,40 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 \subsection{Camera score algorithm}
 \subsubsection{Experimental Setup}\
 Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera. This score is calculated based on the output of the YOLO detection model, specifically targeting high-interest events such as the ball's position or dense clusters of players (scrums or rucks). By prioritizing the camera with the highest score, the system ensures that the streaming output remains focused on the core action of the match.
-Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection—such as bounding box confidence and spatial distribution—before transitioning to the more demanding requirements of continuous video analysis.
+Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection such as bounding box confidence and spatial distribution before transitioning to the more demanding requirements of continuous video analysis.
 
 In the initial image-based testing phase, our primary objective was to detect the ball and assign a higher priority score to cameras where it appeared closest to the center of the frame. However, empirical observations showed that the ball is frequently occluded by players or difficult to detect due to its small size and high velocity. To address this, we implemented a secondary criterion based on the proximity of players to the camera. By calculating the average distance and spatial density of the detected bounding boxes, the system can infer the center of the action even when the ball is not visible, ensuring that the broadcast remains focused on the most relevant area of the pitch.
-
+\\
 \subsubsection{Results and Analysis}\
 
-While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion—individual player proximity to the camera—proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
+While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
 
 To rectify this, we replaced the proximity metric with a player density concentration analysis. This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
 
 Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
-
+\\
 \subsubsection{Discussion}\
 
-The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources—such as dedicated GPUs or specialized edge-AI hardware—capable of handling multiple high-definition video streams with minimal latency.
+The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
+\newpage
+\null
+\thispagestyle{empty}
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Conclusion}
 
+This work demonstrates that an automated multi-camera switching system for rugby match coverage can be designed and validated with minimal hardware resources. By combining a lightweight object detection model (YOLOv8n) with a density-based camera scoring algorithm, we were able to implement and test the core logic of the pipeline on consumer-grade equipment.
 
+The principal limitations encountered throughout this project were hardware-driven rather than conceptual. Real-time video transmission was investigated but could not be tested due to the absence of dedicated equipment. For the same reason, validation on live video streams was not achievable, and the decision was made to evaluate the switching logic on static images instead, in order to at least verify that the underlying approach was sound. On the detection side, a rugby-specific trained model was identified but remained inaccessible as it was privately held, which led us to fall back on the generic YOLOv8n model trained on the COCO dataset.
+
+Despite these constraints, the results obtained on static images confirm that the core logic of the system functions as intended. Player and ball detection operated correctly on real match footage, and the density-based scoring metric produced coherent camera rankings across the tested scenarios.
+
+These outcomes suggest that the gap between the current prototype and a production-ready implementation is primarily a matter of resources rather than algorithmic design. With access to adequate hardware, real-time transmission and live video validation become achievable. Similarly, access to a domain-specific detection model would significantly improve detection accuracy on rugby-specific objects. With moderate investment in both equipment and model development, the system presented here provides a credible and low-cost foundation for automated sports broadcast in amateur rugby.
+
+\newpage
+\null
+\thispagestyle{empty}
+\newpage
 \printbibliography  
 
 \end{document}
