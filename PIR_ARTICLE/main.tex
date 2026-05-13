@@ -64,10 +64,9 @@ guarni@insa-toulouse.fr}
 }
 
 \maketitle
-
-\section*{Abstract}
+\begin{abstract}
 Amateur sports clubs lack access to professional multi-camera video analysis systems due to the high cost and technical complexity of commercially availabe solutions. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed for each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
-
+\end{abstract}
 
 \begin{IEEEkeywords}
 computer vision, rugby, cost-effective, camera tracking, YOLO
@@ -161,7 +160,7 @@ The second configuration proved to be the most balanced alternative, requiring o
 
 Finally, the third configuration, also utilizing four cameras, presented a compelling advantage by keeping the ball in the foreground for a majority of the match. Nevertheless, practical constraints make this setup difficult to implement in real-world stadium environments. The presence of spectators along the touchline and the frequent movement of substitutes on the sidelines introduce significant occlusion risks, which would frequently obstruct the cameras' line of sight and degrade the reliability of the detection model.
 
-To determine the most efficient layout for player tracking, we evaluated three distinct spatial configurations. The first configuration consisted of a linear array where all cameras were positioned parallel to the pitch's width, mounted exclusively on one side of the field to provide a consistent viewing angle. The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. Finally, we tested a staggered configuration, alternating the camera positions on both sides of the pitch along its length. This alternating approach was designed to minimize occlusions and assess the impact of multi-perspective depth acquisition on the detection accuracy of the YOLO model.
+
 \
 \subsubsection{Discussion}\
 
@@ -486,17 +485,18 @@ This approach proved far more robust, particularly during static phases such as 
 Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\columnwidth]{Images/algo5.png}
+    \includegraphics[width=\columnwidth]{Images/algo4.png}
     \caption{Main processing loop with frame skipping.}
     \label{fig:loop}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\columnwidth]{Images/algo6.png}
+    \includegraphics[width=\columnwidth]{Images/algo5.png}
     \caption{Camera switch decision with anti-jitter threshold.}
     \label{fig:switch}
 \end{figure}
+\newpage
 
 
 
@@ -514,8 +514,7 @@ The proposed algorithm has demonstrated high precision in action detection and c
 \end{figure}
 \newpage
 \null
-\thispagestyle{empty}
-\newpage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Conclusion}
 
