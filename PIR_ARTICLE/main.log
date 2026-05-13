@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,6 +873,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--306
 LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 311.
 
 
+Underfull \hbox (badness 2334) in paragraph at lines 311--313
+\OT1/ptm/m/n/10 we can find a great num-ber of mod-els and datasets.
+ []
+
+
 Underfull \hbox (badness 3679) in paragraph at lines 311--313
 \OT1/ptm/m/n/10 The project Rugby De-tec-tion Com-puter Vi-sion Model
  []
@@ -1086,15 +1091,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12641 strings out of 467871
- 235127 string characters out of 5418377
+ 12643 strings out of 467871
+ 235187 string characters out of 5418377
  1080944 words of memory out of 5000000
- 41381 multiletter control sequences out of 15000+600000
+ 41383 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,66p,1259b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,66p,1240b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5924410 bytes).
+Output written on main.pdf (11 pages, 5925738 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
