@@ -2417,6 +2417,8 @@
     <bcf:citekey order="34" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="35" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="36" intorder="1">roboflow_tutorial_2024</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">xu_yolo-based_2025</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">tensorrt_edge_2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

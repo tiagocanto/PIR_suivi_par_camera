@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  13 MAY 2026 18:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -753,58 +753,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
+<Images/FPSperformance.png, id=47, 749.04843pt x 447.92343pt>
+File: Images/FPSperformance.png Graphic file (type png)
+<use Images/FPSperformance.png>
+Package pdftex.def Info: Images/FPSperformance.png  used on input line 404.
+(pdftex.def)             Requested size: 252.0pt x 150.69261pt.
 
-Underfull \hbox (badness 1540) in paragraph at lines 397--399
+LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 411.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 411.
+(C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<Images/FPSperformance2.png, id=48, 626.34pt x 386.19281pt>
+File: Images/FPSperformance2.png Graphic file (type png)
+<use Images/FPSperformance2.png>
+Package pdftex.def Info: Images/FPSperformance2.png  used on input line 415.
+(pdftex.def)             Requested size: 252.0pt x 155.38187pt.
+ [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>]
+Underfull \hbox (badness 1540) in paragraph at lines 436--438
 []\OT1/ptm/m/n/10 In the ini-tial image-based test-ing phase, our pri-mary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 405--407
+Underfull \hbox (badness 2529) in paragraph at lines 444--446
 \OT1/ptm/m/n/10 while the logic is func-tion-ally val-i-dated, the real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
-[7] [8]
-Underfull \hbox (badness 3029) in paragraph at lines 419--420
+[8]
+Underfull \hbox (badness 3029) in paragraph at lines 458--459
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
 
 [9]
-Underfull \hbox (badness 1400) in paragraph at lines 430--430
+Underfull \hbox (badness 1400) in paragraph at lines 469--469
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 430--430
+Underfull \hbox (badness 3557) in paragraph at lines 469--469
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 430--430
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 469--469
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
-[10]
-Underfull \hbox (badness 4954) in paragraph at lines 430--430
+
+Underfull \hbox (badness 4954) in paragraph at lines 469--469
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -819,29 +836,36 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11
-
-] (main.aux)
+[11] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12707 strings out of 467871
- 238892 string characters out of 5418377
- 1090558 words of memory out of 5000000
- 41453 multiletter control sequences out of 15000+600000
- 670245 words of font info for 126 fonts, out of 8000000 for 9000
+ 12763 strings out of 467871
+ 239982 string characters out of 5418377
+ 1083644 words of memory out of 5000000
+ 41503 multiletter control sequences out of 15000+600000
+ 671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,71p,1836b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5752033 bytes).
+<C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (11 pages, 5809316 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
