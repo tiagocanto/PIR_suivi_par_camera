@@ -67,7 +67,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Third camera setup}}{3}{}\protected@file@percent }
 \newlabel{fig 2 Third camera setup}{{3}{3}{}{figure.3}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}2}Results and Analysis}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}3}Discussion}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}3}Discussion}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Video Acquisition and Transmission Architecture}{4}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-B}1}Capture Device Choice}{4}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-B}2}Evaluation of Streaming Protocols}{4}{}\protected@file@percent }
@@ -109,6 +109,8 @@
 \newlabel{tab:yolov8_models_results}{{I}{5}{}{table.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}1}Methods}{5}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}2}Results}{5}{}\protected@file@percent }
+\abx@aux@cite{0}{rugby_ruck_detection}
+\abx@aux@segm{0}{0}{rugby_ruck_detection}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Test image 1, used model from Roboflow\blx@tocontentsinit {0}\cite {rugby_ruck_detection}.}}{6}{}\protected@file@percent }
 \newlabel{fig 1}{{7}{6}{}{figure.7}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Test image 2, used model from Roboflow\blx@tocontentsinit {0}\cite {rugby_ruck_detection}.}}{6}{}\protected@file@percent }
@@ -119,7 +121,6 @@
 \newlabel{fig 1 yolov8n}{{10}{6}{}{figure.10}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Test image 2, used trained yolov8n model.}}{6}{}\protected@file@percent }
 \newlabel{fig 2 yolov8n}{{11}{6}{}{figure.11}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}3}Conclusion}{6}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Test image 3, used trained yolov8n model.}}{6}{}\protected@file@percent }
 \newlabel{fig 3 yolov8n}{{12}{6}{}{figure.12}{}}
 \abx@aux@cite{0}{roboflow_tutorial_2024}
@@ -136,16 +137,28 @@
 \abx@aux@segm{0}{0}{xu_yolo-based_2025}
 \abx@aux@cite{0}{tensorrt_edge_2024}
 \abx@aux@segm{0}{0}{tensorrt_edge_2024}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}3}Conclusion}{7}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}4}Improvements}{7}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Phase test - Optimization of the performance}{7}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces FPS performance in function of YOLO chosen model}}{7}{}\protected@file@percent }
 \newlabel{fig:fps_pytorch}{{13}{7}{}{figure.13}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces FPS performance comparison: \texttt  {.pytorch} (blue) vs \texttt  {.engine} (orange)}}{7}{}\protected@file@percent }
 \newlabel{fig:fps_comparison}{{14}{7}{}{figure.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Camera score algorithm}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}1}Experimental Setup}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}2}Results and Analysis}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}3}Discussion}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Camera score algorithm}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}1}Experimental Setup}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces System initialization :model loading, thread setup and score history.}}{9}{}\protected@file@percent }
+\newlabel{fig:setup}{{15}{9}{}{figure.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces get\_detections function :YOLO-based player and ball detection.}}{9}{}\protected@file@percent }
+\newlabel{fig:get_detections}{{16}{9}{}{figure.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}2}Results and Analysis}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Density-based camera scoring function.}}{9}{}\protected@file@percent }
+\newlabel{fig:score}{{17}{9}{}{figure.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Main processing loop with frame skipping.}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Camera switch decision with anti-jitter threshold.}}{10}{}\protected@file@percent }
+\newlabel{fig:switch}{{19}{10}{}{figure.19}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-E}3}Discussion}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Camera switching result :best camera selected based on scoring.}}{10}{}\protected@file@percent }
+\newlabel{fig:camera_switch}{{20}{10}{}{figure.20}{}}
 \abx@aux@read@bbl@mdfivesum{D41D8CD98F00B204E9800998ECF8427E}
 \abx@aux@read@bblrerun
-\gdef \@abspage@last{10}
+\gdef \@abspage@last{11}
