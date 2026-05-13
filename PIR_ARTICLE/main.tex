@@ -134,7 +134,6 @@ To determine the most efficient layout for player tracking, we evaluated three d
 
 The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. 
 
-\newpage
 
 \begin{figure}[h]
     \centering
@@ -176,8 +175,7 @@ Considering the available computational resources and the specific context of no
 
 \subsection{Video Acquisition and Transmission Architecture}
 Real-time automated tracking of amateur rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
-\\
-\subsubsection{Capture Device Choice}
+\subsubsection{Capture Device Choice}\
 
 
 Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
@@ -189,11 +187,11 @@ Ultimately, smartphones were selected as the capture units. These devices offer 
     \item \textbf{Wireless Capability :} 4G/5G cellular and Wi-Fi connection are embedded.
 \end{itemize}
 
-\subsubsection{Evaluation of Streaming Protocols}
+
+\subsubsection{Evaluation of Streaming Protocols}\
 
 
-To route the video streams from the smartphones to the processing computer, three main
-protocols were compared:
+To route the video streams from the smartphones to the processing computer, three main protocols were compared:
  
 
 \vspace{0.5em}
@@ -220,8 +218,7 @@ The \textbf{HTTP protocol over a local network} was selected. Unlike cellular so
 allows full control, high stability, and minimizes latency.
  
 %-----------------------------------------------------------
-
-\subsubsection{Local Network Implementation and Topology}
+\subsubsection{Local Network Implementation and Topology}\
  
 The network architecture put in place relies on the creation of a \textbf{high-performance
 private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
@@ -253,34 +250,35 @@ The system is structured as follows:
 
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
 
+\newpage
+
 
 \subsection{YOLO Model}\label{AA}
 %%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
-A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithm treats the image only one time (You Only Look Once).  
+A model of Artificial Inteligence is a trained code to learn paterns based on a database[citar qualquer coisa que defina um modelo]. In between the existent models, there is the model YOLO whose algorithyme treats the image only one time (You Only Look Once).  
 
-Models like YOLO have faster responses to the video processing, so they are usually used for real time processing, autonomous car, monitoring, etc.  
-The detection of plenty of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and high speed.
+Models like YOLO have faster responses to the video’s processing, so they are usually used for real time processing, autonomus cars, monitoring, etc.  
+The detection of plany of objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and with high speed.
 
-To be able to use YOLO in python, we used the library Ultralytics which makes the utilisation of pre-trained models, image detection and others uses of computer vision simpler. 
-
-The Figure\ref{fig:ultralytics_models_comparison}\cite{ultralytics_models} compares the different versions available of YOLO’s models by latency and precision of detection. 
-Based on these models, considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8 version.
+To be able to use YOLO in python, we used the library Ultralytics which makes simpler the utilisation of pre-trained models, image detection and others uses of computer vision. 
+As so, the Figure\ref{fig:ultralytics_models_comparison}\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
+Therefore, considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8 version.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/MetricasYOLOSTODOS}
     \caption{Comparaison des modèles YOLO supportés par Ultralytics. Source : Ultralytics\cite{ultralytics_models}}
     \label{fig:ultralytics_models_comparison}
 \end{figure}
-Ultralytics website also presents the performance metrics of different models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}\cite{ultralytics_models}. 
-Tests were made to choose best way to process images, having a good balance between accuracy and processing time.%% !t ? to no leave space in the text and continue the text?
+Nevertheless, the Ultralytics website also presents the performance metrics of differents models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}\cite{ultralytics_models}. 
+To the image processing, tests were made to choose the one with good balance between accuracy and processing time.%% !t ? to no leave space in the text and continue the text?
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/YOLOv8Comp}
     \caption{Courbe de performance des différentes variantes du modèle YOLOv8. Source : Ultralytics\cite{ultralytics_models}}
     \label{fig:yolov8_performance}
 \end{figure}
-The version of the chosen model was decided by using one frame taken from a video recorded in the real situation of a amateur match, the goal of this article, in each of the models offered by Ultralytics.
-Table~\ref{tab:yolov8_models_results}, shows the results obtained in terms of processing time and quality of detection.
+The version of the chosen model was decided by made using one frame taken from a video recorded in the real situation of a amateur match, the goal of this article, in each of the models offered by Ultralytics.
+The Table~\ref{tab:yolov8_models_results}, shows the results obtained in terms of processing time and quality of detection.
 \begin{table}[H]
 \centering
 \caption{Comparison of YOLOv8 model variants in the same frame.}
@@ -434,7 +432,53 @@ Since the system architecture relies on multiple synchronized video streams, an 
 Due to current hardware limitations and to optimize the algorithm's parameters, our initial development phase was conducted using static image datasets rather than live video streams. This preliminary approach allowed us to calibrate the scoring system and refine the detection thresholds without the computational overhead of real-time processing. By analyzing high-resolution snapshots from various field positions, we were able to identify the key visual features required for an accurate camera selection such as bounding box confidence and spatial distribution before transitioning to the more demanding requirements of continuous video analysis.
 
 In the initial image-based testing phase, our primary objective was to detect the ball and assign a higher priority score to cameras where it appeared closest to the center of the frame. However, empirical observations showed that the ball is frequently occluded by players or difficult to detect due to its small size and high velocity. To address this, we implemented a secondary criterion based on the proximity of players to the camera. By calculating the average distance and spatial density of the detected bounding boxes, the system can infer the center of the action even when the ball is not visible, ensuring that the broadcast remains focused on the most relevant area of the pitch.
-\\
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algosetup.png}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo2.png}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo3.png}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo4.png}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo5.png}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/algo6.png}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\
 \subsubsection{Results and Analysis}\
 
 While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
