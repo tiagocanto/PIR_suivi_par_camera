@@ -471,54 +471,22 @@ To rectify this, we replaced the proximity metric with a player density concentr
 This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
 
 Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). 
+
+\newpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=\columnwidth]{Images/algo4.png}
     \caption{Main processing loop with frame skipping.}
-    \label{fig:loop}
 \end{figure}
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=\columnwidth]{Images/algo5.png}
     \caption{Camera switch decision with anti-jitter threshold.}
     \label{fig:switch}
 \end{figure}
-
-
-
-
 This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
-\\
-\subsubsection{Discussion}\
-
-The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
-    \caption{Camera switching result :best camera selected based on scoring.}
-    \label{fig:camera_switch}
-\end{figure}
-\newpage
-\null
-\thispagestyle{empty}
-\newpage
 
 
-
-
-
-
-
-
-\subsubsection{Results and Analysis}\
-
-While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
-
-To rectify this, we replaced the proximity metric with a player density concentration analysis. This approach proved far more robust, particularly during static phases such as rucks, as it ensures the system remains locked on the dense cluster of players where the action is concentrated, rather than following peripheral movements.
-
-Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
-\
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
