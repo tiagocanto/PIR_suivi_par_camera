@@ -134,7 +134,6 @@ To determine the most efficient layout for player tracking, we evaluated three d
 
 The second setup involved placing cameras at the center of each half-pitch; these units were oriented back-to-back at 45-degree angles to maximize the combined field of view from a central vantage point. 
 
-\newpage
 
 \begin{figure}[h]
     \centering
@@ -176,8 +175,7 @@ Considering the available computational resources and the specific context of no
 
 \subsection{Video Acquisition and Transmission Architecture}
 Real-time automated tracking of amateur rugby players imposes strict constraints regarding bandwidth, latency, and hardware costs. This section details the technological choices made to ensure a fluid and synchronized video stream to the central processing unit.
-\\
-\subsubsection{Capture Device Choice}
+\subsubsection{Capture Device Choice}\
 
 
 Several capture solutions were evaluated to meet the requirements of the multi-camera tracking project. The use of cameras on motorized platforms was initially considered for its dynamic tracking capability which could have reduced the number of cameras needed and thus the total cost. However, extreme sensitivity to control delays and prohibitive costs led to its rejection. Similarly, solutions based on microcontrollers such as Arduino, while inexpensive, offered insufficient acquisition performance and resolution for exploitation via YOLOv8 detection models.
@@ -189,12 +187,11 @@ Ultimately, smartphones were selected as the capture units. These devices offer 
     \item \textbf{Wireless Capability :} 4G/5G cellular and Wi-Fi connection are embedded.
 \end{itemize}
 
-\\
-\subsubsection{Evaluation of Streaming Protocols}
+
+\subsubsection{Evaluation of Streaming Protocols}\
 
 
-To route the video streams from the smartphones to the processing computer, three main
-protocols were compared:
+To route the video streams from the smartphones to the processing computer, three main protocols were compared:
  
 
 \vspace{0.5em}
@@ -221,8 +218,7 @@ The \textbf{HTTP protocol over a local network} was selected. Unlike cellular so
 allows full control, high stability, and minimizes latency.
  
 %-----------------------------------------------------------
-\\
-\subsubsection{Local Network Implementation and Topology}
+\subsubsection{Local Network Implementation and Topology}\
  
 The network architecture put in place relies on the creation of a \textbf{high-performance
 private Wi-Fi network} (using a HUAWEI WiFi AX3-type router). This configuration makes it
@@ -253,6 +249,8 @@ The system is structured as follows:
 \end{figure}
 
 This communication layer serves as the foundation for the Camera Score Algorithm, which must ingest these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
+
+\newpage
 
 
 \subsection{YOLO Model}\label{AA}

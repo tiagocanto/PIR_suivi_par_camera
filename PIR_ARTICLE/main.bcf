@@ -2374,50 +2374,49 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">ultralytics_yolov8</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">taxbol_computer-implemented_2022</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">linderoth_system_2020</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">biro_predictive_2023</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">xu_yolo-based_2025</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">biro_predictive_2023</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">yousefi_tracking_2023</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">xie_rethinking_2018</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">li_research_2024</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">xie_rethinking_2018</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">opencv_optical_flow_tutorial</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">scaler_motion_estimation_optical_flow_2025</bcf:citekey>
-    <bcf:citekey order="10" intorder="3">viso_optical_flow_2024</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">poms_scanner_2018</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">xu_yolo-based_2025</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">wu_multi-camera_2020</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">zhang_multi-camera_2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">Xavier2001VisualServoing</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Pix4Team</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Xavier2001VisualServoing</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">taxbol_computer-implemented_2022</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">linderoth_system_2020</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">biro_predictive_2023</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">xu_yolo-based_2025</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">biro_predictive_2023</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">yousefi_tracking_2023</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">xie_rethinking_2018</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">li_research_2024</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">xie_rethinking_2018</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">opencv_optical_flow_tutorial</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">scaler_motion_estimation_optical_flow_2025</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">viso_optical_flow_2024</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">poms_scanner_2018</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">xu_yolo-based_2025</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">wu_multi-camera_2020</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">zhang_multi-camera_2020</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">AlHadrusi2012PTZ</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">Xavier2001VisualServoing</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Pix4Team</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Xavier2001VisualServoing</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
     <bcf:citekey order="17" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
     <bcf:citekey order="18" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Labbe2010NonlinearObserver</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">ultralytics_models</bcf:citekey>
     <bcf:citekey order="20" intorder="1">ultralytics_models</bcf:citekey>
     <bcf:citekey order="21" intorder="1">ultralytics_models</bcf:citekey>
     <bcf:citekey order="22" intorder="1">ultralytics_models</bcf:citekey>
     <bcf:citekey order="23" intorder="1">ultralytics_models</bcf:citekey>
     <bcf:citekey order="24" intorder="1">ultralytics_models</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">ultralytics_models</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="26" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="27" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="28" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="29" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="30" intorder="1">rugby_ruck_detection</bcf:citekey>
     <bcf:citekey order="31" intorder="1">rugby_ruck_detection</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">rugby_ruck_detection</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="33" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="34" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="35" intorder="1">roboflow_tutorial_2024</bcf:citekey>
     <bcf:citekey order="36" intorder="1">roboflow_tutorial_2024</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">roboflow_tutorial_2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
