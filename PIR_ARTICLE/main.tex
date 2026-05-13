@@ -385,6 +385,45 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%YOLO_END%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Phase test - Optimization of the performance}
+
+During the test phase of the Yolov8 based solution, the performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
+
+We carried out our tests with a private individual's configuration composed of a Ryzen 3 3100 and an RTX 4060. The primary limitation of our setup is that the computer configuration is unbalanced; because of the processor, which is way older than the graphic card, with a better CPU we can easily expect around 40\% performance gain.
+
+To develop a real-time solution, we aim to maximize the frame rate (abbreviated as fps). Using a 30 fps camera, the number of cameras usable is $x / 30$, with $x$ being the average fps score when running YOLO on the computer.
+
+First, the chosen YOLO model affects heavily the performance as described on this chart:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/FPSperformance.png}
+    \caption{FPS performance in function of YOLO chosen model}
+    \label{fig:fps_pytorch}
+\end{figure}
+
+Those results seem to be sufficient, however due to blurs and bugs in the YOLO execution, it can be interesting to allocate a higher security margin about performance.
+
+So, more fps is needed. A possibility of improving the amount of fps is to use an Nvidia tool: NVIDIA TensorRT. It is a software tool created by NVIDIA that optimizes AI models so they can run much faster and more efficiently on their graphics cards \cite{tensorrt_edge_2024}. We used it to translate the file containing the coefficients used by YOLO to compute the result: the \texttt{.pytorch} file into an \texttt{.engine} file which is the same object but optimized to work better on Nvidia graphic cards.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/FPSperformance2.png}
+    \caption{FPS performance comparison: \texttt{.pytorch} (blue) vs \texttt{.engine} (orange)}
+    \label{fig:fps_comparison}
+\end{figure}
+
+Here in this chart (in orange) the performance of using this method compared to the original performance when using a \texttt{.pytorch} model (in blue).
+
+Although deploying our YOLO-based solution on a remote server could have bypassed our local hardware constraints, we deliberately opted against a cloud-centric approach due to three major concerns. First, continuously streaming video data to remote servers introduces significant ecological issues, primarily driven by the high energy consumption and carbon footprint of large-scale data centers. Second, processing video streams off-site raises critical ethical and data privacy challenges, as sensitive information must be entrusted to third-party infrastructures. Finally, adopting this architecture creates a strong vendor lock-in, rendering the solution entirely dependent on large technology corporations and vulnerable to their proprietary systems, pricing models, and potential service outages.
+
+Even though the RTX pro 6000 in a remote server cloud offers amazing performance around 611\% of frame per second and for 422\% lower power consumption compared to our local solution, we won't use it.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part end %%%%%%%%%%%%%%%%%%%%
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Camera score algorithm}
