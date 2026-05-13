@@ -473,14 +473,14 @@ This approach proved far more robust, particularly during static phases such as 
 Following the validation of this logic on static images, the system was implemented for video processing at a rate of two analyses per second (2 FPS). 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\columnwidth]{Images/algo5.png}
+    \includegraphics[width=\columnwidth]{Images/algo4.png}
     \caption{Main processing loop with frame skipping.}
     \label{fig:loop}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\columnwidth]{Images/algo6.png}
+    \includegraphics[width=\columnwidth]{Images/algo5.png}
     \caption{Camera switch decision with anti-jitter threshold.}
     \label{fig:switch}
 \end{figure}
@@ -522,6 +522,13 @@ Following the validation of this logic on static images, the system was implemen
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
+    \caption{Camera switching result :best camera selected based on scoring.}
+    \label{fig:camera_switch}
+\end{figure}
+\newpage
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%CAM ALGO%%%%%%%%%%%%%%%%%%%%%%%%%%%%
