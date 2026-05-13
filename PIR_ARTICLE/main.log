@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  14 MAY 2026 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  14 MAY 2026 01:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,18 +855,20 @@ LaTeX Warning: Citation 'ultralytics_models' on page 5 undefined on input line 2
 LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 313.
 
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 319.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 318.
 
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 321.
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+[]\OT1/ptm/m/n/10 After test-ing the model from the project
+ []
 
 <Images/img_rugby_1.png, id=30, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
-Package pdftex.def Info: Images/img_rugby_1.png  used on input line 327.
+Package pdftex.def Info: Images/img_rugby_1.png  used on input line 323.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 328.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 324.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -874,94 +876,99 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images/img_rugby_2.png, id=31, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 335.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 331.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 336.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 332.
 
 <Images/img_rugby_3.png, id=32, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 344.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 340.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 345.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 341.
 
 
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 350.
-
-[5 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
-
-LaTeX Warning: Citation 'rugby_ruck_detection' on page 6 undefined on input line 352.
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 346.
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 352--353
+LaTeX Warning: Citation 'rugby_ruck_detection' on page 5 undefined on input line 348.
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 348--349
 []\OT1/ptm/m/n/10 To solve the pre-sented prob-lem, the project's dataset
  []
 
+[5 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
 <Images/img_test_1_yolov8n.jpg, id=38, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 357.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 353.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Images/img_test_2_yolov8n.jpg, id=39, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 365.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 361.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
 <Images/img_test_3_yolov8n.jpg, id=40, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 375.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 371.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 383--385
 
  []
 
 [6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
- []
-
-
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 392.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 392.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 392.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 392.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 392.
+LaTeX Warning: Citation 'roboflow_tutorial_2024' on page 7 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'xu_yolo-based_2025' on page 7 undefined on input line 400.
+LaTeX Warning: Citation 'xu_yolo-based_2025' on page 7 undefined on input line 396.
 
 <Images/FPSperformance.png, id=47, 749.04843pt x 447.92343pt>
 File: Images/FPSperformance.png Graphic file (type png)
 <use Images/FPSperformance.png>
-Package pdftex.def Info: Images/FPSperformance.png  used on input line 410.
+Package pdftex.def Info: Images/FPSperformance.png  used on input line 406.
 (pdftex.def)             Requested size: 252.0pt x 150.69261pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 417.
+LaTeX Warning: Citation 'tensorrt_edge_2024' on page 7 undefined on input line 413.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 417.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 413.
 (C:\Users\tiago\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <Images/FPSperformance2.png, id=48, 626.34pt x 386.19281pt>
 File: Images/FPSperformance2.png Graphic file (type png)
 <use Images/FPSperformance2.png>
-Package pdftex.def Info: Images/FPSperformance2.png  used on input line 421.
+Package pdftex.def Info: Images/FPSperformance2.png  used on input line 417.
 (pdftex.def)             Requested size: 252.0pt x 155.38187pt.
  [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>] [8
 
@@ -969,17 +976,17 @@ Package pdftex.def Info: Images/FPSperformance2.png  used on input line 421.
 <Images/algosetup.png, id=61, 281.25075pt x 102.3825pt>
 File: Images/algosetup.png Graphic file (type png)
 <use Images/algosetup.png>
-Package pdftex.def Info: Images/algosetup.png  used on input line 444.
+Package pdftex.def Info: Images/algosetup.png  used on input line 440.
 (pdftex.def)             Requested size: 252.0pt x 91.73409pt.
 <Images/algo2.png, id=62, 278.2395pt x 133.6995pt>
 File: Images/algo2.png Graphic file (type png)
 <use Images/algo2.png>
-Package pdftex.def Info: Images/algo2.png  used on input line 454.
+Package pdftex.def Info: Images/algo2.png  used on input line 450.
 (pdftex.def)             Requested size: 252.0pt x 121.09142pt.
 <Images/algo3.png, id=63, 283.0575pt x 111.41624pt>
 File: Images/algo3.png Graphic file (type png)
 <use Images/algo3.png>
-Package pdftex.def Info: Images/algo3.png  used on input line 471.
+Package pdftex.def Info: Images/algo3.png  used on input line 467.
 (pdftex.def)             Requested size: 252.0pt x 99.19414pt.
  [9
 
@@ -987,20 +994,20 @@ Package pdftex.def Info: Images/algo3.png  used on input line 471.
 <Images/algo4.png, id=70, 281.25075pt x 326.4195pt>
 File: Images/algo4.png Graphic file (type png)
 <use Images/algo4.png>
-Package pdftex.def Info: Images/algo4.png  used on input line 482.
+Package pdftex.def Info: Images/algo4.png  used on input line 478.
 (pdftex.def)             Requested size: 252.0pt x 292.46986pt.
 <Images/algo5.png, id=71, 280.04625pt x 84.315pt>
 File: Images/algo5.png Graphic file (type png)
 <use Images/algo5.png>
-Package pdftex.def Info: Images/algo5.png  used on input line 487.
+Package pdftex.def Info: Images/algo5.png  used on input line 483.
 (pdftex.def)             Requested size: 252.0pt x 75.87376pt.
 <Images/camera_switch.jpeg, id=72, 1284.8pt x 745.78625pt>
 File: Images/camera_switch.jpeg Graphic file (type jpg)
 <use Images/camera_switch.jpeg>
-Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 499.
+Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 495.
 (pdftex.def)             Requested size: 252.0pt x 146.27553pt.
  [10 <./Images/algo4.png> <./Images/algo5.png> <./Images/camera_switch.jpeg>]
-Underfull \hbox (badness 3029) in paragraph at lines 511--512
+Underfull \hbox (badness 3029) in paragraph at lines 507--508
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
 
@@ -1008,7 +1015,7 @@ Underfull \hbox (badness 3029) in paragraph at lines 511--512
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 523.
+LaTeX Warning: Empty bibliography on input line 519.
 
 
 ** Conference Paper **
@@ -1031,9 +1038,6 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1045,13 +1049,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  12639 strings out of 467871
  235054 string characters out of 5418377
- 1080035 words of memory out of 5000000
+ 1080032 words of memory out of 5000000
  41379 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,66p,1293b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tiago/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 5920737 bytes).
+Output written on main.pdf (11 pages, 5919987 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
