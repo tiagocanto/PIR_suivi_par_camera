@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  14 MAY 2026 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  14 MAY 2026 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main
+**c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 (c:/Users/T490s/Documents/GitHub/PIR_suivi_par_camera/PIR_ARTICLE/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -647,6 +647,9 @@ File: Images/YOLOv8Comp.png Graphic file (type png)
 <use Images/YOLOv8Comp.png>
 Package pdftex.def Info: Images/YOLOv8Comp.png  used on input line 280.
 (pdftex.def)             Requested size: 252.0pt x 98.355pt.
+
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
 <Images/img_rugby_1.png, id=31, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
@@ -795,9 +798,9 @@ Here is how much of TeX's memory you used:
  41761 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,72p,1849b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,72p,1853b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 5919654 bytes).
+Output written on main.pdf (12 pages, 5919561 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

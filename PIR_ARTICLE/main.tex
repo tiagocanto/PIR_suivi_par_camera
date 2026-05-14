@@ -16,7 +16,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Rugby Intelligent Camera\\
+\title{Camera Tracking in Rugby\\
 
 }
 
@@ -67,7 +67,7 @@ guarni@insa-toulouse.fr}
 
 \begin{abstract}
     
-Amateur sports clubs lack access to professional multi-camera video analysis systems due to the high cost and technical complexity of commercially availabe solutions. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed for each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
+Amateur sports clubs lack access to professional multi-camera video analysis systems due to the high cost and technical complexity of commercially available solutions. This gap limits the ability of coaches and analysts to review match footage from multiple angles in a systematic and automated way. This work presents a low-cost automated camera switching system designed for rugby match coverage, built around a two-smartphone acquisition setup and a computer vision pipeline running on consumer-grade hardware. The proposed system uses YOLOv8n for player and ball detection, combined with a density-based scoring algorithm to evaluate and select the most relevant camera feed for each frame. Real-time video transmission was investigated but could not be validated due to hardware constraints. Validation was conducted on static images extracted from real match footage, confirming that the detection and scoring logic produces coherent camera selection results. The results demonstrate the feasibility of the approach within a minimal-budget context, and indicate that access to dedicated hardware and a domain-specific detection model would be sufficient to bring the system to real-time operational capability.
 \end{abstract}
 
 
@@ -96,17 +96,17 @@ To track these detections, the Kalman Filter method predicts trajectories, maint
 Robust visual tracking relies on the integration of detection, temporal prediction, and dynamic state estimation rather than on perfect frame-by-frame detection. Al-Hadrusi and Sarhan~\cite{AlHadrusi2012PTZ} propose a decision-based framework combining tracking, prediction, and quality evaluation (confidence, visibility, occlusions, resolution), enabling tracking continuity during short-term observation losses. These principles are directly applicable to rugby ball tracking with a fixed camera, where the ball is small, fast-moving, and frequently occluded.
 
 \subsection{Spatiotemporal Feature Extraction}
-To enable real-time camera trcking, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.
+To enable real-time camera tracking, transfer learning is used within 3D Convolutional Neural Network (3D-CNN) architectures. Inflated 3D Networks (I3D) \cite{xie_rethinking_2018} is used to process spatiotemporal information. By inflating pretrained 2D filters into the temporal domain, I3D models overcome the computational bottlenecks of traditional 3D-CNNs, optimizing the balance between recognition accuracy and response latency.
 
-Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions\cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods\cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}.
+Semantic Segmentation assigns pixel-level classes to isolate game elements utilizing deep models like VGG-16 with dilated convolutions \cite{li_research_2024, xie_rethinking_2018}. This approach handles class imbalance via modified cross-entropy loss, achieving high Mean IOU scores. Optical Flow quantifies motion dynamics, evolving from sparse Lucas–Kanade and dense Horn–Schunck methods \cite{opencv_optical_flow_tutorial, scaler_motion_estimation_optical_flow_2025, viso_optical_flow_2024} to deep architectures (FlowNet, PWC-Net) that maintain accuracy under occlusions. Action and Event Recognition combines CNN-based spatial features with LSTM-based temporal modeling to detect events in near real-time \cite{poms_scanner_2018, xu_yolo-based_2025}, with robustness enhanced by multi-modal inputs like ball trajectories \cite{wu_multi-camera_2020, zhang_multi-camera_2020}.
 
 \subsection{Camera Localization and State Estimation}
-Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{AlHadrusi2012PTZ}. By utilizing deep descriptors (SuperPoint, SuperGlue) and the PTZ-IBA algorithm to minimize reprojection errors\cite{Labbe2010NonlinearObserver, Xavier2001VisualServoing}, the system achieves high precision with efficient online processing\cite{Pix4Team}.
+Finally, Camera Localization employs a two-stage PTZ calibration approach \cite{AlHadrusi2012PTZ}. By utilizing deep descriptors (SuperPoint, SuperGlue) and the PTZ-IBA algorithm to minimize reprojection errors \cite{Labbe2010NonlinearObserver, Xavier2001VisualServoing}, the system achieves high precision with efficient online processing \cite{Pix4Team}.
 
 In monocular settings, Xavier \textit{et al.}~\cite{Xavier2001VisualServoing} show that effective tracking can be formulated directly in the image plane using dynamic estimation corrected by visual feedback, without explicit 3D reconstruction. Complementarily, Labbé \textit{et al.}~\cite{Labbe2010NonlinearObserver} ground tracking in nonlinear observer theory, combining noisy visual measurements with dynamic models to maintain coherent state estimates (position and velocity) during occlusions or degraded observations.
 
 \subsection{Environmental impact}
-The environmental impact of artificial intelligence is a growing concern, as the energy consumption and carbon footprint of large-scale data centers have become significant bottlenecks for sustainable cloud computing. \textit{et al.}~\cite{Labbe2010NonlinearObserver} To address these ecological and performance challenges, recent studies have focused on accelerating inference directly on edge devices using optimization tools like NVIDIA TensorRT \textit{et al.}~\cite{Labbe2010NonlinearObserver} , which streamlines model execution to achieve high frame rates on local hardware.
+The environmental impact of artificial intelligence is a growing concern, as the energy consumption and carbon footprint of large-scale data centers have become significant bottlenecks for sustainable cloud computing. \textit{et al.}~\cite{Labbe2010NonlinearObserver} To address these ecological and performance challenges, recent studies have focused on accelerating inference directly on edge devices using optimization tools such as NVIDIA TensorRT \textit{et al.}~\cite{Labbe2010NonlinearObserver} , which streamlines model execution to achieve high frame rates on local hardware.
 
 \subsection{Design Synthesis for Embedded Systems}
 To enable affordable rugby analysis on a Raspberry Pi, this project prioritizes computational efficiency. We conclude that a faster tracking method like YOLO-NAS is the optimal detection model due to its speed, while Kalman Filtering provides essential trajectory prediction during fast motion or occlusions. We reject complex 3D reconstruction in favor of robust 2D tracking directly on the image plane. This combination of lightweight detection and mathematical prediction ensures the system maintains real-time performance despite the hardware's strict processing limits.
@@ -169,7 +169,7 @@ Finally, the third configuration, also utilizing four cameras, presented a compe
 \subsubsection{Discussion}\
 
 
-Considering the available computational resources and the specific context of non-professional matches where spectators often stand in close proximity to the touchline.Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
+Considering the available computational resources and the specific context of non-professional matches where spectators often stand in close proximity to the touchline. Configuration 2 was ultimately selected as the most viable solution. This setup offers an optimal compromise, maintaining a low camera count while ensuring a comprehensive view of the play. Nevertheless, further optimizations are possible; specifically, increasing the mounting height of the cameras would significantly enhance the system's performance. A more elevated perspective would reduce the perspective distortion for distant actions and further mitigate the risk of intermittent occlusions caused by individuals on the sidelines.
 
 %%%%%%%%%CAM POSITIONING END%%%%%%%%%%%%%
 
@@ -252,28 +252,28 @@ The system is structured as follows:
     \label{fig 4}
 \end{figure}
 
-This communication layer serves as the foundation for the Camera Score Algorithm, which process these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
+This communication layer serves as the foundation for the Camera Score Algorithm, which processes these concurrent streams and dynamically prioritize the optimal feed based on the proximity of the tracked player or ball to the camera's optical axis.
 
 \newpage
 
 
 \subsection{YOLO Model}
 %%%%%%%%%%%%%%%%%%%% DZLL %%%%%%%%
-A model of Artificial Inteligence is a trained code to learn paterns based on a database. In between the existent models, there is the model YOLO whose algorithm treats the image only one time (You Only Look Once).  
+A model of Artificial Intelligence is a trained code to learn patterns based on a database. Between the existing models, there is the YOLO model whose algorithm treats the image only one time (You Only Look Once).  
 
-Models like YOLO have faster responses for video processing, so they are usually used for real time processing, autonomous cars, monitoring, etc.  
-The detection of many objects at the same time is also a caracteristc of these models, but the main reason we chose YOLO as our model was to process efficiently and at high speed.
+Models like YOLO have faster responses for video processing, so they are usually used for real-time processing, autonomous cars, monitoring, etc.  
+The detection of many objects at the same time is also a characteristic of these models, but the main reason we chose YOLO as our model was to process efficiently and at high speed.
 
-To be able to use YOLO in python, we used the library Ultralytics which makes the utilisation of pre-trained models, image detection and others uses of computer vision simpler. 
-The Figure\ref{fig:ultralytics_models_comparison}\cite{ultralytics_models} compares the diferentes versions of YOLO’s models by latency and precision of detection. 
-Considering the speed as main goal to track in real time during a rugby match, we chose to work with YOLOv8.
+To be able to use YOLO in Python, we used the Ultralytics library which makes the utilisation of pre-trained models, image detection and others uses of computer vision simpler. 
+The Figure\ref{fig:ultralytics_models_comparison} \cite{ultralytics_models} compares the diferentes versions of YOLO models by latency and precision of detection. 
+Considering the speed as the main goal to track in real time during a rugby match, we chose to work with YOLOv8.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/MetricasYOLOSTODOS}
-    \caption{Comparaison des modèles YOLO supportés par Ultralytics. Source : Ultralytics\cite{ultralytics_models}}
+    \caption{Comparison of YOLO models \cite{ultralytics_models}}
     \label{fig:ultralytics_models_comparison}
 \end{figure}
-The Ultralytics website also presents the performance metrics of differents models of the chosen version as shown at the Figure~\ref{fig:yolov8_performance}\cite{ultralytics_models}. 
+The Ultralytics website also presents the performance metrics of different models of the chosen version as shown in Figure~\ref{fig:yolov8_performance} \cite{ultralytics_models}. 
 Tests were made to choose the model with a good balance between accuracy and processing time.%% !t ? to no leave space in the text and continue the text?
 \begin{figure}[H]
     \centering
@@ -282,10 +282,10 @@ Tests were made to choose the model with a good balance between accuracy and pro
     \label{fig:yolov8_performance}
 \end{figure}
 The version of the chosen model was decided by using one frame taken from a video recorded in the real situation of a amateur match, the goal of this article, in each of the models offered by Ultralytics.
-Table~\ref{tab:yolov8_models_results}, shows the results obtained in terms of processing time and quality of detection.
+Table~\ref{tab:yolov8_models_results} shows the results obtained in terms of processing time and quality of detection.
 \begin{table}[H]
 \centering
-\caption{Comparison of YOLOv8 model variants in the same frame.}
+\caption{YOLOv8 model variants performance in a same frame.}
 \label{tab:yolov8_models_results}
 \begin{tabular}{lcccc}
 \hline
@@ -311,7 +311,7 @@ Although the larger models detect more players, their processing time increases 
 \subsubsection{Methods}\
 
 
-To track the focus of a rugby match, we agreed that the most important thing we should track is the ball, but in rugby the ball is small and always hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the player identification; this implies that the players will also be identified by the model.  
+To track the focus of a rugby match, we agreed that the most important object to track is the ball. However, in rugby the ball is small and often hidden between the players or very close to their chest, causing a big problem for the model's identification of the ball. In order to solve this problem, we added the player identification; this implies that the players will also be identified by the model.  
 
 In rugby, the teams usually place themselves in lines of attack and defense, so, normally the point of interest will take place where the greatest number of players are. With both classes, we can already create a working tracking model. 
 
@@ -321,7 +321,7 @@ The world of computer vision developers is growing and one of the biggest commun
 \subsubsection{Results}\
 
 
-After testing the model from the project \cite{rugby_ruck_detection} using images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identifying a large number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
+After testing the model from the project \cite{rugby_ruck_detection} using images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identifying a large number of players and the ball. Some problems were: confusing the referee with a player, not identifying all the players, and sometimes not seeing the ball.  
 
 \begin{figure}[!t]
     \centering
@@ -343,9 +343,9 @@ After testing the model from the project \cite{rugby_ruck_detection} using image
     \label{fig 3}
 
 \end{figure}\
-Unfortunately, the model \cite{rugby_ruck_detection} is not accessible to download, so it would not  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing.
+Unfortunately, the model \cite{rugby_ruck_detection} is not accessible to download, so it would not be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing.
 
-To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous one. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset.
+To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous one. Four models were created, two with YOLOv8n, one with YOLOv8s and the last with YOLOv8m; they were all tested in images not from the dataset.
 
 
 \begin{figure}[!t]
@@ -368,30 +368,30 @@ To solve the presented problem, the project’s dataset \cite{rugby_ruck_detecti
 
 These models are not as good as the previous one because they do not have the same accuracy and have a greater difficulty identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analysis and can be used for real-time applications.
 
-To validate our models, we tested it on a video of an INSA AS match, but the power of the available GPU was not enough to analyze a nineteen second video (with 1141 frames). However, we could not validate our models in a complete video but, analyzing a smaller video, we could see problems of players and ball identification, showing how the project would look like in a real-time situation.
+To validate our models, we tested them on a video of an INSA AS match, but the power of the available GPU was not enough to analyze a nineteen second video (with 1141 frames). However, we could not validate our models in a complete video but, analyzing a smaller video, we could see problems of players and ball identification, showing how the project would look like in a real-time situation.
 
 
 \subsubsection{Conclusion}\
 
-Regarding the YOLO model we can conclude that this solution works for the identification of our needs to choose the best camera but trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.
+Regarding the YOLO model, we can conclude that this solution works for the identification of our needs to choose the best camera but trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.
 
 \subsubsection{Improvements}\
 
 
-To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackles, penalty kicks, throw-ins, scrums, and other similar rugby situations that our other model cannot identify. Another desired improvement is to create a system\cite{roboflow_tutorial_2024} which would enable seperating the players between team A and team B, after identifying them. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} that extracts color information from the player’s shirt, associated with an UMAP\cite{roboflow_tutorial_2024} to compact the Sigmoid loss information, and a Kmeans \cite{roboflow_tutorial_2024} wich sorts both teams. These improvements would highly increase the quality of the performance analysis of the teams.
+To improve this project, we plan on using another YOLO model \cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackles, penalty kicks, throw-ins, scrums, and other similar rugby situations that our other model cannot identify. Another desired improvement is to create a system \cite{roboflow_tutorial_2024} which would enable separating the players between team A and team B, after identifying them. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} that extracts color information from the player’s shirt, associated with an UMAP\cite{roboflow_tutorial_2024} to compact the Sigmoid loss information, and a Kmeans \cite{roboflow_tutorial_2024} which sorts both teams. These improvements would highly increase the quality of the performance analysis of the teams.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%YOLO_END%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Test phase - Optimization of performance}\
-During the test phase of the Yolov8 based solution, performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
+During the test phase of the YOLOv8 based solution, performance issues occured. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphics card.
 
-We carried out our tests with a private individual's configuration composed of a Ryzen 3 3100 and an RTX 4060 GPU. The primary limitation of our setup is that the computer configuration is unbalanced; because of the processor, which is way older than the graphic card, with a better CPU we can easily expect around 40\% performance gain.
+We carried out our tests with a private individual's configuration composed of a Ryzen 3 3100 and an RTX 4060 GPU. The primary limitation of our setup is that the computer configuration is unbalanced; because of the processor, which is way older than the graphics card, with a better CPU we can easily expect around 40\% performance gain.
 
 To develop a real-time solution, we aim to maximize frame rate (abbreviated as fps). Using a 30 fps camera, the number of cameras usable is $x / 30$, with $x$ being the average fps score when running YOLO on the computer.
 
-First, the chosen YOLO model affects heavily the performance as described on this chart:
+First, the chosen YOLO model heavily affects the performance as described on this chart:
 
 \begin{figure}[H]
     \centering
@@ -402,7 +402,7 @@ First, the chosen YOLO model affects heavily the performance as described on thi
 
 Those results seem to be sufficient, however due to blurs and bugs in the YOLO execution, it can be interesting to allocate a higher security margin about performance.
 
-So, a higher fps is needed. A possibility of improving the amount of fps is to use an Nvidia tool: NVIDIA TensorRT. It is a software tool created by NVIDIA that optimizes AI models so they can run much faster and more efficiently on their graphics cards \cite{tensorrt_edge_2024}. We used it to translate the file containing the coefficients used by YOLO to compute the result: the \texttt{.pytorch} file into an \texttt{.engine} file which is the same object but optimized to work better on Nvidia graphic cards.
+So, more fps are needed. A possibility of improving the amount of fps is to use an NVDIA tool: NVIDIA TensorRT. It is a software tool created by NVIDIA that optimizes AI models so they can run much faster and more efficiently on their graphics cards \cite{tensorrt_edge_2024}. We used it to translate the file containing the coefficients used by YOLO to compute the result: the \texttt{.pytorch} file into an \texttt{.engine} file which is the same object but optimized to work better on Nvidia graphic cards.
 
 \begin{figure}[H]
     \centering
@@ -411,11 +411,11 @@ So, a higher fps is needed. A possibility of improving the amount of fps is to u
     \label{fig:fps_comparison}
 \end{figure}
 
-In figure 14 (in orange) the performance of using this method compared to the original performance when using a \texttt{.pytorch} model (in blue).
+Figure 14 shows (in orange) the performance of using this method compared to the original performance when using a \texttt{.pytorch} model (in blue).
 
 Although deploying our YOLO-based solution on a remote server could have bypassed our local hardware constraints, we deliberately opted against a cloud-centric approach due to three major concerns. First, continuously streaming video data to remote servers introduces significant ecological issues, primarily driven by the high energy consumption and carbon footprint of large-scale data centers. Second, processing video streams off-site raises critical ethical and data privacy challenges, as sensitive information must be entrusted to third-party infrastructures. Finally, adopting this architecture creates a strong vendor lock-in, rendering the solution entirely dependent on large technology corporations and vulnerable to their proprietary systems, pricing models, and potential service outages.
 
-Even though the RTX pro 6000 GPU in a remote server cloud offers amazing performance around 611\% of frame per second and for 422\% lower power consumption compared to our local solution, we won't use it.
+Even though the RTX Pro 6000 GPU in a remote server cloud offers amazing performance around 611\% frames per second and for 422\% lower power consumption compared to our local solution, we won't use it.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part end %%%%%%%%%%%%%%%%%%%%
 
@@ -453,7 +453,7 @@ In the initial image-based testing phase, our primary objective was to detect th
 \
 \subsubsection{Results and Analysis}\
 
-While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
+While the initial results were promising when the ball was clearly visible, this condition was rarely met during continuous play. The secondary criterion, individual player proximity to the camera proved unreliable; isolated players, such as defenders moving toward the touchline far from the actual play, would inadvertently trigger a camera switch, leading to a loss of focus on the main action.
 
 To rectify this, we replaced the proximity metric with a player density concentration analysis.\begin{figure}[H]
     \centering
@@ -474,7 +474,7 @@ Following the validation of this logic on static images, the system was implemen
 \begin{figure}[h]
     \centering
     \includegraphics[width=\columnwidth]{Images/algo5.png}
-    \caption{Camera switch decision with anti-jitter threshold.}
+    \caption{Camera switching decision with anti-jitter threshold.}
     \label{fig:switch}
 \end{figure}
 This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
@@ -486,7 +486,7 @@ The proposed algorithm has demonstrated high precision in action detection and c
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{Images/camera_switch.jpeg}
-    \caption{Camera switching result :best camera selected based on scoring.}
+    \caption{Camera switching result: best camera selected based on scoring.}
     \label{fig:camera_switch}
 \end{figure}
 \newpage
