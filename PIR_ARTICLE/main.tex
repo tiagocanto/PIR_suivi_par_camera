@@ -321,76 +321,61 @@ The world of computer vision developers is growing and one of the biggest commun
 \subsubsection{Results}\
 
 
-After testing the model from the project \cite{rugby_ruck_detection} in some images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identyfing a big number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
+After testing the model from the project \cite{rugby_ruck_detection} using images from the captured match (Fig.~\ref{fig 1} to Fig.~\ref{fig 3}), positive results were achieved: the model responds well to the images, identifying a large number of player and the ball. Some problems were: confusing the arbitrator with a player, not identifying all the players, and sometimes not seeing the ball.  
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
 
     \includegraphics[width=\columnwidth]{Images/img_rugby_1.png}
     \caption{Test image 1, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 1}
 
-\end{figure}
-\begin{figure}[htbp]
     \centering 
 
     \includegraphics[width=\columnwidth]{Images/img_rugby_2.png}
     \caption{Test image 2, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 2}
 
-\end{figure}
 
-\begin{figure}[htbp]
-    \centering
 
     \includegraphics[width=\columnwidth]{Images/img_rugby_3.png}
     \caption{Test image 3, used model from Roboflow\cite{rugby_ruck_detection}.}
     \label{fig 3}
 
-\end{figure}
-
+\end{figure}\
 Unfortunately, the model \cite{rugby_ruck_detection} is not accessible to download, so it would not  be possible to use in a real time application, because for every frame the Roboflow repository would have to be accessed on the internet, increasing the cost and delay of the image processing.
 
 To solve the presented problem, the project’s dataset \cite{rugby_ruck_detection} was cloned and a new AI model was trained, hoping to achieve the same results as the previous one. Four models were created, two with yolov8n, one with yolov8s and the last with yolov8m; they were all tested in an image not from the dataset.
 
-\begin{figure}[h]
+
+\begin{figure}[!t]
     \centering
 
     \includegraphics[width=\columnwidth]{Images/img_test_1_yolov8n.jpg}
     \caption{Test image 1, used trained yolov8n model.}
     \label{fig 1 yolov8n}
-\end{figure}
 
-\begin{figure}[htbp]
     \centering
-    
     \includegraphics[width=\columnwidth]{Images/img_test_2_yolov8n.jpg}
     \caption{Test image 2, used trained yolov8n model.}
     \label{fig 2 yolov8n}
 
-
-\end{figure}
-
-\begin{figure}[htbp]
     \centering
-    
     \includegraphics[width=\columnwidth]{Images/img_test_3_yolov8n.jpg}
     \caption{Test image 3, used trained yolov8n model.}
     \label{fig 3 yolov8n}
-
 \end{figure}
 
-These models are not as good as the previous one because they do not have the same accuracy and have a greater difficulty identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analyses and can be used for real-time applications.
+These models are not as good as the previous one because they do not have the same accuracy and have a greater difficulty identifying the wanted features, as seen in Fig.~\ref{fig 1 yolov8n} to Fig.~\ref{fig 3 yolov8n}. At least they are functional for video analysis and can be used for real-time applications.
 
-To validate our models, we tested it on a video of an INSA AS match, but the power of the available GPU was not enough to analyze a nineteen second video (with 1141 frames). So, we could not validate our models in a complete video but, analyzing on a smaller video, we can see some problems of players and ball identification, showing how the project would look like in a real-time situation.
-\\
+To validate our models, we tested it on a video of an INSA AS match, but the power of the available GPU was not enough to analyze a nineteen second video (with 1141 frames). However, we could not validate our models in a complete video but, analyzing a smaller video, we could see problems of players and ball identification, showing how the project would look like in a real-time situation.
+
+
 \subsubsection{Conclusion}\
 
-
 Regarding the YOLO model we can conclude that this solution works for the identification of our needs to choose the best camera but trying to find a low-cost solution for the amateur clubs we arrived at a lack of computing power that probably will increase the cost of this approach.
-\\
 
-\subsubsection{Improvements}
+\subsubsection{Improvements}\
 
 
 To improve this project, we plan on using another YOLO model\cite{roboflow_tutorial_2024} to see the statistics of the game as well, identifying tackles, penalty kicks, throw-ins, scrums, and other similar rugby situations that our other model cannot identify. Another desired improvement is to create a system\cite{roboflow_tutorial_2024} which would enable seperating the players between team A and team B, after identifying them. The system consists of a Sigmoid loss language image pre-trained\cite{roboflow_tutorial_2024} that extracts color information from the player’s shirt, associated with an UMAP\cite{roboflow_tutorial_2024} to compact the Sigmoid loss information, and a Kmeans \cite{roboflow_tutorial_2024} wich sorts both teams. These improvements would highly increase the quality of the performance analysis of the teams.
@@ -399,13 +384,12 @@ To improve this project, we plan on using another YOLO model\cite{roboflow_tutor
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Performance part%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Phase test - Optimization of the performance}\
-
-During the test phase of the Yolov8 based solution, the performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
+\subsection{Test phase - Optimization of performance}\
+During the test phase of the Yolov8 based solution, performance issue occurs. Indeed, running AI software on a computer requires strong configuration. On one hand, the processor of the machine is highly involved during the computation, but on the other hand, the graphics processor is even more used. It is explained by the fact that YOLO is based on matrix calculation \cite{xu_yolo-based_2025} which is the main function of a graphical card.
 
 We carried out our tests with a private individual's configuration composed of a Ryzen 3 3100 and an RTX 4060 GPU. The primary limitation of our setup is that the computer configuration is unbalanced; because of the processor, which is way older than the graphic card, with a better CPU we can easily expect around 40\% performance gain.
 
-To develop a real-time solution, we aim to maximize the frame rate (abbreviated as fps). Using a 30 fps camera, the number of cameras usable is $x / 30$, with $x$ being the average fps score when running YOLO on the computer.
+To develop a real-time solution, we aim to maximize frame rate (abbreviated as fps). Using a 30 fps camera, the number of cameras usable is $x / 30$, with $x$ being the average fps score when running YOLO on the computer.
 
 First, the chosen YOLO model affects heavily the performance as described on this chart:
 
@@ -418,7 +402,7 @@ First, the chosen YOLO model affects heavily the performance as described on thi
 
 Those results seem to be sufficient, however due to blurs and bugs in the YOLO execution, it can be interesting to allocate a higher security margin about performance.
 
-So, more fps is needed. A possibility of improving the amount of fps is to use an Nvidia tool: NVIDIA TensorRT. It is a software tool created by NVIDIA that optimizes AI models so they can run much faster and more efficiently on their graphics cards \cite{tensorrt_edge_2024}. We used it to translate the file containing the coefficients used by YOLO to compute the result: the \texttt{.pytorch} file into an \texttt{.engine} file which is the same object but optimized to work better on Nvidia graphic cards.
+So, a higher fps is needed. A possibility of improving the amount of fps is to use an Nvidia tool: NVIDIA TensorRT. It is a software tool created by NVIDIA that optimizes AI models so they can run much faster and more efficiently on their graphics cards \cite{tensorrt_edge_2024}. We used it to translate the file containing the coefficients used by YOLO to compute the result: the \texttt{.pytorch} file into an \texttt{.engine} file which is the same object but optimized to work better on Nvidia graphic cards.
 
 \begin{figure}[H]
     \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  14 MAY 2026 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  14 MAY 2026 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -652,79 +652,64 @@ File: Images/img_rugby_1.png Graphic file (type png)
 <use Images/img_rugby_1.png>
 Package pdftex.def Info: Images/img_rugby_1.png  used on input line 329.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <Images/img_rugby_2.png, id=32, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_2.png Graphic file (type png)
 <use Images/img_rugby_2.png>
-Package pdftex.def Info: Images/img_rugby_2.png  used on input line 337.
+Package pdftex.def Info: Images/img_rugby_2.png  used on input line 335.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_rugby_3.png, id=33, 1028.34187pt x 578.16pt>
 File: Images/img_rugby_3.png Graphic file (type png)
 <use Images/img_rugby_3.png>
-Package pdftex.def Info: Images/img_rugby_3.png  used on input line 346.
+Package pdftex.def Info: Images/img_rugby_3.png  used on input line 341.
 (pdftex.def)             Requested size: 252.0pt x 141.6813pt.
 <Images/img_test_1_yolov8n.jpg, id=34, 1264.725pt x 710.655pt>
 File: Images/img_test_1_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_1_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 359.
+Package pdftex.def Info: Images/img_test_1_yolov8n.jpg  used on input line 354.
 (pdftex.def)             Requested size: 252.0pt x 141.59714pt.
-[5 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Images/img_test_2_yolov8n.jpg, id=40, 1307.88625pt x 735.74875pt>
+<Images/img_test_2_yolov8n.jpg, id=35, 1307.88625pt x 735.74875pt>
 File: Images/img_test_2_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_2_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 367.
+Package pdftex.def Info: Images/img_test_2_yolov8n.jpg  used on input line 359.
 (pdftex.def)             Requested size: 252.0pt x 141.75836pt.
-<Images/img_test_3_yolov8n.jpg, id=41, 1255.69125pt x 702.625pt>
+<Images/img_test_3_yolov8n.jpg, id=36, 1255.69125pt x 702.625pt>
 File: Images/img_test_3_yolov8n.jpg Graphic file (type jpg)
 <use Images/img_test_3_yolov8n.jpg>
-Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 377.
+Package pdftex.def Info: Images/img_test_3_yolov8n.jpg  used on input line 364.
 (pdftex.def)             Requested size: 252.0pt x 141.00496pt.
+ [5 <./Images/MetricasYOLOSTODOS.png> <./Images/YOLOv8Comp.png>]
+Underfull \vbox (badness 1178) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
-
- []
-
-[6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
+ [6 <./Images/img_rugby_1.png> <./Images/img_rugby_2.png> <./Images/img_rugby_3.png> <./Images/img_test_1_yolov8n.jpg> <./Images/img_test_2_yolov8n.jpg> <./Images/img_test_3_yolov8n.jpg>]
 <Images/FPSperformance.png, id=48, 749.04843pt x 447.92343pt>
 File: Images/FPSperformance.png Graphic file (type png)
 <use Images/FPSperformance.png>
-Package pdftex.def Info: Images/FPSperformance.png  used on input line 414.
+Package pdftex.def Info: Images/FPSperformance.png  used on input line 398.
 (pdftex.def)             Requested size: 252.0pt x 150.69261pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 421.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 405.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <Images/FPSperformance2.png, id=49, 626.34pt x 386.19281pt>
 File: Images/FPSperformance2.png Graphic file (type png)
 <use Images/FPSperformance2.png>
-Package pdftex.def Info: Images/FPSperformance2.png  used on input line 425.
+Package pdftex.def Info: Images/FPSperformance2.png  used on input line 409.
 (pdftex.def)             Requested size: 252.0pt x 155.38187pt.
  [7 <./Images/FPSperformance.png> <./Images/FPSperformance2.png>]
 <Images/algosetup.png, id=59, 281.25075pt x 102.3825pt>
 File: Images/algosetup.png Graphic file (type png)
 <use Images/algosetup.png>
-Package pdftex.def Info: Images/algosetup.png  used on input line 449.
+Package pdftex.def Info: Images/algosetup.png  used on input line 433.
 (pdftex.def)             Requested size: 252.0pt x 91.73409pt.
 <Images/algo2.png, id=60, 278.2395pt x 133.6995pt>
 File: Images/algo2.png Graphic file (type png)
 <use Images/algo2.png>
-Package pdftex.def Info: Images/algo2.png  used on input line 459.
+Package pdftex.def Info: Images/algo2.png  used on input line 443.
 (pdftex.def)             Requested size: 252.0pt x 121.09142pt.
 <Images/algo3.png, id=61, 283.0575pt x 111.41624pt>
 File: Images/algo3.png Graphic file (type png)
 <use Images/algo3.png>
-Package pdftex.def Info: Images/algo3.png  used on input line 476.
+Package pdftex.def Info: Images/algo3.png  used on input line 460.
 (pdftex.def)             Requested size: 252.0pt x 99.19414pt.
  [8
 
@@ -732,52 +717,52 @@ Package pdftex.def Info: Images/algo3.png  used on input line 476.
 <Images/algo4.png, id=68, 281.25075pt x 326.4195pt>
 File: Images/algo4.png Graphic file (type png)
 <use Images/algo4.png>
-Package pdftex.def Info: Images/algo4.png  used on input line 487.
+Package pdftex.def Info: Images/algo4.png  used on input line 471.
 (pdftex.def)             Requested size: 252.0pt x 292.46986pt.
 <Images/algo5.png, id=69, 280.04625pt x 84.315pt>
 File: Images/algo5.png Graphic file (type png)
 <use Images/algo5.png>
-Package pdftex.def Info: Images/algo5.png  used on input line 492.
+Package pdftex.def Info: Images/algo5.png  used on input line 476.
 (pdftex.def)             Requested size: 252.0pt x 75.87376pt.
 <Images/camera_switch.jpeg, id=70, 1284.8pt x 745.78625pt>
 File: Images/camera_switch.jpeg Graphic file (type jpg)
 <use Images/camera_switch.jpeg>
-Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 504.
+Package pdftex.def Info: Images/camera_switch.jpeg  used on input line 488.
 (pdftex.def)             Requested size: 252.0pt x 146.27553pt.
  [9 <./Images/algo4.png> <./Images/algo5.png> <./Images/camera_switch.jpeg>]
-Underfull \hbox (badness 3029) in paragraph at lines 516--517
+Underfull \hbox (badness 3029) in paragraph at lines 500--501
 []\OT1/ptm/m/n/10 The prin-ci-pal lim-i-ta-tions en-coun-tered through-out this
  []
 
 [10]
-Underfull \hbox (badness 1400) in paragraph at lines 532--532
+Underfull \hbox (badness 1400) in paragraph at lines 516--516
 []\OT1/ptm/m/n/10 S. Xie, C. Sun, J. Huang, Z. Tu, and K. Mur-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
 \OT1/ptm/m/n/10 ``Multi-camera 3d ball track-ing frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
 \OT1/ptm/m/n/10 for sports video,'' \OT1/ptm/m/it/10 IET Im-age Pro-cess-ing\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 532--532
+Underfull \hbox (badness 3557) in paragraph at lines 516--516
 \OT1/ptm/m/n/10 vol. 14, no. 15, pp. 3751{3761, 2020, []eprint:
  []
 
 
-Overfull \hbox (25.96684pt too wide) in paragraph at lines 532--532
+Overfull \hbox (25.96684pt too wide) in paragraph at lines 516--516
 \OT1/ptm/m/n/10 https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-
  []
 
 [11
 
 ]
-Underfull \hbox (badness 4954) in paragraph at lines 532--532
+Underfull \hbox (badness 4954) in paragraph at lines 516--516
 []\OT1/ptm/m/n/10 Rugby Ruck. ``Rugby de-tec-tion com-puter vi-sion
  []
 
@@ -806,13 +791,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  12813 strings out of 467349
  238860 string characters out of 5419863
- 1093793 words of memory out of 5000000
+ 1094793 words of memory out of 5000000
  41761 multiletter control sequences out of 15000+600000
  671275 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,72p,1849b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 5919619 bytes).
+Output written on main.pdf (12 pages, 5919654 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
