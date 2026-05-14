@@ -1,0 +1,1053 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ultralytics_yolov8}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=88f069848482a556e416f713d2819905}{%
+           family={{Ultralytics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88f069848482a556e416f713d2819905}
+      \strng{fullhash}{88f069848482a556e416f713d2819905}
+      \strng{fullhashraw}{88f069848482a556e416f713d2819905}
+      \strng{bibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorbibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authornamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhashraw}{88f069848482a556e416f713d2819905}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ultralytics Documentation}
+      \field{title}{{YOLOv8}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/models/yolov8/
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/models/yolov8/
+      \endverb
+    \endentry
+    \entry{taxbol_computer-implemented_2022}{patent}{}{}
+      \name{author}{3}{}{%
+        {{hash=772828c2b0ff7a1bce9345e44e3c35c4}{%
+           family={Taxbol},
+           familyi={T\bibinitperiod},
+           given={Jesper\bibnamedelima Molbech},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f3118347e12b2dbfce972b04f4ae613e}{%
+           family={{TEISBÆK}},
+           familyi={T\bibinitperiod},
+           given={Henrik\bibnamedelima Bjorn},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=91cedb54adc042f697c9f03af560d503}{%
+           family={{REINICKE}},
+           familyi={R\bibinitperiod},
+           given={Keld},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{holder}{1}{}{%
+        {{hash=1882f9e3b8dc2a0ecd6c7d18746c2e27}{%
+           family={Aps},
+           familyi={A\bibinitperiod},
+           given={Veo\bibnamedelima Technologies},
+           giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3850c4f8ee7f86adcddb9fbfa3ba1ac6}
+      \strng{fullhash}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{fullhashraw}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{bibnamehash}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{authorbibnamehash}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{authornamehash}{3850c4f8ee7f86adcddb9fbfa3ba1ac6}
+      \strng{authorfullhash}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{authorfullhashraw}{0ba0fee50334ac7b20ee221c9718f5a7}
+      \strng{holderbibnamehash}{1882f9e3b8dc2a0ecd6c7d18746c2e27}
+      \strng{holdernamehash}{1882f9e3b8dc2a0ecd6c7d18746c2e27}
+      \strng{holderfullhash}{1882f9e3b8dc2a0ecd6c7d18746c2e27}
+      \strng{holderfullhashraw}{1882f9e3b8dc2a0ecd6c7d18746c2e27}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{11310418B2}
+      \field{title}{Computer-implemented method for automated detection of a moving area of interest in a video stream of field sports with a common object of interest}
+      \field{type}{patentus}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/US11310418B2/en?assignee=veo+Technologies&oq=veo+Technologies
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/US11310418B2/en?assignee=veo+Technologies&oq=veo+Technologies
+      \endverb
+      \keyw{frame,interest,players,sports ground,video stream}
+    \endentry
+    \entry{linderoth_system_2020}{patent}{}{}
+      \name{author}{3}{}{%
+        {{hash=753b9fd386450acb1f73ec47c06a2c45}{%
+           family={Linderoth},
+           familyi={L\bibinitperiod},
+           given={Magnus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=448f80abb106e35ae6a19dc5695c4b8c}{%
+           family={Ardö},
+           familyi={A\bibinitperiod},
+           given={Håkan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=229a3e277ecc3df32647480005da8043}{%
+           family={Josephson},
+           familyi={J\bibinitperiod},
+           given={Klas},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{holder}{1}{}{%
+        {{hash=b79a62110f93d8914928199fba325440}{%
+           family={{AB}},
+           familyi={A\bibinitperiod},
+           given={Spiideo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{60c2dadf995c6b85e5416220ac456239}
+      \strng{fullhash}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{fullhashraw}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{bibnamehash}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{authorbibnamehash}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{authornamehash}{60c2dadf995c6b85e5416220ac456239}
+      \strng{authorfullhash}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{authorfullhashraw}{53aff4250b9306ffa2c67c3f84a04f85}
+      \strng{holderbibnamehash}{b79a62110f93d8914928199fba325440}
+      \strng{holdernamehash}{b79a62110f93d8914928199fba325440}
+      \strng{holderfullhash}{b79a62110f93d8914928199fba325440}
+      \strng{holderfullhashraw}{b79a62110f93d8914928199fba325440}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{10834305B2}
+      \field{title}{System and method for providing virtual pan-tilt-zoom, {PTZ}, video functionality to a plurality of users over a data network}
+      \field{type}{patentus}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/US10834305B2/en?assignee=spiideo&oq=spiideo
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/US10834305B2/en?assignee=spiideo&oq=spiideo
+      \endverb
+      \keyw{camera,data network,network,tilt,video}
+    \endentry
+    \entry{biro_predictive_2023}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=9debfb02e6a8d1816f439ee9b619b12b}{%
+           family={Biró},
+           familyi={B\bibinitperiod},
+           given={Attila},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a003e3344471c346e9cefca8b29b5b0a}{%
+           family={Cuesta-Vargas},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Antonio\bibnamedelima Ignacio},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=1bd06b187abe7149ab967a27cfc451e4}{%
+           family={Szilágyi},
+           familyi={S\bibinitperiod},
+           given={Sándor\bibnamedelima Miklós},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a53236d941fc5014f23cece6fe278f9e}
+      \strng{fullhash}{37db1dd549fc48f919df48e65b9a6884}
+      \strng{fullhashraw}{37db1dd549fc48f919df48e65b9a6884}
+      \strng{bibnamehash}{37db1dd549fc48f919df48e65b9a6884}
+      \strng{authorbibnamehash}{37db1dd549fc48f919df48e65b9a6884}
+      \strng{authornamehash}{a53236d941fc5014f23cece6fe278f9e}
+      \strng{authorfullhash}{37db1dd549fc48f919df48e65b9a6884}
+      \strng{authorfullhashraw}{37db1dd549fc48f919df48e65b9a6884}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The usages of You Only Look Once ({YOLO}) and You Only Look Once Neural Architecture Search ({YOLO}-{NAS}) models in digital tracking and strategy extraction from videos are multi-fold. Firstly, these models aim to accurately detect and track players and objects in real time, providing comprehensive data on their movements and interactions. Secondly, they seek to extract strategic elements and patterns from the tracked data to aid in performance analysis and strategy development. Additionally, {YOLO}-{NAS} specifically aims to optimize the network architecture for improved tracking and strategy extraction. The goal of this study was to analyse the feasibility of {ML}-based strategy extraction, and secondly to validate if - in terms of retrospective-type learning methods - athletes and coaches can leverage historical video data to identify trends, analyze past performances, and develop targeted predictive, {AI}-assisted training programs or adaptive strategies for future competitions. These outcomes will facilitate a novel data-driven approach to athletes and team development, enhancing performance and strategic decision-making in sports.}
+      \field{booktitle}{2023 {IEEE} 21st Jubilee International Symposium on Intelligent Systems and Informatics ({SISY})}
+      \field{eventtitle}{2023 {IEEE} 21st Jubilee International Symposium on Intelligent Systems and Informatics ({SISY})}
+      \field{month}{9}
+      \field{note}{{ISSN}: 1949-0488}
+      \field{title}{Predictive Sports Strategy Approach Using {YOLO} and {YOLO}-{NAS} in Performance Sports}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{000303\bibrangedash 000308}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SISY60376.2023.10417876
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10417876/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10417876/
+      \endverb
+      \keyw{Data mining,Learning systems,Real-time systems,Sports,Training,Videos,{YOLO},{YOLO}-{NAS},digital tracking,realtime object detection,strategy extraction}
+    \endentry
+    \entry{xu_yolo-based_2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=96aba1d4ca50fe5c5051f04a3a42cf92}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Mingsheng},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{fullhash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{fullhashraw}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{bibnamehash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{authorbibnamehash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{authornamehash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{authorfullhash}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \strng{authorfullhashraw}{96aba1d4ca50fe5c5051f04a3a42cf92}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a real-time system for the automated recognition of player interactions in basketball videos using a {YOLO}-based deep learning framework integrated with temporal context and network analysis. The framework enhances {YOLOv}3 by incorporating information from adjacent frames to improve jersey number recognition and player tracking under occlusion. A novel algorithm, Joy2019, is introduced to assign consistent player identities over time using retrospective association and temporal smoothing. Passing interactions are represented as directed graphs, and a new Player Centrality ({PC}) score is developed to evaluate player influence using weighted actions. Experimental evaluation on annotated {NBA} footage demonstrates that Joy2019 improves jersey number recognition accuracy from 36.1\% to 73.8\%, and increases player detection rates to 90.2\%. Compared to baseline {YOLO} outputs, the proposed method reduces mean absolute percentage error ({MAPE}) in pass graph reconstruction to 24.3– 33.1\%. These findings demonstrate the potential of temporal deep learning and network science to improve the robustness, accuracy, and tactical insight of automated sports analytics systems.}
+      \field{day}{3}
+      \field{issn}{1854-3871}
+      \field{journaltitle}{Informatica}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{27}
+      \field{title}{{YOLO}-Based Framework with Temporal Context and Network Analysis for Real-Time Basketball Video Understanding}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{49}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.informatica.si/index.php/informatica/article/view/8657
+      \endverb
+      \verb{url}
+      \verb https://www.informatica.si/index.php/informatica/article/view/8657
+      \endverb
+    \endentry
+    \entry{yousefi_tracking_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=19ad9116d19ce33f4992c37e355c996f}{%
+           family={Yousefi},
+           familyi={Y\bibinitperiod},
+           given={Seyed\bibnamedelimb Mohammad\bibnamedelima Mehdi},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=10d566bc1c17a6cb31a98e306f0af4ec}{%
+           family={Mohseni},
+           familyi={M\bibinitperiod},
+           given={Seyed\bibnamedelima Saleh},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a6fc24b0ae903ff1e43054e4af87a74}{%
+           family={Dehbovid},
+           familyi={D\bibinitperiod},
+           given={Hadi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1de8e15418bd414557c28e015e797847}{%
+           family={Ghaderi},
+           familyi={G\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cd8a4392781f533938c54166b9ea425}
+      \strng{fullhash}{f220ca2991f244482da9322e2476f3c2}
+      \strng{fullhashraw}{f220ca2991f244482da9322e2476f3c2}
+      \strng{bibnamehash}{f220ca2991f244482da9322e2476f3c2}
+      \strng{authorbibnamehash}{f220ca2991f244482da9322e2476f3c2}
+      \strng{authornamehash}{1cd8a4392781f533938c54166b9ea425}
+      \strng{authorfullhash}{f220ca2991f244482da9322e2476f3c2}
+      \strng{authorfullhashraw}{f220ca2991f244482da9322e2476f3c2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tracking objects is a crucial problem in image processing and machine vision, involving the representation of position changes of an object and following it in a sequence of video images. Though it has a history in military applications, tracking has become increasingly important since the 1980s due to its wide-ranging applications in different areas. This study focuses on tracking moving objects with human identity and identifying individuals through their appearance, using an Artificial Neural Network ({ANN}) classification algorithm. The Kalman filter is an important tool in this process, as it can predict the movement trajectory and estimate the position of moving objects. The tracking error is reduced by weighting the filter using a fuzzy logic algorithm for each moving human. After tracking people, they are identified using the features extracted from the histogram of images by {ANN}. However, there are various challenges in implementing this method, which can be addressed by using Genetic Algorithm ({GA}) for feature selection. The simulations in this study aim to evaluate the convergence rate and estimation error of the filter. The results show that the proposed method achieves better results than other similar methods in tracking position in three different datasets. Moreover, the proposed method performs 8\% better on average than other similar algorithms in night vision, cloud vision, and daylight vision situations.}
+      \field{day}{6}
+      \field{issn}{1687-6180}
+      \field{journaltitle}{{EURASIP} Journal on Advances in Signal Processing}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{{EURASIP} J. Adv. Signal Process.}
+      \field{title}{Tracking of moving human in different overlapping cameras using Kalman filter optimized}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{114}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13634-023-01078-z
+      \endverb
+      \verb{urlraw}
+      \verb https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-023-01078-z
+      \endverb
+      \verb{url}
+      \verb https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-023-01078-z
+      \endverb
+    \endentry
+    \entry{AlHadrusi2012PTZ}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=81e55f138278e8157e4c0892e915102e}{%
+           family={Al-Hadrusi},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Yaqoub},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1107ca4a872bffbe772ec18484f77727}{%
+           family={Sarhan},
+           familyi={S\bibinitperiod},
+           given={Saad},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{fullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{fullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{bibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorbibnamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authornamehash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorfullhash}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \strng{authorfullhashraw}{534ed1ab2d33b0c55ddf6f7cd4e5665d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Video \& Image Processing and Network Security}
+      \field{note}{Accessed: 2025}
+      \field{number}{2}
+      \field{title}{Efficient Control of PTZ Cameras in Automated Video Surveillance Systems}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
+      \endverb
+      \verb{url}
+      \verb https://nabil.eng.wayne.edu/_resources/pdf/efficient-control-ptz.pdf
+      \endverb
+      \keyw{PTZ cameras,video surveillance,target tracking,prediction,occlusion handling}
+    \endentry
+    \entry{xie_rethinking_2018}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=843b6293b24d49cdfdcda48e1ccd7eb3}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Saining},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7437556e576c6f4e2ade58a9aa980ec5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b2472734a998686dff10960f16dd12e9}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4744828ab0e3408b2e6fc8320f7bda86}{%
+           family={Tu},
+           familyi={T\bibinitperiod},
+           given={Zhuowen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d01ba1edf5711066e4d420d9df8d8f43}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b3dacadf235d95d37496872959ddcf95}
+      \strng{fullhash}{0a94b23b0c188ad3b60c4110566b105d}
+      \strng{fullhashraw}{0a94b23b0c188ad3b60c4110566b105d}
+      \strng{bibnamehash}{0a94b23b0c188ad3b60c4110566b105d}
+      \strng{authorbibnamehash}{0a94b23b0c188ad3b60c4110566b105d}
+      \strng{authornamehash}{b3dacadf235d95d37496872959ddcf95}
+      \strng{authorfullhash}{0a94b23b0c188ad3b60c4110566b105d}
+      \strng{authorfullhashraw}{0a94b23b0c188ad3b60c4110566b105d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Despite the steady progress in video analysis led by the adoption of convolutional neural networks ({CNNs}), the relative improvement has been less drastic as that in 2D static image classification. Three main challenges exist including spatial (image) feature representation, temporal information representation, and model/computation complexity. It was recently shown by Carreira and Zisserman that 3D {CNNs}, inflated from 2D networks and pretrained on {ImageNet}, could be a promising way for spatial and temporal representation learning. However, as for model/computation complexity, 3D {CNNs} are much more expensive than 2D {CNNs} and prone to overfit. We seek a balance between speed and accuracy by building an effective and efficient video classification system through systematic exploration of critical network design choices. In particular, we show that it is possible to replace many of the 3D convolutions by low-cost 2D convolutions. Rather surprisingly, best result (in both speed and accuracy) is achieved when replacing the 3D convolutions at the bottom of the network, suggesting that temporal representation learning on high-level semantic features is more useful. Our conclusion generalizes to datasets with very different properties. When combined with several other cost-effective designs including separable spatial/temporal convolution and feature gating, our system results in an effective video classification system that that produces very competitive results on several action classification benchmarks (Kinetics, Something-something, {UCF}101 and {HMDB}), as well as two action detection (localization) benchmarks ({JHMDB} and {UCF}101-24).}
+      \field{day}{27}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{shorttitle}{Rethinking Spatiotemporal Feature Learning}
+      \field{title}{Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1712.04851
+      \endverb
+      \verb{eprint}
+      \verb 1712.04851 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1712.04851
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1712.04851
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{li_research_2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4adac9c55bbc890ac226f0a1990a7179}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qinglan},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=264c9df906dc59d6e9e3f7baca99e557}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Jichong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6c18fb76108117c7b9d2238d5e58f39}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Changan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=abba6c236340ef8f884f03096e184448}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Zhiqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c436bc8bebcf24cbfb756c65a861eeb1}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{edb9e8feac3aedf4b4f6002c3d32735a}
+      \strng{fullhash}{0d53d49e94624e7717cfa227d1527ca9}
+      \strng{fullhashraw}{0d53d49e94624e7717cfa227d1527ca9}
+      \strng{bibnamehash}{0d53d49e94624e7717cfa227d1527ca9}
+      \strng{authorbibnamehash}{0d53d49e94624e7717cfa227d1527ca9}
+      \strng{authornamehash}{edb9e8feac3aedf4b4f6002c3d32735a}
+      \strng{authorfullhash}{0d53d49e94624e7717cfa227d1527ca9}
+      \strng{authorfullhashraw}{0d53d49e94624e7717cfa227d1527ca9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As computer image processing and digital technologies advance, creating an efficient method for classifying sports images is crucial for the rapid retrieval and management of large image datasets. Traditional manual methods for classifying sports images are impractical for large-scale data and often inaccurate when distinguishing similar images. This paper introduces an {SE} module that adaptively adjusts the weights of input feature mapping channels, and a Res module that excels in deep feature extraction, preventing gradient vanishing, multi-scale processing, and enhancing generalization in image recognition. Through extensive experimentation on network structure adjustments, the {SE}-{RES}-{CNN} neural network model is applied to sports image classification. The model is trained on a sports image classification dataset from Kaggle, alongside {VGG}-16 and {ResNet}50 models. Training results show that the proposed {SE}-{RES}-{CNN} model improves classification accuracy by approximately 5\% compared to {VGG}-16 and {ResNet}50 models. Testing revealed that the {SE}-{RES}-{CNN} model classifies 100 out of 500 sports images in 6 s, achieving an accuracy rate of up to 98\% and a single prediction time of 0.012 s. This validates the model's accuracy and effectiveness, significantly enhancing sports image retrieval and classification efficiency. This validates the model's accuracy and effectiveness, significantly enhancing sports image retrieval and classification efficiency.}
+      \field{day}{17}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shortjournal}{Sci Rep}
+      \field{title}{Research on sports image classification method based on {SE}-{RES}-{CNN} model}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{19087}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-024-69965-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-024-69965-5
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-024-69965-5
+      \endverb
+      \keyw{Computational science,Computer science}
+    \endentry
+    \entry{opencv_optical_flow_tutorial}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=43b55a0849301cb3d8b2a4f34fbec76d}{%
+           family={{OpenCV Documentation}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{fullhash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{fullhashraw}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{bibnamehash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{authorbibnamehash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{authornamehash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{authorfullhash}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \strng{authorfullhashraw}{43b55a0849301cb3d8b2a4f34fbec76d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html}}
+      \field{note}{OpenCV tutorial on optical flow concepts and implementation (Lucas–Kanade, dense flow), accessed 2025}
+      \field{title}{Optical Flow Tutorial}
+      \keyw{optical flow,OpenCV,computer vision,motion estimation}
+    \endentry
+    \entry{scaler_motion_estimation_optical_flow_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e63c7a1c625b8ecb0c8833282c5bf97a}{%
+           family={{Scaler Topics}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{fullhash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{fullhashraw}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{bibnamehash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{authorbibnamehash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{authornamehash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{authorfullhash}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \strng{authorfullhashraw}{e63c7a1c625b8ecb0c8833282c5bf97a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.scaler.com/topics/motion-estimation-using-optical-flow/}}
+      \field{note}{Online article on motion estimation with optical flow techniques, accessed 2025}
+      \field{title}{Motion Estimation Using Optical Flow}
+      \field{year}{2025}
+      \keyw{optical flow,motion estimation,computer vision,video analysis}
+    \endentry
+    \entry{viso_optical_flow_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d7a61189aba7601ad7054e6fc374bb4b}{%
+           family={{Viso.ai}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{fullhash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{fullhashraw}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{bibnamehash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{authorbibnamehash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{authornamehash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{authorfullhash}{d7a61189aba7601ad7054e6fc374bb4b}
+      \strng{authorfullhashraw}{d7a61189aba7601ad7054e6fc374bb4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://viso.ai/deep-learning/optical-flow/}}
+      \field{note}{Blog post on optical flow in deep learning and motion estimation, accessed 2025}
+      \field{title}{Optical Flow – Everything You Need to Know}
+      \field{year}{2024}
+      \keyw{optical flow,deep learning,motion estimation,computer vision}
+    \endentry
+    \entry{poms_scanner_2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=aeefd3d624d41f98914ac6245ff303ae}{%
+           family={Poms},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bb9bddbd76595875c0782e5d8fe2059e}{%
+           family={Crichton},
+           familyi={C\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+        {{hash=40c20cccc8bd195351b031b9a1a0e961}{%
+           family={Hanrahan},
+           familyi={H\bibinitperiod},
+           given={Pat},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2e3507fc8c281c0ed229f6dba01cda1b}{%
+           family={Fatahalian},
+           familyi={F\bibinitperiod},
+           given={Kayvon},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{802f527b2f1ba904e547a0524117285d}
+      \strng{fullhash}{e7b7bffad89bea44db4f2161ee648273}
+      \strng{fullhashraw}{e7b7bffad89bea44db4f2161ee648273}
+      \strng{bibnamehash}{e7b7bffad89bea44db4f2161ee648273}
+      \strng{authorbibnamehash}{e7b7bffad89bea44db4f2161ee648273}
+      \strng{authornamehash}{802f527b2f1ba904e547a0524117285d}
+      \strng{authorfullhash}{e7b7bffad89bea44db4f2161ee648273}
+      \strng{authorfullhashraw}{e7b7bffad89bea44db4f2161ee648273}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A growing number of visual computing applications depend on the analysis of large video collections. The challenge is that scaling applications to operate on these datasets requires efficient systems for pixel data access and parallel processing across large numbers of machines. Few programmers have the capability to operate efficiently at these scales, limiting the field's ability to explore new applications that leverage big video data. In response, we have created Scanner, a system for productive and efficient video analysis at scale. Scanner organizes video collections as tables in a data store optimized for sampling frames from compressed video, and executes pixel processing computations, expressed as dataflow graphs, on these frames. Scanner schedules video analysis applications expressed using these abstractions onto heterogeneous throughput computing hardware, such as multi-core {CPUs}, {GPUs}, and media processing {ASICs}, for high-throughput pixel processing. We demonstrate the productivity of Scanner by authoring a variety of video processing applications including the synthesis of stereo {VR} video streams from multi-camera rigs, markerless 3D human pose reconstruction from video, and data-mining big video datasets such as hundreds of feature-length films or over 70,000 hours of {TV} news. These applications achieve near-expert performance on a single machine and scale efficiently to hundreds of machines, enabling formerly long-running big video data analysis tasks to be carried out in minutes to hours.}
+      \field{day}{31}
+      \field{eprinttype}{arxiv}
+      \field{issn}{0730-0301, 1557-7368}
+      \field{journaltitle}{{ACM} Transactions on Graphics}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shortjournal}{{ACM} Trans. Graph.}
+      \field{shorttitle}{Scanner}
+      \field{title}{Scanner: Efficient Video Analysis at Scale}
+      \field{urlday}{19}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/3197517.3201394
+      \endverb
+      \verb{eprint}
+      \verb 1805.07339 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1805.07339
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1805.07339
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Distributed,Parallel,and Cluster Computing,Computer Science - Graphics}
+    \endentry
+    \entry{wu_multi-camera_2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6cec06e12510777dbd5d62f0de2d717c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wanneng},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3706cca221917fbf223a676bee5ec1dd}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2bd5bd4f5076544045ed792cc770e3df}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Qiaokang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=4bf2bdf40815a713c20c5b276073610b}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0acf240ba8a78258cdf70e40991f5f05}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{558b562f41c3bcbd821c544f9204e132}
+      \strng{fullhash}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \strng{fullhashraw}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \strng{bibnamehash}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \strng{authorbibnamehash}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \strng{authornamehash}{558b562f41c3bcbd821c544f9204e132}
+      \strng{authorfullhash}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \strng{authorfullhashraw}{7aafba7c2bdd5a0343e379ef7ca42550}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate ball tracking in sports is vital for automatic sports analysis yet it is challenging mainly due to the small size and occlusions. This study proposes a novel multi-camera 3D ball tracking ({MBT}) framework for sports video. The proposed framework consists of four parts: 2D ball detection, 2D ball tracking, 3D position fusion, and 3D ball tracking. In 2D aspect, the multi-scale features are introduced to enhance the 2D ball detection, and the 2D ball tracking is also improved by exploring cross-view information to handle the occlusion and timely updating tracking model with detection results to alleviate the problem of tracking drift. For 3D ball, a novel 3D position fusion method is proposed to optimise the ball position and the 3D ball tracking approach with improved Kalman filter is finally applied to ensure a smooth 3D ball trajectory. Moreover, compared to the existing products in commercial, the proposed framework does not require any special equipment and is thus low cost. Extensive experiments for 2D and 3D ball on a public dataset demonstrate that the proposed framework is robust to ball tracking in sports video, even in the presence of environmental interferences, substantial occlusions, and even calibration errors.}
+      \field{issn}{1751-9667}
+      \field{journaltitle}{{IET} Image Processing}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-ipr.2020.0757}
+      \field{number}{15}
+      \field{title}{Multi-camera 3D ball tracking framework for sports video}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3751\bibrangedash 3761}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1049/iet-ipr.2020.0757
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1049/iet-ipr.2020.0757
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1049/iet-ipr.2020.0757
+      \endverb
+      \keyw{2D ball detection,Kalman filters,accurate ball tracking,calibration,cameras,object detection,object tracking,smooth 3D ball trajectory,sport,sports video,target tracking,tracking,video signal processing}
+    \endentry
+    \entry{zhang_multi-camera_2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5570fda0b17f2113d2f6f1dc3698342d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ruiheng},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fc68c9f3faec53fb8d2c67f3d5014dc4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Lingxiang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=76d11f99efd46c1d750f565e11a4267a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6cec06e12510777dbd5d62f0de2d717c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wanneng},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ad52105c7adb997e9cc86b5e79380ea2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yueqiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3706cca221917fbf223a676bee5ec1dd}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{19d753131370af42aef16251b349acff}
+      \strng{fullhash}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \strng{fullhashraw}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \strng{bibnamehash}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \strng{authorbibnamehash}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \strng{authornamehash}{19d753131370af42aef16251b349acff}
+      \strng{authorfullhash}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \strng{authorfullhashraw}{3cdd4ecf3cef839030d4530850b5d1c7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Identity switches caused by inter-object interactions remain a critical problem for multi-player tracking in real-world sports video analysis. Existing approaches utilizing the appearance model is difficult to associate detections and preserve identities due to the similar appearance of players in the same team. Instead of the appearance model, we propose a distinguishable deep representation for player identity in this paper. A robust multi-player tracker incorporating with deep player identification is further developed to produce identity-coherent trajectories. The framework consists of three parts: (1) the core component, a Deep Player Identification ({DeepPlayer}) model that provides an adequate discriminative feature through the coarse-to-fine jersey number recognition and the pose-guided partial feature embedding; (2) an Individual Probability Occupancy Map ({IPOM}) model for players 3D localization with {ID}; and (3) a K-Shortest Path with {ID} ({KSP}-{ID}) model that links nodes in the flow graph by a proposed player {ID} correlation coefficient. With the distinguishable identity, the performance of tracking is improved. Experiment results illustrate that our framework handles the identity switches effectively, and outperforms state-of-the-art trackers on the sports video benchmarks.}
+      \field{day}{1}
+      \field{issn}{0031-3203}
+      \field{journaltitle}{Pattern Recognition}
+      \field{month}{6}
+      \field{shortjournal}{Pattern Recognition}
+      \field{title}{Multi-camera multi-player tracking with deep player identification in sports video}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{102}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107260}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.patcog.2020.107260
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0031320320300650
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0031320320300650
+      \endverb
+      \keyw{{CNN},Identity switch,Multi-target multi-camera tracking,Object detection,Player identification}
+    \endentry
+    \entry{Labbe2010NonlinearObserver}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=6d3fe4f95bde1dc604ca05e8984f4894}{%
+           family={Labbé},
+           familyi={L\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1a9428f7ea0ecee8482614986fc2dc6b}{%
+           family={Morin},
+           familyi={M\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d9e0b9c627fbb1de85491f051bea5ec5}{%
+           family={Samson},
+           familyi={S\bibinitperiod},
+           given={Claude},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d68902fbb9d11d0bb0f8c70e04f3909}
+      \strng{fullhash}{de4ee923d764fe5102424ecd32043676}
+      \strng{fullhashraw}{de4ee923d764fe5102424ecd32043676}
+      \strng{bibnamehash}{de4ee923d764fe5102424ecd32043676}
+      \strng{authorbibnamehash}{de4ee923d764fe5102424ecd32043676}
+      \strng{authornamehash}{8d68902fbb9d11d0bb0f8c70e04f3909}
+      \strng{authorfullhash}{de4ee923d764fe5102424ecd32043676}
+      \strng{authorfullhashraw}{de4ee923d764fe5102424ecd32043676}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IFAC Workshop on Nonlinear Control Systems (NECSYS)}
+      \field{title}{Vision-Based Tracking and Control Using Nonlinear Observers}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://necsys2010.inrialpes.fr/files/2010/09/0060.pdf
+      \endverb
+      \verb{url}
+      \verb https://necsys2010.inrialpes.fr/files/2010/09/0060.pdf
+      \endverb
+      \keyw{vision-based tracking,nonlinear observers,state estimation,visual control}
+    \endentry
+    \entry{Xavier2001VisualServoing}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=e5c73e9d2dde060e18a8cb20a97c1008}{%
+           family={Xavier},
+           familyi={X\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9542b6e5bd6ba5b69909a752aeedd803}{%
+           family={Pacheco},
+           familyi={P\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a291bfbded8f0f002c8e5b41b2c90623}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={Helder},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{427b293693bed7c318cd343d46ba600b}
+      \strng{fullhash}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \strng{fullhashraw}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \strng{bibnamehash}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \strng{authorbibnamehash}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \strng{authornamehash}{427b293693bed7c318cd343d46ba600b}
+      \strng{authorfullhash}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \strng{authorfullhashraw}{6bea5d456dbdfaec73cd0627ceb1e458}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)}
+      \field{title}{Visual Servoing and Tracking Using a Monocular Camera}
+      \field{year}{2001}
+      \field{pages}{118\bibrangedash 123}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://www-sop.inria.fr/members/Philippe.Martinet/publis/2001/icra01xavier.pdf
+      \endverb
+      \verb{url}
+      \verb https://www-sop.inria.fr/members/Philippe.Martinet/publis/2001/icra01xavier.pdf
+      \endverb
+      \keyw{visual servoing,monocular vision,visual tracking,dynamic estimation}
+    \endentry
+    \entry{Pix4Team}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6443fd3a098863afc64e016648f4a6ae}{%
+           family={{Move 'N See}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{fullhash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{fullhashraw}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{bibnamehash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{authorbibnamehash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{authornamehash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{authorfullhash}{6443fd3a098863afc64e016648f4a6ae}
+      \strng{authorfullhashraw}{6443fd3a098863afc64e016648f4a6ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://shop.movensee.com/en/products/pix4team-automatic-camera-sports.html}}
+      \field{note}{Commercial product description, accessed 2025}
+      \field{title}{Pix4Team -- Automatic Camera System for Sports}
+      \field{year}{2024}
+      \keyw{sports tracking,automatic camera,monocular vision,real-time tracking}
+    \endentry
+    \entry{ultralytics_models}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=88f069848482a556e416f713d2819905}{%
+           family={{Ultralytics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88f069848482a556e416f713d2819905}
+      \strng{fullhash}{88f069848482a556e416f713d2819905}
+      \strng{fullhashraw}{88f069848482a556e416f713d2819905}
+      \strng{bibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorbibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authornamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhashraw}{88f069848482a556e416f713d2819905}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ultralytics Documentation}
+      \field{title}{Models Supported by {Ultralytics}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/models/
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/models/
+      \endverb
+    \endentry
+    \entry{rugby_ruck_detection}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=acdb775f338d34aae97b500347afd021}{%
+           family={{Rugby Ruck}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Roboflow Universe}%
+      }
+      \strng{namehash}{acdb775f338d34aae97b500347afd021}
+      \strng{fullhash}{acdb775f338d34aae97b500347afd021}
+      \strng{fullhashraw}{acdb775f338d34aae97b500347afd021}
+      \strng{bibnamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorbibnamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authornamehash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorfullhash}{acdb775f338d34aae97b500347afd021}
+      \strng{authorfullhashraw}{acdb775f338d34aae97b500347afd021}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 17 April 2026}
+      \field{title}{Rugby Detection Computer Vision Model}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs
+      \endverb
+      \verb{url}
+      \verb https://universe.roboflow.com/rugby-ruck/rugby-detection-m0wvs
+      \endverb
+    \endentry
+    \entry{roboflow_tutorial_2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=023735f08b8c9372ede36f5e7801f966}{%
+           family={{Roboflow}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{fullhash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{fullhashraw}{023735f08b8c9372ede36f5e7801f966}
+      \strng{bibnamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorbibnamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authornamehash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorfullhash}{023735f08b8c9372ede36f5e7801f966}
+      \strng{authorfullhashraw}{023735f08b8c9372ede36f5e7801f966}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Accessed: April 2026}
+      \field{title}{Football {AI} Tutorial: From Basics to Advanced Stats with {P}ython}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=aBVGKoNZQUw
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=aBVGKoNZQUw
+      \endverb
+    \endentry
+    \entry{tensorrt_edge_2024}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=fb5acc0324e3e6ac8d1a62b0bf195775}{%
+           family={B},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bc5db4dc6a56650c477f3cf8b4ba204e}{%
+           family={Lincy\bibnamedelima G},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={R.\bibnamedelimi Marion},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6facbfa9098420700b69b73100e70bf6}{%
+           family={Rishekeeshan},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebf67b4b8d122b72a9c5d7d3c6791b9f}{%
+           family={Deekshitha},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f8700b406c11748d1804be8d471973f8}
+      \strng{fullhash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{fullhashraw}{6219b226315580d6e87a34b7655e29e5}
+      \strng{bibnamehash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authorbibnamehash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authornamehash}{f8700b406c11748d1804be8d471973f8}
+      \strng{authorfullhash}{6219b226315580d6e87a34b7655e29e5}
+      \strng{authorfullhashraw}{6219b226315580d6e87a34b7655e29e5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE Recent Advances in Intelligent Computational Systems (RAICS)}
+      \field{title}{Accelerating Native Inference Model Performance in Edge Devices using TensorRT}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/RAICS61201.2024.10690032
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

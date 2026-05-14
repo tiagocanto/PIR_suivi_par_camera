@@ -441,6 +441,7 @@ Even though the RTX pro 6000 GPU in a remote server cloud offers amazing perform
 
 \subsection{Camera score algorithm}
 \subsubsection{Experimental Setup}\
+
 Since the system architecture relies on multiple synchronized video streams, an intelligent selection algorithm is required to determine which camera feed should be broadcasted at any given moment. To achieve this, we developed a dynamic scoring heuristic that assigns a confidence value between 0 and 100 to each camera.
 
 \begin{figure}[H]
@@ -494,7 +495,7 @@ Following the validation of this logic on static images, the system was implemen
 \end{figure}
 This frequency was chosen as a strategic compromise to minimize computational load while maintaining acceptable switching fluidity. However, despite these optimizations, the algorithm's overhead remains significant for our limited hardware resources. Consequently, while the logic is functionally validated, the real-time performance results are currently only partially verified under our existing hardware constraints.
 
-
+\
 \subsubsection{Discussion}\
 
 The proposed algorithm has demonstrated high precision in action detection and camera switching logic. Recent testing phases have yielded highly conclusive results, confirming that our scoring heuristic effectively identifies the core of the game. However, a significant performance bottleneck occurs during video processing due to hardware limitations. On standard desktop environments, the system struggles to maintain the necessary inference speed for real-time responsiveness. While reducing the sampling rate (frames per second) could alleviate the computational strain, it would severely degrade the switching fluidity, often leaving the broadcast focused on an outdated area of play. Consequently, the transition from a functional prototype to a production-ready system necessitates high-performance computing resources such as dedicated GPUs or specialized edge-AI hardware capable of handling multiple high-definition video streams with minimal latency.
@@ -518,9 +519,12 @@ Despite these constraints, the results obtained on static images confirm that th
 
 These outcomes suggest that the gap between the current prototype and a production-ready implementation is primarily a matter of resources rather than algorithmic design. With access to adequate hardware, real-time transmission and live video validation become achievable. Similarly, access to a domain-specific detection model would significantly improve detection accuracy on rugby-specific objects. With moderate investment in both equipment and model development, the system presented here provides a credible and low-cost foundation for automated sports broadcast in amateur rugby.
 
+\newpage
+
 \section*{Acknowledgment}
 
 The authors gratefully acknowledge the guidance and support of their tutors, Capgemini engineers Baptiste Sole and Yannis Lavigne, and Dr. Elodie Chanthery. Without their technical expertise, this work would not have been possible. Special thanks are also extended to Professor James Fabry for his essential assistance in the development of this article and the accompanying presentation.
+Furthermore, generative AI was used to help organize and improve the writing of this article. All AI-generated suggestions were checked against reliable sources and edited for accuracy.
 
 \newpage
 \clearpage
